@@ -1,0 +1,32 @@
+{% for a in album %}
+<div class="col col-sm-6 col-md-4 col-lg-3 col-xl-2">
+  <div class="card shadow-sm">
+    <img class="card-img-top" alt="Imagem do(a) {{ a.data.title }}" src="{{ a.data.teaser | url }}" />
+    <div class="card-header">
+      {% if a.data.coverage.spatial.location.country %}
+        <span aria-label="{{ ui[a.data.coverage.spatial.location.country] }}">
+          {{ a.data.coverage.spatial.location.country | countryEmoji }}
+        </span>
+      {% endif %}
+      {% if a.data.coverage.spatial.location.state %}
+        {{ a.data.coverage.spatial.location.state }}
+        ›
+      {% endif %}
+      {{ a.data.coverage.spatial.location.city }}
+    </div>
+    <div class="card-body">
+      <h3 class="card-title">
+        <a href="{{ a.url }}" class="text-decoration-none link-body-emphasis">{{ a.data.title }}</a>
+      </h3>
+      <p class="card-text">{{ a.data.excerpt }}</p>
+      <div class="d-flex justify-content-between align-items-center">
+        <div class="btn-group">
+          <a type="button" class="btn btn-sm btn-outline-secondary" href="{{ a.url }}">Exibir</a></a>
+          <button type="button" class="btn btn-sm btn-outline-secondary">Guardar</button>
+        </div>
+        <small class="text-body-secondary">{{ a.data.date | dateFilter }}</small>
+      </div>
+    </div>
+  </div>
+</div>
+{% endfor %}

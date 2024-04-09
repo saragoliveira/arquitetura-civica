@@ -1,0 +1,12 @@
+<div class="btn-group me-2" role="group" aria-label="Avançar ou retroceder">
+{% if prevStep %}
+  <a type="button" class="btn btn-secondary" href="{{ prevStep.url }}">« Anterior</a>
+{% else %}
+  <button type="button" class="btn btn-outline-secondary">« Anterior</button>
+{% endif %}
+{% if nextStep %}
+  <a type="button" class="btn btn-secondary" href="{{ nextStep.url }}">Próximo »</a>
+{% else %}
+  <button type="button" class="btn btn-outline-secondary">Próximo »</button>
+{% endif %}
+</div><!--/.btn-group-->

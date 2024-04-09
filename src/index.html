@@ -1,0 +1,41 @@
+---
+title: "Página inicial"
+layout: "layouts/home.njk"
+isHome: true
+header:
+  overlay_image: "https://i.pinimg.com/originals/f8/3e/fb/f83efb2810cb7ae3e05ca3a47afbf7ee.jpg"
+  filter: 0.5
+  caption: "Antiga sede do Arquivo Nacional à praça da República, 1905"
+triptych:
+- image_path: https://placehold.co/210x210/png
+  title     : "Monumentalidade"
+  excerpt   : "Um resumo aqui"
+  url       : /monumentalidade/
+  btn_class : "btn-primary"
+- image_path: https://placehold.co/210x210/png
+  title     : "Neocolonial"
+  excerpt   : "Transposição de motivos religiosos para a arquitetura cívica neocolonial"
+  url       : /neocolonial/
+  btn_class : "btn-primary"
+- image_path: https://placehold.co/210x210/png
+  title     : "Projetos ideais"
+  excerpt   : "Obras cívicas não realizadas"
+  url       : /ideal/
+  btn_class : "btn-primary"
+---
+
+<section id="colecoes-especiais">
+  <h2 class="text-center pb-3">Coleções especiais</h2>
+  {% include "partials/triptych.njk" %}
+</section>
+
+<section id="inclusoes-recentes">
+  <h2 class="text-center my-3">Inclusões recentes</h2>
+
+  <div class="container-fluid">
+    <div class="row g-3 m-3">
+    {% assign album = collections.casa | reverse %}
+    {% include "partials/album.njk" %}
+    </div><!--/.row-->
+  </div><!--/.container-fluid-->
+</section>

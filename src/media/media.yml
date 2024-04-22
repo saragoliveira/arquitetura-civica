@@ -94,9 +94,9 @@ coverage:       # Seguir o mesmo formato das fichas de edificação, com as ress
     location:
       lat  :    # Apenas fotografias precisam ser georreferenciadas com coordenadas...
       long :    # ...senão, preencher apenas as linhas que descrevem a localização.
-      address:  # O campo `address` pode ser qualquer localidade nomeável, não precisa ser um endereço postal.
-      city :    # Cidade, estado e país devem usar os nomes atuais das localidades.
-      state:
+      address: "" # O campo `address` pode ser qualquer localidade nomeável, não precisa ser um endereço postal.
+      city : "" # Cidade, estado e país devem usar os nomes atuais das localidades.
+      state: "" # Nome do estado por extenso!
       country: "BR" # Código ISO.
   temporal : "" # Apenas para datas que se referem ao conteúdo da
                 # mídia, p.ex. período representado num mapa histórico.

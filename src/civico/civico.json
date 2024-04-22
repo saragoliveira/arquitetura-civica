@@ -2,7 +2,7 @@
   "title": "Edifício cívico",
 	"layout": "layouts/obra.njk",
   "protegido": false,
-  "tags": [ "civico" ],
+  "tags": [ "civico", "edificio" ],
   "css": [ "/assets/leaflet/leaflet.css" ],
   "coverage": {
     "spatial": {
@@ -11,5 +11,9 @@
       }
     }
   },
-  "type": "physicalObject"
+  "type": "physicalObject",
+  "conformsTo": {
+    "https://schema.org/LandmarksOrHistoricalBuildings",
+    "https://schema.org/CivicStructure"
+  }
 }

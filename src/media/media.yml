@@ -1,0 +1,159 @@
+########################################################################
+# Todos os campos abaixo são definidos pela especificação:             #
+# https://www.dublincore.org/resources/userguide/creating_metadata/    #
+# -------------------------------------------------------------------- #
+# O caractere '#' indica o início de um comentário, que prossegue      #
+# até o final da linha. Os comentários e as linhas que contêm apenas   #
+# comentários podem ser apagados das fichas.                           #
+########################################################################
+---
+title     : "" # Se a mídia não tiver título próprio, usar um título
+               # descritivo sucinto.
+date      :    # Data de inclusão da mídia no nosso repositório no
+               # formato AAAA-MM-DD. Não confundir como campo `created`
+               # mais abaixo.
+author    : "" # Quem incluiu a mídia no repositório e preencheu esta
+               # ficha. Não confundir com o campo `creator` abaixo.
+excerpt: >-
+  # Descrição sucinta para aparecer em listagens. Começar na linha
+  # abaixo da legenda, deixando dois espaços em branco no início de
+  # cada linha. O ideal é se ater a no máximo 3 linhas de 72 toques.
+  # Este campo NÃO vai entre aspas.
+########################################################################
+# Os agentes listados nos campos abaixo podem ser pessoas, grupos de   #
+# pessoas tratados coletivamente, ou instituições.                     #
+########################################################################
+creator   : "" # Quem criou a própria mídia, não confundir com o campo
+               # `author` acima e nem com o autor do objeto
+               # representado pela mídia.
+contributor:   # Lista de outros envolvidos no ciclo de vida da mídia.
+  - name  : ""
+    role  : ""
+    url   : "" # Este campo é opcional mas recomendado para melhor
+               # identificar o agente. Caso o agente não possua site
+               # institucional próprio, verificar se há um registro de
+               # autoridade no Wikidata ou no vocabulário Getty.
+publisher:     # Lista de responsáveis pela publicação e difusão da
+  - name  : "" # mídia, por exemplo num livro ou site.
+    url   : ""
+rightsHolder:  # Lista de quem detém direitos (copyright, etc.) sobre
+  - name  : "" # a mídia.
+    url   : ""
+########################################################################
+type      : "StillImage" # https://www.dublincore.org/specifications/dublin-core/dcmi-type-vocabulary/
+format    : "image/jpeg" # https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Basics_of_HTTP/MIME_Types
+extent    : ""  # 1280x720px, por exemplo
+bibliographiCitation: # Fonte de onde a imagem foi extraída.
+  # Sempre que possível, localizar a fonte primária --- a primeira
+  # edição de um livro para o qual uma gravura foi produzida e que
+  # conste do Archive.org ou outra base bibliográfica online, por
+  # exemplo, ou o catálogo online do museu ou arquivo que detém o
+  # original da obra. Referenciar repositórios enciclopédicos como a
+  # Wikimedia Commons, a Brasiliana Iconográfica ou o Google Arts and
+  # Culture somente quando a fonte primária for insatisfatória (baixa
+  # resolução, ausência de reprodução online, ou impossibilidade de
+  # gerar um link persistente para um verbete de catálogo, por exemplo).
+  citekey : ""  # No formato iphan:2012inventario, conforme cadastrado
+                # no Zotero/Better BibLaTeX.
+  url     : ""  # Conforme o caso, ambos os campos citekey e url podem
+                # ser preenchidos, ou apenas um deles.
+  text    : ""  # Só precisa ser preenchido se não existir `citekey`.
+identifier:     # Seguir o mesmo formato das fichas de edificação.
+  - source: ""  # Pode ser usado para indicar, por exemplo, a cota da
+    id    : ""  # imagem num arquivo.
+########################################################################
+# Atenção! Os campos abaixo se referem à mídia propriamente dita e não #
+# ao objeto que ela representa!                                        #
+########################################################################
+created:        # Data de criação da mídia, não confundir com o campo `date` acima.
+  date     :    # Obrigatório, no formato ISO (AAAA-MM-DD). Os demais campos são opcionais
+  qualifier: "" # Ressalvas à data precisa, tais como 'c.', 'após', 'provavelmente', etc.
+  display_date: # Representação textual complexa, caso necessário.
+  source:       # Fonte de autoridade para a data indicada.
+    citekey: "" # Seguir as instruções do campo `bibliographicCitation` acima.
+    url    : ""
+    text   : ""
+# Os tipos de datas abaixo devem ser usados apenas se realmente
+# necessário. Normalmente vamos deixar tais informações a cargo do
+# acervo de origem da mídia. Usar o formato ISO, se for o caso.
+issued:
+available:
+modified: # Pode ser uma lista
+# - date: # Data no formato ISO
+#   text: # Descrição da modificação
+valid:
+dateCopyrighted:
+dateSubmitted:
+dateAccepted:
+########################################################################
+# Atenção! Os campos abaixo se referem ao conteúdo da mídia e não à    #
+# mídia propriamente dita.                                             #
+########################################################################
+coverage:       # Seguir o mesmo formato das fichas de edificação, com as ressalvas abaixo.
+  spatial:    
+    location:
+      lat  :    # Apenas fotografias precisam ser georreferenciadas com coordenadas...
+      long :    # ...senão, preencher apenas as linhas que descrevem a localização.
+      address:  # O campo `address` pode ser qualquer localidade nomeável, não precisa ser um endereço postal.
+      city :    # Cidade, estado e país devem usar os nomes atuais das localidades.
+      state:
+      country: "BR" # Código ISO.
+  temporal : "" # Apenas para datas que se referem ao conteúdo da
+                # mídia, p.ex. período representado num mapa histórico.
+                # Fora estes casos, não precisamos preencher o campo
+                # `temporal`. O seu conteúdo é um texto descritivo sucinto.
+subject:        # Lista de itens. Preencher apenas se a mídia
+  - ""          # representar temas não cobertos pelo campo "coverage".
+########################################################################
+# Direitos de reprodução de mídia são coisa séria! Os campos abaixo    #
+# devem ser usados para descrever precisa e corretamente como cada     #
+# arquivo pode ser usado no nosso projeto de pesquisa.                 #
+########################################################################
+rights     : "" # Termo dos direitos de reprodução da mídia, tal como
+                # exigido pelo acervo de origem. Vai ser incluído nas
+                # legendas das figuras.
+accessRights:   # Só preencher se explicitamente indicado pelo acervo
+                # de origem.
+license:
+  url      : "" # Link para o texto da licença.
+  text     : "" # Nome abreviado da licença, por exemplo "CC_BY", ou os
+                # dizeres "Domínio público".
+provenance : "" # Contexto original de uma mídia. Aplica-se sobretudo a
+                # imagens artesanais que foram digitalizadas, tais como
+                # pinturas ou desenhos. Descrever textualmente.
+conformsTo :
+  - "https://schema.org/MediaObject"
+  - "https://schema.org/Photograph"
+    # Outros formatos da especificação https://schema.org
+    # que podem ser usados no nosso repositório são:
+    # https://schema.org/ImageObject (substitui MediaObject)
+    # https://schema.org/Drawing
+    # https://schema.org/Map
+    # https://schema.org/Atlas
+    # https://schema.org/DigitalDocument
+    # https://schema.org/3DModel (sbustitui MediaObject)
+########################################################################
+# Para a maior parte das mídias, as informações necessárias terminam   #
+# aqui.                                                                #
+# Os campos relacionais abaixo devem ser usados apenas se necessário   #
+# para descrever adequadamente a mídia. P.ex., o campo `isPartOf`      #
+# não deve ser usado como sinônimo de `bibliographicCitation`, e sim   #
+# quando a mídia é parte intrínseca de uma coleção ou série.           #
+########################################################################
+relation:
+source:
+isPartOf:
+hasPart:
+isVersionOf:
+hasVersion:
+isFormatOf:
+replaces:
+isReplacedBy:
+isReferencedBy:
+########################################################################
+# As linhas abaixo são usadas como padrão e não precisam ser copiadas  #
+# para a ficha de cada mídia.                                          #
+########################################################################
+tags: [ "media" ]
+layout: "layouts/base.njk"
+---

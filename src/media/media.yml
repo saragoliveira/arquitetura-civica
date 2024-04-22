@@ -5,6 +5,8 @@
 # O caractere '#' indica o início de um comentário, que prossegue      #
 # até o final da linha. Os comentários e as linhas que contêm apenas   #
 # comentários podem ser apagados das fichas.                           #
+# Linhas que contêm campos não preenchidos também podem ser apagadas   #
+# das fichas.                                                          #
 ########################################################################
 ---
 title     : "" # Se a mídia não tiver título próprio, usar um título

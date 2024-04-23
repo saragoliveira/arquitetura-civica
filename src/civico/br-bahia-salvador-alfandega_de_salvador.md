@@ -3,17 +3,17 @@ title : "Alfândega de Salvador"
 date  : 2024-04-22 # Data do preenchimento da ficha
 author: "Sara Guimarães de Oliveira" # Quem preencheu a ficha
 excerpt: >- # Descrição sucinta para aparecer em listagens
- Terceiro edifício a abrigar a intituição fiscal, construído a beira do mar em alvenaria de pedra, organizado em um corpo central e uma rotunda semicircular ao fundo.
+ "Terceiro edifício a abrigar a intituição fiscal, construído a beira do mar em alvenaria de pedra, organizado em um corpo central e uma rotunda semicircular ao fundo."
 header:
   overlay_image: "https://i.pinimg.com/originals/06/15/27/061527a4f182015eeae8965f01c18eab.jpg"
-  caption: "Foto: arquivo do Centro de Estudo da Arquitetura na Bahia"
+  caption: "Foto: arquivo do Centro de Estudo da Arquitetura na Bahia- CEAB"
 alternative: # Outros nomes ou designações antigas
   - "Terceira alfândega de Salvador"
   - "Nova Alfândega de Salvador"
   - "Mercado Modelo"
   - "Edifício à Praça Cairú"
 categories:
-  - Neoclassicismo
+  - "Neoclassicismo"
 teaser: "https://i.pinimg.com/564x/06/15/27/061527a4f182015eeae8965f01c18eab.jpg"
 # As categorias abaixo são organizadas segundo o DublinCore (DCMI).
 # https://dublincore.org
@@ -64,10 +64,9 @@ type: # Classificações
 dwg: # Documentação arquitetônica produzida neste projeto
 docs: # Fontes primárias e levantamentos de terceiros
 media: # Iconografia
-  - ""
 references:
  # Referências bibliográficas
- - "Ormindó, Paulo. "A Alfândega e o Mercado: Memória e Restauração." Secretaria de Planejamento, Ciência e Tecnologia do Estado da Bahia Salvador, 1985. Disponível em: http://www.pauloormindo.com.br/artigos/artigo_1985.pdf. Acesso em: 22 de Abril de 2024."
+ - "Ormindó, Paulo. "A Alfândega e o Mercado: Memória e Restauração." Secretaria de Planejamento, Ciência e Tecnologia do Estado da Bahia Salvador, 1985. Disponível em: http://www.pauloormindo.com.br/artigos/artigo_1985.pdf. Acesso em: 22 de Abril de 2024"
 # Registro de modificações na ficha:
 log:
   - date: 2024-04-22

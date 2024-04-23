@@ -66,12 +66,13 @@ docs: # Fontes primárias e levantamentos de terceiros
 media: # Iconografia
 references:
  # Referências bibliográficas
- - "Ormindó, Paulo. "A Alfândega e o Mercado: Memória e Restauração." Secretaria de Planejamento, Ciência e Tecnologia do Estado da Bahia Salvador, 1985. Disponível em: http://www.pauloormindo.com.br/artigos/artigo_1985.pdf. Acesso em: 22 de Abril de 2024"
+"Ormindó, Paulo. "A Alfândega e o Mercado: Memória e Restauração." Secretaria de Planejamento, Ciência e Tecnologia do Estado da Bahia Salvador, 1985. Disponível em: http://www.pauloormindo.com.br/artigos/artigo_1985.pdf. Acesso em: 22 de Abril de 2024"
 # Registro de modificações na ficha:
 log:
   - date: 2024-04-22
     message: "Inclui campos para bases documentais"
 ---
+
 
 ---
 

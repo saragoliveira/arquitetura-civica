@@ -8,11 +8,10 @@ header:
   overlay_image: "https://i.pinimg.com/originals/a7/57/b1/a757b1926971f70c5e8df9eb5e20c429.jpg"
   caption: "Foto: arquivo do Museu da Memória"
 alternative: # Outros nomes ou designações antigas
-  - "Alfândega"
-  - "Antiga Alfândega"
-  - "Instituto de Previdência do Estado de Santa Catarina"
-  - "Museu de Arte de Santa Catarina
-  - "Iprev"
+- "Alfândega"
+- "Antiga Alfândega"
+- "Instituto de Previdência do Estado de Santa Catarina"
+- "Museu de Arte de Santa Catarina"Iprev"
 categories:
   - Neoclassicismo
 teaser: "https://i.pinimg.com/564x/a7/57/b1/a757b1926971f70c5e8df9eb5e20c429.jpg"

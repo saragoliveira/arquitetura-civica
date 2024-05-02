@@ -54,13 +54,12 @@ coverage:
         start_date:
           year: "1930"
 identifier: # Código IPHAN ou DGPC, por exemplo
-  - source: #
-    id    :#
+  - source: 
+    id    :
 type: # Classificações
 dwg: # Documentação arquitetônica produzida neste projeto
 docs: # Fontes primárias e levantamentos de terceiros
 media: # Iconografia
-  - ""
 references: # Referências bibliográficas
 # Registro de modificações na ficha:
 log:

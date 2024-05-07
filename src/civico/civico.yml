@@ -1,0 +1,12 @@
+title: "Edifício cívico"
+layout: "layouts/obra.njk"
+tags: [ "civico", "edificio" ]
+css: [ "/assets/leaflet/leaflet.css" ]
+coverage:
+  spatial:
+    location:
+      zoom: "15"
+type: "physicalObject"
+conformsTo:
+  - "https://schema.org/LandmarksOrHistoricalBuildings"
+  - "https://schema.org/CivicStructure"

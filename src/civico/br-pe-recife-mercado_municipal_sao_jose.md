@@ -90,5 +90,5 @@ O interior do mercado é subdivido em boxes, onde se comercializam produtos dive
      -do IPHAN e de outros órgãos públicos.
      -->
   <footer class="figure-caption col-md-8 offset-md-4">Texto reproduzido
-  do <cite>IPHAN- Instituto do Patrimônio Artístico e Histórico Nacional</cite>, CONDEPHAAT</footer>
+  do <cite>Instituto do Patrimônio Artístico e Histórico Nacional</cite>, IPHAN</footer>
 </blockquote>

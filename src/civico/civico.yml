@@ -1,12 +1,150 @@
-title: "Edifício cívico"
-layout: "layouts/obra.njk"
-tags: [ "civico", "edificio" ]
-css: [ "/assets/leaflet/leaflet.css" ]
+########################################################################
+# Todos os campos abaixo são definidos pela especificação:             #
+# https://www.dublincore.org/resources/userguide/creating_metadata/    #
+# -------------------------------------------------------------------- #
+# O caractere '#' indica o início de um comentário, que prossegue      #
+# até o final da linha. Os comentários e as linhas que contêm apenas   #
+# comentários podem ser apagados das fichas.                           #
+# Linhas que contêm campos não preenchidos também podem ser apagadas   #
+# das fichas.                                                          #
+########################################################################
+title     : "" # Se a obra não tiver título próprio, usar um título
+               # descritivo sucinto.
+date      :    # Data de inclusão da ficha no nosso repositório no
+               # formato AAAA-MM-DD. Não confundir como campo `created`
+               # mais abaixo.
+author    : "" # Quem incluiu a ficha no repositório e preencheu esta
+               # ficha. Não confundir com o campo `creator` abaixo.
+excerpt: >-
+  # Descrição sucinta para aparecer em listagens. Começar na linha
+  # abaixo da legenda, deixando dois espaços em branco no início de
+  # cada linha. O ideal é se ater a no máximo 3 linhas de 72 toques.
+  # Este campo NÃO vai entre aspas.
+########################################################################
+# Os agentes listados nos campos abaixo podem ser pessoas, grupos de   #
+# pessoas tratados coletivamente, ou instituições.                     #
+########################################################################
+creator   : "" # Quem criou a própria obra, não confundir com o campo
+               # `author` acima e nem com o autor da representação
+               # iconográfica da obra (por exemplo, quem fez um
+               # levantamento técnico da construção existente).
+contributor:   # Lista de outros envolvidos no ciclo de vida da obra.
+  - name  : ""
+    role  : ""
+    url   : "" # Este campo é opcional mas recomendado para melhor
+               # identificar o agente. Caso o agente não possua site
+               # institucional próprio, verificar se há um registro de
+               # autoridade no Wikidata ou no vocabulário Getty.
+type      : "physicalObject" # https://www.dublincore.org/specifications/dublin-core/dcmi-type-vocabulary/
+bibliographiCitation: # Fonte de autoridade para informações básicas sobre a obra
+  citekey : ""  # No formato iphan:2012inventario, conforme cadastrado
+                # no Zotero/Better BibLaTeX.
+  url     : ""  # Conforme o caso, ambos os campos citekey e url podem
+                # ser preenchidos, ou apenas um deles.
+  text    : ""  # Descrição da fonte. Só precisa ser preenchido se não existir `citekey`.
+identifier:     # Seguir o mesmo formato das fichas de edificação.
+  - source: ""  # Pode ser usado para indicar, por exemplo, a cota da
+    id    : ""  # imagem num arquivo.
+########################################################################
+# Atenção! Os campos abaixo se referem à obra propriamente dita e não  #
+# à sua representação iconográfica ou publicação!                      #
+########################################################################
+created:        # Data de criação da obra, não confundir com o campo `date` acima.
+  date     :    # Obrigatório, no formato ISO (AAAA-MM-DD). Os demais campos são opcionais
+  qualifier: "" # Ressalvas à data precisa, tais como 'c.', 'após', 'provavelmente', etc.
+  display_date: # Representação textual complexa, caso necessário.
+  source:       # Fonte de autoridade para a data indicada.
+    citekey: "" # Seguir as instruções do campo `bibliographicCitation` acima.
+    url    : ""
+    text   : ""
+issued:
+available:
+modified: # Pode ser uma lista
+# - date: # Data no formato ISO
+#   text: # Descrição da modificação
+########################################################################
+########################################################################
 coverage:
-  spatial:
+  spatial:    
     location:
-      zoom: "15"
-type: "physicalObject"
+      lat             :    # Em graus decimais, negativos para o Sul e Oeste.
+      long            :    # Separar os decimais com ponto em vez de vírgula.
+      alt             :    # Em metros acima do nível do mar.
+      zoom            : "15" # Zoom do mapa gerado pelo plugin Leaflet.js
+      address:             # O campo `address` pode ser qualquer localidade nomeável, não precisa ser um endereço postal.
+        - ""               # Se tiver mais de uma linha, representar em forma de lista.
+      city            : "" # Cidade, estado e país devem usar os nomes atuais das localidades.
+      state           : "" # Nome do estado por extenso!
+      country         : "BR" # Código ISO.
+      locationHistoric:    # Escopos geográficos antigos
+        - ""               # Se tiver mais de um item, representar em forma de lista.
+########################################################################
+# Linha do tempo. Instruções de formatação:                            #
+# https://timeline.knightlab.com/docs/json-format.html                 #
+# As categorias abaixo referenciam recursos externos a este site,      #
+# em geral.                                                            #
+########################################################################
+  temporal:
+    events:                # Esta linha é só o cabeçalho da linha do tempo.
+      - text          : "" # Cada evento tem texto, mídia e data(s).
+          headline    : "" # O texto tem cabeçalho e conteúdo.
+          text        : ""
+        media:         # Uma mídia por evento:
+          url         : "" # pode ser uma prévia da Wikipédia, imagem ou vídeo.
+          caption     : "" # Legenda.
+          credit      : "" # Créditos, se houver.
+          alt         : "" # Descrição sucinta da mídia para acessibilidade.
+        start_date    :    # Apenas a start_date é obrigatória...
+          year        : "" # ...e dentro dela, apenas o ano é necessário.
+          month       : ""
+          day         : ""
+          display_date: "" # Para datas complexas, escrever por extenso aqui.
+        end_date: # Opcional, mesmo formato de start_date
+subject:        # Lista de itens. Preencher apenas se a obra
+  - ""          # representar temas não cobertos pelo campo "coverage".
 conformsTo:
   - "https://schema.org/LandmarksOrHistoricalBuildings"
   - "https://schema.org/CivicStructure"
+dwg: # Documentação arquitetônica produzida neste projeto
+docs: # Fontes primárias e levantamentos de terceiros
+media: # Iconografia
+  - ""
+references: # Referências bibliográficas
+# Registro de modificações na ficha:
+log:
+  - date: 2024-02-09
+    message: "Inclui campos para bases documentais"
+########################################################################
+# Para a maior parte das obras, as informações necessárias terminam    #
+# aqui.                                                                #
+# Os campos relacionais abaixo devem ser usados apenas se necessário   #
+# para descrever adequadamente a obra. P.ex., o campo `isPartOf`       #
+# não deve ser usado como sinônimo de `bibliographicCitation`, e sim   #
+# quando a obra é parte intrínseca de um conjunto edificado ou urbano. #
+########################################################################
+relation:
+source:
+isPartOf:
+hasPart:
+isVersionOf:
+hasVersion:
+isFormatOf:
+replaces:
+isReplacedBy:
+isReferencedBy:
+########################################################################
+# Os campos abaixo referem-se a informações de formatação da ficha.    #
+########################################################################
+header:
+  teaser       : "" # Imagem em baixa resolução para prévias.
+  overlay_image: "" # Imagem em alta resolução para o fundo do título.
+  caption      : "" # Legenda da imagem de fundo do título.
+categories:
+  - ""              # Lista de palavras-chave, uma por linha.
+########################################################################
+# As linhas abaixo são usadas como padrão e não precisam ser copiadas  #
+# para a ficha de cada mídia.                                          #
+########################################################################
+layout: "layouts/obra.njk"
+tags: [ "civico", "edificio" ]
+css: [ "/assets/leaflet/leaflet.css" ]

@@ -10,6 +10,7 @@ const { EleventyHtmlBasePlugin } = require("@11ty/eleventy");
 const EleventyFetch = require('@11ty/eleventy-fetch');
 const fs = require("fs");
 const Image = require('@11ty/eleventy-img');
+const nodePandoc = require('node-pandoc');
 const path = require('path');
 const pluginRss = require('@11ty/eleventy-plugin-rss');
 const sortByDisplayOrder = require('./src/utils/sort-by-display-order.js');

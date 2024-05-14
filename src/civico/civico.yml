@@ -213,5 +213,5 @@ header:
 # para a ficha de cada mídia.                                          #
 ########################################################################
 layout: "layouts/obra.njk"
-tags: [ "casa", "edificio" ]
+tags: [ "civico", "edificio" ]
 css: [ "/assets/leaflet/leaflet.css" ]

@@ -84,6 +84,9 @@ format:
       text    : ""
       type    : "" # signature, mark, caption, date, text, translation, other (default)
 bibliographiCitation: # Fonte de onde a imagem foi extraída.
+  citekey : ""  # No formato iphan:2012inventario, conforme cadastrado no Zotero/Better BibLaTeX.
+  href    : ""  # Conforme o caso, ambos os campos citekey e href podem ser preenchidos, ou apenas um deles.
+  text    : ""  # Só precisa ser preenchido se não existir `citekey`.
   # Sempre que possível, localizar a fonte primária --- a primeira
   # edição de um livro para o qual uma gravura foi produzida e que
   # conste do Archive.org ou outra base bibliográfica online, por
@@ -93,11 +96,6 @@ bibliographiCitation: # Fonte de onde a imagem foi extraída.
   # Culture somente quando a fonte primária for insatisfatória (baixa
   # resolução, ausência de reprodução online, ou impossibilidade de
   # gerar um link persistente para um verbete de catálogo, por exemplo).
-  citekey : ""  # No formato iphan:2012inventario, conforme cadastrado
-                # no Zotero/Better BibLaTeX.
-  href    : ""  # Conforme o caso, ambos os campos citekey e href podem
-                # ser preenchidos, ou apenas um deles.
-  text    : ""  # Só precisa ser preenchido se não existir `citekey`.
 identifier:     # Seguir o mesmo formato das fichas de edificação.
   - source: ""  # Pode ser usado para indicar, por exemplo, a cota da
     id    : ""  # imagem num arquivo.

@@ -49,7 +49,7 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     needs: build
-    if: github.event_name == 'push'
+    if: github.event_name == 'push' && github.repository == 'arqtrad/arquitetura-civica'
     steps:
       - name: Deploy to GitHub Pages
         id: deployment

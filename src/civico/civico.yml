@@ -69,32 +69,13 @@ format:
       position: ""
       text    : ""
       type    : "" # signature, mark, caption, date, text, translation, other (default)
-bibliographiCitation: # Fonte de autoridade para informações básicas sobre a obra
-  citekey : ""  # No formato iphan:2012inventario, conforme cadastrado
-                # no Zotero/Better BibLaTeX.
-  href    : ""  # Conforme o caso, ambos os campos citekey e href podem
-                # ser preenchidos, ou apenas um deles.
+bibliographiCitation: # Fonte de autoridade para informações básicas sobre a obra. Não exclui a citação a outras fontes no texto da ficha.
+  citekey : ""  # No formato iphan:2012inventario, conforme cadastrado no Zotero/Better BibLaTeX.
+  href    : ""  # Conforme o caso, ambos os campos citekey e href podem ser preenchidos, ou apenas um deles.
   text    : ""  # Descrição da fonte. Só precisa ser preenchido se não existir `citekey`.
 identifier:     # Cadastros em inventários, tombamento, etc.
   - source: ""  # Instituição.
     refid : ""  # Número de processo, cadastro ou publicação.
-########################################################################
-# Atenção! Os campos abaixo se referem à obra propriamente dita e não  #
-# à sua representação iconográfica ou publicação!                      #
-########################################################################
-created:            # Data de criação da obra, não confundir com o campo `date` acima.
-  date            : # Obrigatório, no formato ISO (AAAA-MM-DD). Os demais campos são opcionais
-  qualifier       : "" # Ressalvas à data precisa, tais como 'c.', 'após', 'provavelmente', etc.
-  display_date    : # Representação textual complexa, caso necessário.
-  source:           # Fonte de autoridade para a data indicada.
-    citekey       : "" # Seguir as instruções do campo `bibliographicCitation` acima.
-    href          : ""
-    text          : ""
-issued:
-available:
-modified: # Pode ser uma lista
-# - date: # Data no formato ISO
-#   text: # Descrição da modificação
 ########################################################################
 # Endereçamento e coordenadas para uso do mapa no plugin Leaflet.js    #
 ########################################################################
@@ -114,33 +95,45 @@ coverage:
       country         : "BR" # Código ISO.
       locationHistoric:    # Escopos geográficos antigos
         - ""               # Se tiver mais de um item, representar em forma de lista.
-########################################################################
-# Linha do tempo. Instruções de formatação:                            #
-# https://timeline.knightlab.com/docs/json-format.html                 #
-# As categorias abaixo referenciam recursos externos a este site,      #
-# em geral.                                                            #
-########################################################################
   temporal:
+    created:            # Data de criação da obra, não confundir com o campo `date` acima.
+      date            : # Obrigatório, no formato ISO (AAAA-MM-DD). Os demais campos são opcionais
+      qualifier       : "" # Ressalvas à data precisa, tais como 'c.', 'após', 'provavelmente', etc.
+      display_date    : # Representação textual complexa, caso necessário.
+      source:           # Fonte de autoridade para a data indicada.
+        citekey       : "" # Seguir as instruções do campo `bibliographicCitation` acima.
+        href          : ""
+        text          : ""
+    ####################################################################
+    # Linha do tempo. Instruções de formatação:                        #
+    # https://timeline.knightlab.com/docs/json-format.html             #
+    # As categorias abaixo referenciam recursos externos a este site,  #
+    # em geral.                                                        #
+    ####################################################################
     events:                # Esta linha é só o cabeçalho da linha do tempo.
       - text:              # Cada evento tem texto, mídia e data(s).
-          headline    : "" # O texto tem cabeçalho e conteúdo.
+          headline    : "" # O texto pode ser dividido em cabeçalho e conteúdo.
           text        : ""
+        type          : "" # Tipos de datas permitidos conforme https://www.loc.gov/standards/vracore/schemas.html
+                           # alteration, broadcast, bulk, commission, creation, design,
+                           # destruction, discovery, exhibition, inclusive, performance,
+                           # publication, restoration, view, other
+                           # (o tipo de data não é usado pela linha do tempo)
+        start_date:        # Apenas a start_date é obrigatória... (VRA Core: earliestDate)
+          year        : "" # ...e dentro dela, apenas o ano é necessário.
+          month       : ""
+          day         : ""
+          display_date: "" # Para datas complexas, escrever por extenso aqui.
+        end_date:          # Opcional, mesmo formato de start_date (VRA Core latestDate)
         media:             # Uma mídia por evento:
           href        : "" # pode ser uma prévia da Wikipédia, imagem ou vídeo.
           caption     : "" # Legenda.
           credit      : "" # Créditos, se houver.
           alt         : "" # Descrição sucinta da mídia para acessibilidade.
-        start_date:        # Apenas a start_date é obrigatória...
-          year        : "" # ...e dentro dela, apenas o ano é necessário.
-          month       : ""
-          day         : ""
-          display_date: "" # Para datas complexas, escrever por extenso aqui.
-        end_date:          # Opcional, mesmo formato de start_date
-        type          : "" # https://www.loc.gov/standards/vracore/schemas.html
-                           # alteration, broadcast, bulk, commission, creation, design,
-                           # destruction, discovery, exhibition, inclusive, performance,
-                           # publication, restoration, view, other
-                           # (o tipo de data não é usado pela linha do tempo)
+        source:            # Fonte de autoridade para a data.
+          text        : ""
+          href        : ""
+          dataDate    : "" # Data em que a informação foi incluída.
   stylePeriod:  # https://www.loc.gov/standards/vracore/schemas.html
     - text        : "" # Usar vocabulário controlado se possível
       vocab       : "" # Caso use vocabulário controlado, preencher os...
@@ -155,11 +148,6 @@ subject: # Refere-se ao conteúdo da obra, conforme https://www.loc.gov/standard
     vocab         : "" # Caso use vocabulário controlado, preencher os...
     refid         : "" # ...campos `vocab` e `refid`.
 conformsTo : "https://schema.org/CivicStructure"
-references: # Referências bibliográficas ou iconográficas
-  dwg: # Documentação arquitetônica produzida neste projeto
-  docs: # Fontes primárias e levantamentos de terceiros
-  media: # Iconografia
-    - ""
 # Registro de modificações na ficha:
 log:
   - date: 
@@ -177,29 +165,26 @@ log:
 ########################################################################
 relation:
   - type   : "depictedIn" # Tipos usados no VRA Core:
-             # cartoonFor, cartoonIs, componentOf, componentIs, copyAfter,
-             # copyIs, counterProofFor, counterProofIs, depicts, depictedIn,
-             # derivedFrom, sourceFor, designedFor, contextIs, exhibitedAt,
-             # venueFor, facsimileOf, facsimileIs, formerlyPartOf,
-             # formerlyLargerContextFor, imageOf, imageIs, mateOf, modelFor,
-             # modelIs, partOf, largerContextFor, partnerInSetWith, pendantOf,
-             # planFor, planIs, prepatoryFor, basedOn, printingPlateFor,
-             # printingPlateIs, prototypeFor, prototypeIs, relatedTo,
-             # reliefFor, impressionIs, replicaOf, replicaIs, studyFor,
-             # studyIs, versionOf, versionIs
+    # cartoonFor, cartoonIs, componentOf, componentIs, copyAfter, copyIs,
+    # counterProofFor, counterProofIs, depicts, depictedIn,
+    # derivedFrom [DCMI: source], sourceFor, designedFor, contextIs,
+    # exhibitedAt, venueFor, facsimileOf, facsimileIs, formerlyPartOf,
+    # formerlyLargerContextFor, imageOf, imageIs, mateOf, modelFor,
+    # modelIs, partOf [DCMI: isPartOf], largerContextFor [DCMI: hasPart],
+    # partnerInSetWith, pendantOf, planFor, planIs, prepatoryFor,
+    # basedOn, printingPlateFor, printingPlateIs, prototypeFor,
+    # prototypeIs, relatedTo, reliefFor, impressionIs, replicaOf,
+    # replicaIs, studyFor, studyIs, versionOf [DCMI: isVersionOf],
+    # versionIs [DCMI: hasVersion]
+    # Os campos seguintes do DublinCore (DCMI) mapeiam para mais de um
+    # campo do VRA Core:
+    # isFormatOf, hasFormat, references, isReferencedBy
+    # Os campos seguintes do DublinCore não têm equivalente no VRA Core
+    # mas podem ser mapeados para o bloco stateEdition:
+    # replaces, isReplacedBy
     relids : "" # Referência do objeto relacionado (nome de arquivo da ficha)
     text   : "" # Legenda da imagem
     href   : "" # Link direto para a imagem, no caso de arquivos hospedados em outro servidor.
-# Não usar os campos de relação abaixo até nova ordem.
-source: # Não é fonte no sentido historiográfico, mas um objeto do qual este objeto deriva ou foi tirado.
-isPartOf:
-hasPart:
-isVersionOf:
-hasVersion:
-isFormatOf:
-replaces:
-isReplacedBy:
-isReferencedBy:
 ########################################################################
 # Os campos abaixo referem-se a informações de formatação da ficha.    #
 ########################################################################

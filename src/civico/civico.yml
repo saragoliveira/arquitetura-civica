@@ -1,0 +1,202 @@
+########################################################################
+# Todos os campos abaixo são definidos pela especificação:             #
+# https://www.dublincore.org/resources/userguide/creating_metadata/    #
+# -------------------------------------------------------------------- #
+# O caractere '#' indica o início de um comentário, que prossegue      #
+# até o final da linha. Os comentários e as linhas que contêm apenas   #
+# comentários podem ser apagados das fichas.                           #
+# Linhas que contêm campos não preenchidos também podem ser apagadas   #
+# das fichas.                                                          #
+# -------------------------------------------------------------------- #
+# Todos os blocos que começam com um hífen `-` são listas que podem    #
+# conter qualquer número de linhas ou blocos.                          #
+########################################################################
+title             : "" # Se a obra não tiver título próprio, usar um título descritivo sucinto.
+date              : # Data de inclusão da ficha no nosso repositório no
+                    # formato AAAA-MM-DD. Não confundir como campo
+                    # `created` mais abaixo.
+author            : "" # Quem incluiu a ficha no repositório e preencheu esta
+                       # ficha. Não confundir com o campo `creator` abaixo.
+description: >- # Descrição sucinta para aparecer em listagens. Começar
+# na linha abaixo da legenda, deixando dois espaços em branco no início
+# de cada linha. O ideal é se ater a no máximo 3 linhas de 72 toques.
+# Este campo NÃO vai entre aspas.
+########################################################################
+# Os agentes listados nos campos abaixo podem ser pessoas, grupos de   #
+# pessoas tratados coletivamente, ou instituições.                     #
+########################################################################
+creator:            # Quem criou a própria obra, não confundir com o campo `author` acima e nem com o autor de representações iconográficas (por exemplo, autor de um levantamento do exitente).
+  - name          : ""
+    type          : "" # personal, corporate, family, other
+    attribution   : "" # atribuição, escola de, baseado em, cópia de, etc.
+    vocab         : "" # Caso seja usado um vocabulário controlado para padronizar...
+    refid         : "" # ...nomes de agentes, preencher as linhas `vocab` e `refid`.
+    href          : "" # Em vez de vocabulário controlado, pode-se usar um link para
+                    # identificar o agente. Caso o agente não possua site
+                    # institucional próprio, verificar se há um registro de
+                    # autoridade no Wikidata ou no vocabulário Getty.
+contributor:        # Lista de outros envolvidos no ciclo de vida da obra.
+  - name          : "" # Seguir as mesmas instruções que o campo `creator`.
+    type          : ""
+    role          : "" # Usar mesmos tipos que as datas?
+    attribution   : ""
+    vocab         : ""
+    refid         : ""
+    href          : ""
+type:
+  name            : "physicalObject" # https://www.dublincore.org/specifications/dublin-core/dcmi-type-vocabulary/
+  worktype: # Classe de objetos à qual a obra pertence
+    - text        : "casa"
+      vocab       : ""
+      refid       : ""
+format:
+  extent: # https://www.loc.gov/standards/vracore/schemas.html
+    - type        : "area" # area, base, circumference, count, depth, diameter, distanceBetween, height, length, width, other
+      measurements: # apenas o valor numérico, se necessário com ponto decimal
+      unit        : "m²"
+  medium: # Usar vocabulários controlados sempre que possível.
+    material:
+      - type      : "" # medium (default), support, other
+        text      : "" # Usar vocabulário controlado se possível
+        vocab     : "" # Caso use vocabulário controlado, preencher os...
+        refid     : "" # ...campos `vocab` e `refid`.
+    technique: # Processos, técnicas e métodos de produção ou restauro
+      - text      : "" # Usar vocabulário controlado se possível
+        vocab     : "" # Caso use vocabulário controlado, preencher os...
+        refid     : "" # ...campos `vocab` e `refid`.
+  inscription:
+    - author  : ""
+      position: ""
+      text    : ""
+      type    : "" # signature, mark, caption, date, text, translation, other (default)
+bibliographiCitation: # Fonte de autoridade para informações básicas sobre a obra. Não exclui a citação a outras fontes no texto da ficha.
+  citekey : ""  # No formato iphan:2012inventario, conforme cadastrado no Zotero/Better BibLaTeX.
+  href    : ""  # Conforme o caso, ambos os campos citekey e href podem ser preenchidos, ou apenas um deles.
+  text    : ""  # Descrição da fonte. Só precisa ser preenchido se não existir `citekey`.
+identifier:     # Cadastros em inventários, tombamento, etc.
+  - source: ""  # Instituição.
+    refid : ""  # Número de processo, cadastro ou publicação.
+########################################################################
+# Endereçamento e coordenadas para uso do mapa no plugin Leaflet.js    #
+########################################################################
+coverage:
+  spatial:    
+    location:
+      type            : "site" # site, formerSite, intended, other
+      lat             :    # Em graus decimais, negativos para o Sul e Oeste.
+      long            :    # Separar os decimais com ponto em vez de vírgula.
+      alt             :    # Em metros acima do nível do mar.
+      zoom            : "15" # Zoom padrão do mapa gerado pelo plugin Leaflet.js
+      name:                # O campo `name` pode ser qualquer localidade nomeável, não precisa ser um endereço postal.
+        type          : "" # corporate, geographic, personal, other
+        text          : "" # Pode ter mais de uma linha.
+      city            : "" # Cidade, estado e país devem usar os nomes atuais das localidades.
+      state           : "" # Nome do estado por extenso!
+      country         : "BR" # Código ISO.
+      locationHistoric:    # Escopos geográficos antigos
+        - ""               # Se tiver mais de um item, representar em forma de lista.
+  temporal:
+    created:            # Data de criação da obra, não confundir com o campo `date` acima.
+      date            : # Obrigatório, no formato ISO (AAAA-MM-DD). Os demais campos são opcionais
+      qualifier       : "" # Ressalvas à data precisa, tais como 'c.', 'após', 'provavelmente', etc.
+      display_date    : # Representação textual complexa, caso necessário.
+      source:           # Fonte de autoridade para a data indicada.
+        citekey       : "" # Seguir as instruções do campo `bibliographicCitation` acima.
+        href          : ""
+        text          : ""
+    ####################################################################
+    # Linha do tempo. Instruções de formatação:                        #
+    # https://timeline.knightlab.com/docs/json-format.html             #
+    # As categorias abaixo referenciam recursos externos a este site,  #
+    # em geral.                                                        #
+    ####################################################################
+    events:                # Esta linha é só o cabeçalho da linha do tempo.
+      - text:              # Cada evento tem texto, mídia e data(s).
+          headline    : "" # O texto pode ser dividido em cabeçalho e conteúdo.
+          text        : ""
+        type          : "" # Tipos de datas permitidos conforme https://www.loc.gov/standards/vracore/schemas.html
+                           # alteration, broadcast, bulk, commission, creation, design,
+                           # destruction, discovery, exhibition, inclusive, performance,
+                           # publication, restoration, view, other
+                           # (o tipo de data não é usado pela linha do tempo)
+        start_date:        # Apenas a start_date é obrigatória... (VRA Core: earliestDate)
+          year        : "" # ...e dentro dela, apenas o ano é necessário.
+          month       : ""
+          day         : ""
+          display_date: "" # Para datas complexas, escrever por extenso aqui.
+        end_date:          # Opcional, mesmo formato de start_date (VRA Core latestDate)
+        media:             # Uma mídia por evento:
+          href        : "" # pode ser uma prévia da Wikipédia, imagem ou vídeo.
+          caption     : "" # Legenda.
+          credit      : "" # Créditos, se houver.
+          alt         : "" # Descrição sucinta da mídia para acessibilidade.
+        source:            # Fonte de autoridade para a data.
+          text        : ""
+          href        : ""
+          dataDate    : "" # Data em que a informação foi incluída.
+  stylePeriod:  # https://www.loc.gov/standards/vracore/schemas.html
+    - text        : "" # Usar vocabulário controlado se possível
+      vocab       : "" # Caso use vocabulário controlado, preencher os...
+      refid       : "" # ...campos `vocab` e `refid`.
+  culturalContext:
+    - text        : ""
+      vocab       : ""
+      refid       : ""
+subject: # Refere-se ao conteúdo da obra, conforme https://www.loc.gov/standards/vracore/schemas.html
+  - type          : "" # conceptTopic, descriptiveTopic, iconographicTopic, otherTopic, builtworkPlace, geographicPlace, otherPlace, corporateName, familyName, personalName, scientificName, otherName
+    text          : ""
+    vocab         : "" # Caso use vocabulário controlado, preencher os...
+    refid         : "" # ...campos `vocab` e `refid`.
+conformsTo : "https://schema.org/CivicStructure"
+# Registro de modificações na ficha:
+log:
+  - date: 
+    message: ""
+########################################################################
+# Para a maior parte das obras, as informações necessárias terminam    #
+# aqui.                                                                #
+# Os campos relacionais abaixo devem ser usados apenas se necessário   #
+# para descrever adequadamente a obra. P.ex., o campo `isPartOf`       #
+# não deve ser usado como sinônimo de `bibliographicCitation`, e sim   #
+# quando a mídia é parte intrínseca de uma coleção ou série.           #
+# -------------------------------------------------------------------- #
+# IMPORTANTE! As relações de representação `depicts` e `depictedIn`    #
+# devem ser cadastradas na ficha da OBRA e não da mídia.               #
+########################################################################
+relation:
+  - type   : "depictedIn" # Tipos usados no VRA Core:
+    # cartoonFor, cartoonIs, componentOf, componentIs, copyAfter, copyIs,
+    # counterProofFor, counterProofIs, depicts, depictedIn,
+    # derivedFrom [DCMI: source], sourceFor, designedFor, contextIs,
+    # exhibitedAt, venueFor, facsimileOf, facsimileIs, formerlyPartOf,
+    # formerlyLargerContextFor, imageOf, imageIs, mateOf, modelFor,
+    # modelIs, partOf [DCMI: isPartOf], largerContextFor [DCMI: hasPart],
+    # partnerInSetWith, pendantOf, planFor, planIs, prepatoryFor,
+    # basedOn, printingPlateFor, printingPlateIs, prototypeFor,
+    # prototypeIs, relatedTo, reliefFor, impressionIs, replicaOf,
+    # replicaIs, studyFor, studyIs, versionOf [DCMI: isVersionOf],
+    # versionIs [DCMI: hasVersion]
+    # Os campos seguintes do DublinCore (DCMI) mapeiam para mais de um
+    # campo do VRA Core:
+    # isFormatOf, hasFormat, references, isReferencedBy
+    # Os campos seguintes do DublinCore não têm equivalente no VRA Core
+    # mas podem ser mapeados para o bloco stateEdition:
+    # replaces, isReplacedBy
+    relids : "" # Referência do objeto relacionado (nome de arquivo da ficha)
+    text   : "" # Legenda da imagem
+    href   : "" # Link direto para a imagem, no caso de arquivos hospedados em outro servidor.
+########################################################################
+# Os campos abaixo referem-se a informações de formatação da ficha.    #
+########################################################################
+header:
+  teaser        : "https://placehold.co/600x400"
+  overlay_image : "https://i.pinimg.com/originals/f7/76/49/f7764902ee90d4fc48b6f795307bc366.jpg"
+  overlay_filter: 0.7
+  caption       : "Abigail de Andrade, Estrada do Mundo Novo, 1888"
+########################################################################
+# As linhas abaixo são usadas como padrão e não precisam ser copiadas  #
+# para a ficha de cada mídia.                                          #
+########################################################################
+layout: "layouts/obra.njk"
+tags: [ "civico", "edificio" ]
+css: [ "/assets/leaflet/leaflet.css" ]

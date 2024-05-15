@@ -1,0 +1,291 @@
+# Pesquisadores
+
+Pedro Palazzo:
+  name    : "Pedro P. Palazzo"
+  avatar  : "https://avatars3.githubusercontent.com/u/8295666"
+  bio     : 'Coordenador do projeto'
+  location: "Universidade de Brasília"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:palazzo@unb.br"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://palazzo.pt"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      #url: "https://twitter.com/p3palazzo"
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook-square"
+      # url: "https://facebook.com/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      # url: "https://github.com/"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      # url: "https://instagram.com/"
+    - label: "ORCID"
+      icon: "ai fa-fw ai-orcid"
+      url: "https://orcid.org/0000-0002-0187-774X"
+    - label: "CV Lattes"
+      icon: "ai fa-fw ai-lattes"
+      url: "http://lattes.cnpq.br/5767592881382885"
+    - label: "Ciência Vitæ"
+      icon: "ai fa-fw ai-ciencia-vitae"
+      url: "https://www.cienciavitae.pt//pt/D91E-0C60-B56B"
+    - label: "ResearchGate"
+      icon: "ai fa-fw ai-researchgate"
+      url: "https://www.researchgate.net/profile/Pedro-Palazzo"
+
+Camila Pimentel:
+  name    : "Camila de Queiroz Pimentel Lopes"
+  bio     : "Pesquisadora Mestre"
+  avatar  : /assets/media/avatar-camila-pimentel.jpg
+  location: "CEAULP/ULBRA Palmas (TO)"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:camila.qpimentel@gmail.com"
+    - label: "ORCID"
+      icon: "ai ai-orcid"
+      url: "https://orcid.org/0000-0003-3446-3321"
+    - label: "CV Lattes"
+      icon: "ai ai-lattes"
+      url: "http://lattes.cnpq.br/3613601942031627"
+
+# Doutorado
+
+Irina Oliveira:
+  name    : "Irina Alencar de Oliveira"
+  bio     : "Doutoranda"
+  avatar  : /assets/media/avatar-irina-oliveira.jpg
+  location: "Universidade de Brasília"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:irina.oliveira@aluno.unb.br"
+    - label: "ORCID"
+      icon: "ai ai-orcid"
+      url: "https://orcid.org/0000-0002-6649-263X"
+    - label: "CV Lattes"
+      icon: "ai ai-lattes"
+      url: "http://lattes.cnpq.br/6535350966278993"
+
+# Mestrado
+
+Lucas Araújo:
+  name    : "Lucas Nunes Bastos de Araújo"
+  bio     : "Mestrando"
+  avatar  : /assets/media/avatar-lucas-araujo.jpg
+  location: "Universidade de Brasília"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:lucas.araujo.2@aluno.unb.br"
+    - label: "CV Lattes"
+      icon: "ai ai-lattes"
+      url: "http://lattes.cnpq.br/3491873026701980"
+
+Evillyn Biazatti:
+  name    : "Evillyn Biazatti de Araújo"
+  bio     : "Mestre"
+  avatar  : /assets/media/avatar-evillyn-biazatti.jpg
+  #location: "Universidade de Brasília"
+  links:
+    #- label: "Email"
+      #icon: "fas fa-fw fa-envelope-square"
+      #url: "mailto:evillyn.araujo@aluno.unb.br"
+    - label: "ORCID"
+      icon: "ai ai-orcid"
+      url: "https://orcid.org/0000-0003-0295-1283"
+    - label: "CV Lattes"
+      icon: "ai ai-lattes"
+      url: "http://lattes.cnpq.br/3547858649033111"
+
+# Pibic 2023-2024
+
+Edmo Cabral:
+  name          : "Edmo Nunes Oliveira Cabral"
+  givenName     : "Edmo Nunes Oliveira"
+  familyName    : "Cabral"
+  avatar        : /assets/media/avatar-edmo-cabral.jpg
+  bio           : "Iniciação científica"
+  location      : "Universidade de Brasília"
+  links:
+  - label: "ORCID"
+    icon: "ai ai-orcid"
+    url: "https://orcid.org/0009-0007-2497-6218"
+  - label: "CV Lattes"
+    icon: "ai ai-lattes"
+    url: "http://lattes.cnpq.br/1494348412828945"
+
+Eduarda Viana:
+  name          : "Eduarda de Sousa Viana de Santana"
+  givenName     : "Eduarda de Sousa"
+  familyName    : "Viana de Santana"
+  avatar        : /assets/media/avatar-eduarda-viana.jpg
+  bio           : "Iniciação científica"
+  location      : "Universidade de Brasília"
+  links:
+  - label: "ORCID"
+    icon: "ai ai-orcid"
+    url: "https://orcid.org/0009-0006-7479-6365"
+  - label: "CV Lattes"
+    icon: "ai ai-lattes"
+    url: "https://lattes.cnpq.br/9477579135674413"
+
+Jean Adalto:
+  name          : "Jean Adalto Ferreira dos Santos"
+  givenName     : "Jean Adalto Ferreira"
+  additionalName: "dos"
+  familyName    : "Santos"
+  avatar        : /assets/media/avatar-jean-adalto.jpg
+  bio           : "Iniciação científica"
+  location      : "Universidade de Brasília"
+  links:
+  - label: "ORCID"
+    icon: "ai ai-orcid"
+    url: "https://orcid.org/0009-0005-8143-2079"
+  - label: "CV Lattes"
+    icon: "ai ai-lattes"
+    url: "http://lattes.cnpq.br/4906420903336595"
+
+Mikael Menezes:
+  name          : "Mikael Douglas Santos Menezes"
+  givenName     : "Mikael Douglas Santos"
+  familyName    : "Menezes"
+  avatar        : /assets/media/avatar-mikael-menezes.jpg
+  bio           : "Iniciação científica"
+  location      : "Universidade de Brasília"
+  links:
+  - label: "ORCID"
+    icon: "ai ai-orcid"
+    url: "https://orcid.org/0009-0006-9856-8359"
+  - label: "CV Lattes"
+    icon: "ai ai-lattes"
+    url: "https://lattes.cnpq.br/7233503686915019"
+
+Sara Oliveira:
+  name          : "Sara Guimarães de Oliveira"
+  givenName     : "Sara Guimarães"
+  additionalName: "de"
+  familyName    : "Oliveira"
+  avatar        : /assets/media/avatar-sara-oliveira.jpg
+  bio           : "Iniciação científica"
+  location      : "Universidade de Brasília"
+  links:
+  - label: "ORCID"
+    icon: "ai ai-orcid"
+    url: "https://orcid.org/0009-0001-0286-1870"
+  - label: "CV Lattes"
+    icon: "ai ai-lattes"
+    url: "http://lattes.cnpq.br/0122614630973026"
+
+# Pibic 2022-2023
+
+Matheus Rudo:
+  name    : "Matheus Rudo Antoniassi Pereira de Oliveira"
+  bio     : "Iniciação científica"
+  avatar  : /assets/media/avatar-matheus-rudo.jpg
+  location: "Universidade de Brasília"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:rudo.matheus@aluno.unb.br"
+    - label: "ORCID"
+      icon: "ai ai-orcid"
+      url: "https://orcid.org/0009-0007-2296-1696"
+    - label: "CV Lattes"
+      icon: "ai ai-lattes"
+      url: "http://lattes.cnpq.br/7823073064110642"
+
+# Pibic 2021-2022
+
+Bruna Leite Lopes:
+  name    : "Bruna Leite Lopes"
+  bio     : "Arquiteta e Urbanista"
+  avatar  : /assets/media/avatar-bruna-leite-lopes.jpg
+  links:
+  - label: "CV Lattes"
+    icon: "ai ai-lattes"
+    url: "http://lattes.cnpq.br/0632871780940274"
+
+Eduarda Toscano:
+  name    : "Eduarda Toscano de Carvalho"
+  bio     : "Arquiteta e Urbanista"
+  avatar  : /assets/media/avatar-eduarda-toscano.jpg
+  links:
+  - label: "CV Lattes"
+    icon: "ai ai-lattes"
+    url: "http://lattes.cnpq.br/7412720893793734"
+
+# Pibic 2020-2021
+
+Caroline Paiva:
+  name: "Ana Caroline dos Santos  Paiva"
+  familyName: "Paiva"
+  givenName: "Ana Caroline dos Santos"
+  avatar: /assets/media/avatar-caroline-paiva.jpg
+  bio: "Arquiteta e Urbanista"
+  links:
+  - label: "ORCID"
+    icon: "ai ai-orcid"
+    url: "https://orcid.org/0000-0003-4299-6291"
+  - label: "CV Lattes"
+    icon: "ai ai-lattes"
+    url: "http://lattes.cnpq.br/3443287356411632"
+
+Daniela Matias:
+  name: "Daniela Matias Xavier"
+  givenName: "Daniela Matias"
+  familyName: "Xavier"
+  avatar: /assets/media/avatar-daniela-matias.jpg
+  bio: "Arquiteta e Urbanista"
+  links:
+  - label: "CV Lattes"
+    icon: "ai ai-lattes"
+    url: "http://lattes.cnpq.br/6880371959324159"
+
+Iriani Jéssica:
+  name: "Iriani Jéssica Pinto  Gangá"
+  familyName: "Gangá"
+  givenName: "Iriani Jéssica Pinto"
+  avatar: /assets/media/avatar-iriani-jessica.jpg
+  bio: "Arquiteta e Urbanista"
+  links:
+  - label: "ORCID"
+    icon: "ai ai-orcid"
+    url: "https://orcid.org/0000-0001-5942-9459"
+  - label: "CV Lattes"
+    icon: "ai ai-lattes"
+    url: "http://lattes.cnpq.br/8596533347836400"
+
+Mariana Azevedo:
+  name: "Mariana de Fátima Macedo Nunes de Azevedo"
+  familyName: "Azevedo"
+  givenName: "Mariana de Fátima Macedo Nunes"
+  additionalName: "de"
+  avatar: /assets/media/avatar-mariana-azevedo.jpg
+  bio: "Arquiteta e Urbanista"
+  links:
+  - label: "ORCID"
+    icon: "ai ai-orcid"
+    url: "https://orcid.org/0000-0003-0476-6962"
+  - label: "CV Lattes"
+    icon: "ai ai-lattes"
+    url: "http://lattes.cnpq.br/4452882297765384"
+
+Tainá Abreu:
+  name: "Tainá Lourenço de Abreu"
+  familyName: "Abreu"
+  givenName: "Tainá Lourenço"
+  additionalName: "de"
+  avatar: /assets/media/avatar-taina-abreu.jpg
+  bio: "Arquiteta e Urbanista"
+  links:
+  - label: "ORCID"
+    icon: "ai ai-orcid"
+    url: "https://orcid.org/0000-0002-0167-6024"
+  - label: "CV Lattes"
+    icon: "ai ai-lattes"
+    url: "http://lattes.cnpq.br/3323229615714709"

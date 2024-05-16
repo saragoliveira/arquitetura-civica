@@ -20,7 +20,7 @@ coverage:
       name:
         type: "corporate"
         text: |
-           R. Cel. Souza Franco, 993<br />
+          R. Cel. Souza Franco, 993<br />
           08710-025
       city   : "Mogi das Cruzes"
       state  : "São Paulo"

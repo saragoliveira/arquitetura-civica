@@ -1,46 +1,37 @@
 ---
 title : "Casa de Camâra e Cadeia de Ribeirão Preto"
-date  : 2024-04-30 # Data do preenchimento da ficha
-author: Sara Guimarães de Oliveira # Quem preencheu a ficha
-excerpt: >- # Descrição sucinta para aparecer em listagens
-  Edifício com características ecléticas de cunho administrativo e prisional, inaugurado em 1889
-header:
-  overlay_image: #
-  caption: #
-alternative: # Outros nomes ou designações antigas
+date  : 2024-04-30
+author: Sara Guimarães de Oliveira
+description: >-
+  Edifício com características ecléticas de cunho administrativo e
+  prisional, inaugurado em 1889
+alternative:
   - "Cadeia Pública"
   - "Casa da Câmara"
   - "Museu da Imagem e Som (MIS)"
   - "1 Distrito Policial"
-categories:
-  - Eclético
-teaser: #
-# As categorias abaixo são organizadas segundo o DublinCore (DCMI).
-# https://dublincore.org
-contributor: # Agentes envolvidos
+creator:
   - name: "Annunciato Gallo"
-    role: "empreiteiro financiador"
-coverage:
+    type: "personal"
   spatial:
     location:
       lat : -21.176944
       long: -47.806389
       alt : 537.45
-      address:
-        - "R. Cerqueira César, 371 - Centro"
-        - "14010-130"
+      name:
+        type: "corporate"
+        text: |
+          R. Cerqueira César, 371<br />
+          14010-130
       city   : "Ribeirão Preto"
       state  : "São Paulo"
-      country: "BR" # Código ISO
-      locationHistoric: # Escopos geográficos antigos
+      country: "BR"
+      locationHistoric:
         - "Vila de Entre Rios"
-  # Linha do tempo
-  # Instruções de formatação: https://timeline.knightlab.com/docs/json-format.html
-  # As categorias abaixo referenciam recursos externos a este site,
-  # em geral.
   temporal:
     events:
-      - text:
+      - type: "creation"
+        text:
           headline: "Construção"
           text: "Período provável de construção da Casa de Camara e Cadeia de Ribeirão Preto"
         media:
@@ -57,18 +48,20 @@ coverage:
           headline: "Mudança de atribuição"
         start_date:
           year: "1908"
-identifier: # Código IPHAN ou DGPC, por exemplo
-  - source: #
-    id    : #
-type: # Classificações
-dwg: # Documentação arquitetônica produzida neste projeto
-docs: # Fontes primárias e levantamentos de terceiros
-media: # Iconografia
-references: # Referências bibliográficas
-# Registro de modificações na ficha:
+  stylePeriod:
+    - text  : "Ecletismo no Brasil"
+      vocab : "Wikidata"
+      refid : "Q106772149"
 log:
   - date: 2024-04-30
     message: "Inclui dados pertinentes. Falta adicionar midia, dwg, docs e verificar quanto ao tombamento."
 ---
 
-O edifício projetado para abrigar uma cadeia pública e a Câmara de Ribeirão Preto teve sua construção interrompida diversas vezes devido falta de verba. Isso levou a inslatação da Cadeia Pública de forma não concomitante à Câmara, a Cadeia funcionou no sobrado entre 1889 e 1904, enquando a Câmara de 1890 a 1892. Em 1908 o prédio foi reformado para então abrigar somente a Administração Municipal (Câmara e Prefeitura) funcionando lá até 1917.
+O edifício projetado para abrigar uma cadeia pública e a Câmara de
+Ribeirão Preto teve sua construção interrompida diversas vezes devido
+falta de verba. Isso levou a instalação da Cadeia Pública de forma não
+concomitante à Câmara, a Cadeia funcionou no sobrado entre 1889 e 1904,
+enquanto a Câmara de 1890 a 1892. Em 1908 o prédio foi reformado para
+então abrigar somente a Administração Municipal (Câmara e Prefeitura)
+funcionando lá até 1917.
+

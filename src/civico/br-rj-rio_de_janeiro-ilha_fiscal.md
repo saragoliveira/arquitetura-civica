@@ -1,43 +1,33 @@
 ---
 title : "Ilha Fiscal"
-date  : 2024-04-30 # Data do preenchimento da ficha
-author: "Sara Guimarães de Oliveira" # Quem preencheu a ficha
-excerpt: >- # Descrição sucinta para aparecer em listagens
+date  : 2024-04-30
+author: "Sara Guimarães de Oliveira"
+description: >-
  Posto alfandegário ao estilo neogótico inaugurado em 1889
-header:
-  overlay_image: #
-  caption: #
-alternative: # Outros nomes ou designações antigas
+alternative:
   - "Palacete Alfandegário da Ilha dos Ratos"
   - "Ilha dos Ratos"
-categories:
-  - Neogótico
-teaser: 
-# As categorias abaixo são organizadas segundo o DublinCore (DCMI).
-# https://dublincore.org
-contributor: # Agentes envolvidos
+creator:
   - name: "Adolpho José Del Vecchio"
-    role: "Engenheiro-Diretor de Obras do Ministério da Fazenda"
+    type: "personal"
 coverage:
   spatial:
     location:
       lat : -22.897006
       long: -43.166395
-      alt : 5.97 m
-      address:
-        - "Baía de Guanabara – Rio de Janeiro"
+      alt :  5.97
+      name:
+        - type: "corporate"
+          text: "Baía de Guanabara"
       city   : "Rio de Janeiro"
       state  : "Rio de Janeiro"
-      country: "BR" # Código ISO
-      locationHistoric: # Escopos geográficos antigos
+      country: "BR"
+      locationHistoric:
         - "São Sebastião do Rio de Janeiro"
-  # Linha do tempo
-  # Instruções de formatação: https://timeline.knightlab.com/docs/json-format.html
-  # As categorias abaixo referenciam recursos externos a este site,
-  # em geral.
   temporal:
     events:
-      - text:
+      - type: "creation"
+        text:
           headline: "Construção"
           text: "Período provável de construção da Ilha Fiscal"
         media:
@@ -54,19 +44,26 @@ coverage:
           headline: "Mudança de atribuição"
         start_date:
           year: "1998"
-identifier: # Código IPHAN ou DGPC, por exemplo
-  - source: "INEPAC – Instituto Estadual do Patrimônio Cultural"
-    id    : "E-18/001.177/90"
-type: # Classificações
-dwg: # Documentação arquitetônica produzida neste projeto
-docs: # Fontes primárias e levantamentos de terceiros
-media: # Iconografia
-  - ""
-references: # Referências bibliográficas
-# Registro de modificações na ficha:
+  stylePeriod:
+    - text : "Neogótico"
+      vocab: "Wikidata"
+      refid: "Q186363"
+identifier:
+  - source: "Instituto Estadual do Patrimônio Cultural"
+    refid : "E-18/001.177/90"
 log:
   - date: 2024-02-09
     message: "Completei o fichamento, falta adicionar doc, mídia e dwg"
 ---
 
-A necessidade de erguer um posto alfandegário próximo ao ancoradouro dos navios estrangeiros na Baía de Guanabara resultou na construção da Ilha Fiscal. O projeto remete a um castelo em estilo neogótico com detalhes refinados em pedra e vitrais. Concluída em abril de 1889, a edificação foi inaugurada na presença do Imperador D. Pedro II. Em 1913, a Ilha passou da responsabilidade do Ministério da Fazenda para a Marinha, sendo instalada no local, no ano seguinte, a Repartição da Carta Marítima. Em 1931, a Ilha foi ligada ao continente através de um estreito molhe de pedra. Já em 1990 a Ilha foi tombada provisoriamente pelo Instituto Estadual do Patrimônio Cultural INEPAC.
+A necessidade de erguer um posto alfandegário próximo ao ancoradouro dos
+navios estrangeiros na Baía de Guanabara resultou na construção da Ilha
+Fiscal. O projeto remete a um castelo em estilo neogótico com detalhes
+refinados em pedra e vitrais. Concluída em abril de 1889, a edificação
+foi inaugurada na presença do Imperador D. Pedro II. Em 1913, a Ilha
+passou da responsabilidade do Ministério da Fazenda para a Marinha,
+sendo instalada no local, no ano seguinte, a Repartição da Carta
+Marítima. Em 1931, a Ilha foi ligada ao continente através de um
+estreito molhe de pedra. Já em 1990 a Ilha foi tombada provisoriamente
+pelo Instituto Estadual do Patrimônio Cultural (Inepac).
+

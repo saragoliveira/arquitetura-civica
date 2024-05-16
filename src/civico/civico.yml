@@ -88,7 +88,7 @@ coverage:
       alt             :    # Em metros acima do nível do mar.
       zoom            : "15" # Zoom padrão do mapa gerado pelo plugin Leaflet.js
       name:                # O campo `name` pode ser qualquer localidade nomeável, não precisa ser um endereço postal.
-        type          : "" # corporate, geographic, personal, other
+        type          : "corporate" # corporate, geographic, personal, other
         text          : "" # Pode ter mais de uma linha.
       city            : "" # Cidade, estado e país devem usar os nomes atuais das localidades.
       state           : "" # Nome do estado por extenso!
@@ -126,7 +126,7 @@ coverage:
           display_date: "" # Para datas complexas, escrever por extenso aqui.
         end_date:          # Opcional, mesmo formato de start_date (VRA Core latestDate)
         media:             # Uma mídia por evento:
-          href        : "" # pode ser uma prévia da Wikipédia, imagem ou vídeo.
+          url         : "" # pode ser uma prévia da Wikipédia, imagem ou vídeo.
           caption     : "" # Legenda.
           credit      : "" # Créditos, se houver.
           alt         : "" # Descrição sucinta da mídia para acessibilidade.

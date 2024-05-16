@@ -1,35 +1,30 @@
 ---
 title : "Casa de Câmara e Cadeia de Icó"
-date  : 2024-04-24 # Data do preenchimento da ficha
-author: Sara Guimarães de Oliveira # Quem preencheu a ficha
-excerpt: >- # Descrição sucinta para aparecer em listagens
-  Edifício público construído entre o século XVIII e XIX com funções administravias e penais.
-header:
-  overlay_image: #
-  caption: #
-alternative: # Outros nomes ou designações antigas
+date  : 2024-04-24
+author: Sara Guimarães de Oliveira
+description: >-
+  Edifício público construído entre o século XVIII e XIX com funções
+  administravias e penais.
+alternative:
   - "Cadeia Pública e Fórum"
-categories:
-  - Neoclassicismo
-teaser: #
-# As categorias abaixo são organizadas segundo o DublinCore (DCMI).
-# https://dublincore.org
-contributor: # Agentes envolvidos
+creator:
   - name: "Pedro Theberge"
-    role: "autor do traço original de 1859"
+    type: "personal"
 coverage:
   spatial:
     location:
       lat : -6.401115
       long: -38.862870
       alt : 157.83
-      address:
-        - "Antiga Casa de Câmara e Cadeia de Icó - R. Dr. Inácio Dias, 1274-1370 - Centro"
-        - "63430-000"
+      name:
+        type: "corporate"
+        text: |
+          R. Dr. Inácio Dias, 1274-1370<br />
+          63430-000
       city   : "Icó"
       state  : "Ceará"
-      country: "BR" # Código ISO
-      locationHistoric: # Escopos geográficos antigos
+      country: "BR"
+      locationHistoric:
         - "Ribeira dos Icós"
         - "Arraial Velho"
         - "Icó dos Montes"
@@ -37,13 +32,10 @@ coverage:
         - "Sítio de Nossa Senhora do Ó dos Icós"
         - "Icó dos Fonsecas"
         - "Povoação do Salgado"
-  # Linha do tempo
-  # Instruções de formatação: https://timeline.knightlab.com/docs/json-format.html
-  # As categorias abaixo referenciam recursos externos a este site,
-  # em geral.
   temporal:
     events:
-      - text:
+      - type: "creation"
+        text:
           headline: "Construção"
           text: "Período provável de construção da Casa de Camâra e Cadeia de Icó"
         media:
@@ -60,15 +52,13 @@ coverage:
           headline: "Mudança de atribuição"
         start_date:
           year: "1862"
-identifier: # Código IPHAN ou DGPC, por exemplo
-  - source: "Instituto do Património Histórico e Artístico Nacional"
-    id    : "Inscr. nº 456, de 17/11/1975"
-type: # Classificações
-dwg: # Documentação arquitetônica produzida neste projeto
-docs: # Fontes primárias e levantamentos de terceiros
-media: # Iconografia
-references: # Referências bibliográficas
-# Registro de modificações na ficha:
+  stylePeriod:
+    - text : "Neoclassicismo no Brasil"
+      vocab: "Wikidata"
+      refid: "Q10336204"
+identifier:
+  - source: "Instituto do Patrimônio Histórico e Artístico Nacional"
+    refid : "Inscr. n.º 456, de 17/11/1975"
 log:
   - date: 2024-04-24
     message: "Inclui campos para bases documentais"
@@ -76,13 +66,16 @@ log:
 
 <blockquote>
 
-Atual Cadeia Pública e Fórum. Construída entre o final XVIII e início do século XIX, é uma das maiores e mais importantes do Estado, com original sistema de grades de ferro para isolamento das celas. Em 1780, a obra foi paralisada devido à utilização do barro para seus alicerces e retomada em 1800, pelo capitão Roberto Correia da Silva, utilizando pedra e cal. Em 1862, as instalações foram transformadas em enfermaria para as vítimas da epidemia de cólera, com a Capela de Nossa Senhora da Expedição. No pátio, estão a capela e dois alojamentos para soldados.
-  <!--
-     -Atenção: o texto da descrição só pode ser reproduzido de outras
-     -fontes que sejam de domínio público, como os inventários e processos
-     -do IPHAN e de outros órgãos públicos.
-     -->
-  <footer class="figure-caption col-md-8 offset-md-4">Texto reproduzido
-  do <cite>Instituto do Patrimônio Histórico e Artístico Nacional</cite>, IPHAN
+Atual Cadeia Pública e Fórum. Construída entre o final XVIII e início do
+século XIX, é uma das maiores e mais importantes do Estado, com original
+sistema de grades de ferro para isolamento das celas. Em 1780, a obra
+foi paralisada devido à utilização do barro para seus alicerces e
+retomada em 1800, pelo capitão Roberto Correia da Silva, utilizando
+pedra e cal. Em 1862, as instalações foram transformadas em enfermaria
+para as vítimas da epidemia de cólera, com a Capela de Nossa Senhora da
+Expedição. No pátio, estão a capela e dois alojamentos para soldados.
+
+  <footer class="figure-caption">Texto reproduzido
+  do <cite>Instituto do Patrimônio Histórico e Artístico Nacional</cite>,
   2014</footer>
 </blockquote>

@@ -1,48 +1,42 @@
 ---
 title : "Alfândega de Rio Grande"
-date  : 2024-04-22 # Data do preenchimento da ficha
-author: "Sara Guimarães de Oliveira" # Quem preencheu a ficha
-excerpt: >- # Descrição sucinta para aparecer em listagens
- Instituição alfandegária constuída em alvenaria de pedra sob estilo eclético, inaugurada em 1879.
+date  : 2024-04-22
+author: "Sara Guimarães de Oliveira"
+description: >-
+  Instituição alfandegária constuída em alvenaria de pedra sob estilo
+  eclético, inaugurada em 1879.
 header:
+  teaser: "https://i.pinimg.com/originals/12/76/8c/12768ca124dde891009cec16e524d835.jpg"
   overlay_image: "https://i.pinimg.com/originals/12/76/8c/12768ca124dde891009cec16e524d835.jpg"
   caption: "Foto: Ipatrimonio, Autor desconhecido"
-alternative: # Outros nomes ou designações antigas
+alternative:
   - "Museu da Cidade de Rio Grande"
   - "Terceira Alfândega de Rio Grande"
-categories:
-  - Neoclassicismo
-teaser: "https://i.pinimg.com/originals/12/76/8c/12768ca124dde891009cec16e524d835.jpg"
-# As categorias abaixo são organizadas segundo o DublinCore (DCMI).
-# https://dublincore.org
-contributor: # Agentes envolvidos
+creator:
   - name: "Francisco Nunes de Miranda"
-    role: "Engenheiro"
+    type: "personal"
 coverage:
   spatial:
     location:
       lat : -32.019711 
       long: -52.093752
       alt : 4.3
-      address:
-        - "Museu da Cidade do Rio Grande - Rua Riachuelo, sem número - Centro"
-        - "96200-030"
+      name:
+        type: "corporate"
+        text: |
+          Rua Riachuelo, s/n<br />
+          96200-030
       city   : "Rio Grande"
       state  : "Rio Grande do Sul"
-      country: "BR" # Código ISO
-      locationHistoric: # Escopos geográficos antigos
-        - "Freguesia de São Pedro do Rio Grande"
-  # Linha do tempo
-  # Instruções de formatação: https://timeline.knightlab.com/docs/json-format.html
-  # As categorias abaixo referenciam recursos externos a este site,
-  # em geral.
+      country: "BR"
   temporal:
     events:
-      - text:
+      - type: "creation"
+        text:
           headline: "Construção"
           text: "Período provável de construção da Alfândega de Rio Grande"
         media:
-          url: https://placehold.co/600x400
+          url: https://i.pinimg.com/originals/12/76/8c/12768ca124dde891009cec16e524d835.jpg
           caption: "Legenda"
           credit: "ArPDF"
           alt: "Foto em preto-e-branco da Alfandega de Rio Grande, sem informação de data"
@@ -55,21 +49,27 @@ coverage:
           headline: "Mudança de orgão atribuído"
         start_date:
           year: "1967"
-identifier: # Código IPHAN ou DGPC, por exemplo
-  - source: "Instituto do Património Histórico e Artístico Nacional"
-    id    : "Inscr. nº 404, de 04/09/1967"
-type: # Classificações
-dwg: # Documentação arquitetônica produzida neste projeto
-docs: # Fontes primárias e levantamentos de terceiros
-media: # Iconografia
-  - ""
-references: # Referências bibliográficas
-# Registro de modificações na ficha:
+  stylePeriod:
+    - text  : "Ecletismo no Brasil"
+      vocab : "Wikidata"
+      refid : "Q106772149"
+identifier:
+  - source: "Instituto do Patrimônio Histórico e Artístico Nacional"
+    refid : "Inscr. n.º 404, de 04/09/1967"
 log:
   - date: 2024-04-22
     message: "Inclui campos para bases documentais"
 ---
 
-A Alfândega de Rio Grande foi criada a partir de uma carta régia datada em 15 de julho de 1804 a fim de administrar as rendas públicas da chamada Vila do Rio Grande de São Pedro, a instituição foi abrigada em instalações provisórias entre 1804 e 1875, até que neste mesmo ano iniciou-se a construção de sua sede definitiva em um terreno trapezoidal entre na rua Riachuelo, de frente ao cais do porto, ao estilo neoclássico, se estabelecendo como um marco na cidade portuária.
+A Alfândega de Rio Grande foi criada a partir de uma carta régia datada
+em 15 de julho de 1804 a fim de administrar as rendas públicas da
+chamada Vila do Rio Grande de São Pedro, a instituição foi abrigada em
+instalações provisórias entre 1804 e 1875, até que neste mesmo ano
+iniciou-se a construção de sua sede definitiva em um terreno trapezoidal
+entre na rua Riachuelo, de frente ao cais do porto, ao estilo
+neoclássico, se estabelecendo como um marco na cidade portuária.
 
-O edifício foi tombado como patrimônio histórico em 1967 pelo IPHAN e atualmente, após uma restauração na década de 70, ele abriga a Delegacia da Receita Federal e o Museu da Cidade de Rio Grande.
+O edifício foi tombado como patrimônio histórico em 1967 pelo IPHAN e
+atualmente, após uma restauração na década de 70, ele abriga a Delegacia
+da Receita Federal e o Museu da Cidade de Rio Grande.
+

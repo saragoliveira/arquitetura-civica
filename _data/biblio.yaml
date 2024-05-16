@@ -1,0 +1,57 @@
+---
+references:
+- id: cataldi:2015tipologie
+  author:
+    - family: Cataldi
+      given: Giancarlo
+  citation-key: cataldi:2015tipologie
+  container-title: 1º Congresso Internacional, Mértola
+  event-place: Lisboa
+  event-title: ArquitecturaTradicional no Mediterrâneo Ocidental
+  issued:
+    - year: 2015
+      month: 5
+  language: it
+  page: 38–47
+  publisher: Argumentum
+  publisher-place: Lisboa
+  source: Library Catalog (Koha)
+  title: 'Tipologie dell''abitare: Ipotesi evolutive e quadro metodologico'
+  title-short: Tipologie dell'abitare
+  type: paper-conference
+
+- id: costa:2015moradas
+  author:
+    - family: Costa
+      given: Miguel Reimão
+  call-number: NA7414 .A77 2015
+  citation-key: costa:2015moradas
+  container-title: >-
+    Arquitetura Tradicional no Mediterrâneo Ocidental = Traditional architecture
+    in the western Mediterranean
+  editor:
+    - family: Costa
+      given: Miguel Reimão
+    - family: Gómez Martínez
+      given: Susana
+    - family: Ribeiro
+      given: Vítor
+  event-place: 'Lisboa : Mértola'
+  event-title: >-
+    1o Congresso Internacional: Mértola, 13, 14 e 15 de maio de 2015 = 1st
+    International Conference: Mértola, 13th, 14th and 15th May 2015
+  ISBN: 978-972-8479-85-5
+  issued:
+    - year: 2015
+  language: pt
+  page: 13-19
+  publisher: Argumentum ; Campo Arqueológico de Mértola
+  publisher-place: 'Lisboa : Mértola'
+  source: Library of Congress ISBN
+  title: >-
+    As moradas de casas do núcleo intramuros de Mértola: uma leitura preliminar
+    da arquitetura doméstica entre o final do Antigo Regime e o início do século
+    XX
+  title-short: As moradas de casas do núcleo intramuros de Mértola
+  type: paper-conference
+...

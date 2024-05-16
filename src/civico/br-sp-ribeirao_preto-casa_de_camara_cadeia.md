@@ -13,6 +13,7 @@ alternative:
 creator:
   - name: "Annunciato Gallo"
     type: "personal"
+coverage:
   spatial:
     location:
       lat : -21.176944

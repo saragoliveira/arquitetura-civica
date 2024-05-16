@@ -3,6 +3,6 @@
   "description": "Documentário da arquitetura cívica publicada na bibliografia de referência",
   "author": "Pedro P. Palazzo & Sara G. Oliveira",
   "email": "labeurbe@unb.br",
-  "lang": "pt-BR",
+  "locale": "pt-BR",
   "url": "https://arquitetura-civica.tradicional.arq.br"
 }

@@ -39,11 +39,6 @@ coverage:
         text:
           headline: "Construção"
           text: "Período provável de construção do Liceu"
-        media:
-          url: https://placehold.co/600x400
-          caption: "Legenda"
-          credit: #
-          alt: #
         start_date:
           year: "1881"
         end_date:

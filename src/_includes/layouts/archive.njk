@@ -1,0 +1,17 @@
+{%- extends "layouts/base.njk" -%}
+{%- block pagecontent -%}
+{{ content | safe }}
+{% endblock %}
+{% block archive %}
+<hr class="clearfix border-0" />
+<div class="container-fluid">
+  <div class="row row-cols-md-2 row-cols-lg-3 row-cols-xl-6 g-3 mx-5">
+  {% for post in pagination.items %}
+    {% include "partials/album.njk" %}
+  {% endfor %}
+  </div>
+  {% if pagination %}
+  {%- include "partials/paginator.njk" %}
+  {% endif %}
+</div>
+{%- endblock -%}

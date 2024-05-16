@@ -1,0 +1,51 @@
+<style>
+#hero {
+  background-image:
+    {%- if header.overlay_filter -%}
+    linear-gradient(rgba(255, 255, 255, {{ header.overlay_filter }}),
+                    rgba(255, 255, 255, {{ header.overlay_filter }})),
+    {%- endif -%}
+    url('{{ header.overlay_image }}');
+  @media(prefers-color-scheme: dark) {
+    background-image:
+      {%- if header.overlay_filter -%}
+      linear-gradient(rgba(0, 0, 0, {{ header.overlay_filter }}),
+                      rgba(0, 0, 0, {{ header.overlay_filter }})),
+      {%- endif -%}
+      url('{{ header.overlay_image }}');
+  }
+}
+</style>
+
+<div class="position-relative mb-5">
+  <div id="hero" class="d-flex align-items-center p-5 bg-body-tertiary page__hero{% if header.overlay_color or header.overlay_image %}--overlay{% endif %}">
+    <div class="container py-5 flex-column">
+      <h1 class="display-1">
+        {% if title %}{{ title | safe }}{% else %}{{ site.title }}{% endif %}
+        {% if subtitle -%}
+        <span class="subtitle hero__subtitle d-block">
+          {{ subtitle | safe }}
+        </span>
+        {%- endif %}
+      </h1>
+      {% if excerpt %}{% set description = excerpt %}{% endif %}
+      {% if description %}<div class="lead">
+        {{ description | safe }}
+      </div>{% endif %}
+      {% if header.cta_url %}
+        <p><a href="{{ header.cta_url }}" class="btn btn--light-outline btn--large">{{ header.cta_label }}</a></p>
+      {% endif %}
+      {% if header.actions %}
+        <p>
+        {% for action in header.actions %}
+          <a href="{{ action.url }}" class="btn btn--light-outline btn--large">{{ action.label }}</a>
+        {% endfor %}
+        {% endif %}
+    </div>
+  </div>
+  {% if header.caption -%}
+  <figcaption class="hero__caption">
+    {{ header.caption | safe }}
+  </figcaption>
+  {%- endif %}
+</div>

@@ -18,7 +18,7 @@
 		"css": "npm-run-all css-compile css-prefix",
 		"css-compile": "sass --style compressed --source-map --embed-sources --no-error-css --load-path=node_modules _scss/:assets/css/",
 		"css-lint": "stylelint _scss/",
-		"css-prefix": "postcss --replace assets/css/styles.css --use autoprefixer --map",
+		"css-prefix": "postcss --replace assets/css/main.css --use autoprefixer --map",
 		"watch": "nodemon -e html,scss -x \"npm run css\"",
 		"start": "npm-run-all --parallel watch dev",
 		"build": "npm-run-all css 11ty",

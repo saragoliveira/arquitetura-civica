@@ -41,22 +41,14 @@
 {%- endblock %}
 
 <main>
-<div class="container{% if sidebar or author_profile %} has-sidebar{% endif %}">
-  <div class="row{% if classes %} {{ classes }}{% endif %}">
-  {% block pagecontent -%}
-  {{ content | safe }}
-  {%- endblock %}
+  <div class="container-fluid">
+    <div class="row{% if classes %} {{ classes }}{% endif %}">
+    {% block pagecontent -%}
+    {{ content | safe }}
+    {%- endblock %}
+    </div>
   </div>
-</div>
-{%- if sidebar or author_profile -%}
-<div class="sidebar">
-  {%- include "partials/sidebar.njk" -%}
-  </div>
-{%- endif -%}
 </main>
-
-{% block archive %}
-{% endblock %}
 
 {% block pagefooter -%}
 {% include "partials/footer.njk" %}

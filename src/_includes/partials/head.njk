@@ -1,25 +1,30 @@
-{% if metaTitle %}
-  {% set title = metaTitle %}
-{% elif site.name and site.name != title %}
-  {% set titlePrefix = site.name %}
-{% endif %}
-{% if not title %}
-  {% set title = site.name %}
-{% endif %}
-{% if not descriptionMeta %}
-  {% set descriptionMeta = description %}
-{% endif %}
-{% set currentUrl = site.url + page.url %}
+{%- if metaTitle -%}
+  {%- set title = metaTitle -%}
+{%- elif title and site.title != title -%}
+  {%- set titlePrefix = site.title -%}
+  {%- set metaTitle = [ titlePrefix, ' ', site.title_separator, ' ', title ] | join -%}
+{%- elif not title -%}
+  {%- set title = site.title -%}
+  {%- set metaTitle = title -%}
+{%- endif -%}
+{%- if not descriptionMeta -%}
+  {%- if description -%}
+    {%- set descriptionMeta = description -%}
+  {%- else -%}
+    {%- set descriptionMeta = site.description -%}
+  {%- endif -%}
+{%- endif -%}
+{%- set currentUrl = [ site.url, page.url ] | join -%}
 
-<title>{% if titlePrefix %}{{ titlePrefix }} – {% endif %}{{ title }}</title>
+<title>{{ metaTitle }}</title>
 <link rel="canonical" href="{{ currentUrl }}" />
 <meta charset="utf-8" />
 <meta name="generator" content="pandoc" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
 
-{% for authorMeta in authorMeta %}
+{% for authorMeta in authorMeta -%}
   <meta name="author" content="{{ authorMeta }}" />
-{% endfor %}
+{% endfor -%}
 {% if dateMeta %}
   <meta name="dcterms.date" content="{{ dateMeta }}" />
 {% endif %}
@@ -32,12 +37,15 @@
 <meta property="og:type" content="website" />
 <meta property="og:url" content="{{ currentUrl }}" />
 
-{% if socialImage %}
+{% if social_image or teaser %}
+  {%- if not social_image -%}
+    {%- set social_image = teaser -%}
+  {%- endif -%}
   <meta name="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="{{ socialImage }}" />
-  <meta name="twitter:image" content="{{ socialImage }}" />
-  <meta property="og:image:alt" content="Page image for {{ site.name }}" />
-  <meta name="twitter:image:alt" content="Page image for {{ site.name }}" />
+  <meta property="og:image" content="{{ social_image }}" />
+  <meta name="twitter:image" content="{{ social_image }}" />
+  <meta property="og:image:alt" content="Page image for {{ site.title }}" />
+  <meta name="twitter:image:alt" content="Page image for {{ site.title }}" />
 {% endif %}
 
 {% if descriptionMeta %}
@@ -46,17 +54,4 @@
   <meta property="og:description" content="{{ descriptionMeta }}" />
 {% endif %}
 
-<link rel="stylesheet" href="{{ '/assets/css/styles.css' | url }}" />
-{% for css in css %}
-  <link rel="stylesheet" href="{{ css | url }}" />
-{% endfor %}
-
-{% for headerIncludes in headerIncludes %}
-  {{ headerIncludes | safe }}
-{% endfor %}
-{% if math %}
-{% if mathjax %}
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-{% endif %}
-  {{ math }}
-{% endif %}
+<link rel="stylesheet" type="text/css" href="/assets/css/main.css" />

@@ -1,0 +1,30 @@
+{%- if not lang -%}{%- set lang = site.locale -%}{%- endif -%}
+<hr class="featurette-divider clearfix my-5" />
+<div class="col-12 col-lg-8 d-flex flex-row align-items-stretch position-relative featurette">
+  <div class="col-lg-8 flex-column align-items-stretch pe-3">
+    <h2 class="archive__item-title">
+      {{ post.data.title | safe }}
+      {%- if post.data.subtitle -%}:
+      <span class="text-secondary">
+        {{ post.data.subtitle | safe }}
+      </span>
+      {% endif %}
+    </h2>
+    <small class="text-secondary">
+      {{ post.data.date | dateFilter }}
+    </small>
+    <p class="lead mt-3">
+      {{ post.data.description | safe }}
+    </p>
+    <a class="icon-link mt-auto gap-1 icon-link-hover stretched-link link-secondary text-decoration-none d-block" href="{{ post.url }}">
+      {{ ui_text[lang].more_label }} ›
+    </a>
+  </div><!--/.col-lg-8-->
+  {% if post.data.header.teaser %}
+  <div class="d-none d-lg-flex col-lg-4">
+    <div class="ratio ratio-1x1">
+      <img class="img-thumbnail object-fit-cover" src="{{ post.data.header.teaser }}" />
+    </div>
+  </div><!--/.ratio-->
+  {% endif %}
+</div><!--/.featurette-->

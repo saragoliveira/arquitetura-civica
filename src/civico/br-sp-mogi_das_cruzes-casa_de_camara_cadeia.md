@@ -4,12 +4,10 @@ date  : 2024-04-24
 author: Sara Guimarães de Oliveira
 description: >-
   Edifício público construído em taipa em 1860 com funções administravias e penais.
-alternative: #Outros nomes ou designações antigas
+alternative:
   - "Ginásio do Estado"
   - "Escola Técnica Industrial" 
-  - "Arquivo Histórico- Historiador Isaac Grinberg”
-categories:
-  - Neoclassicismo
+  - "Arquivo Histórico Historiador Isaac Grinberg"
 creator:
   - name: "Veríssimo Afonso Fernandes"
     type: "personal"
@@ -49,8 +47,12 @@ coverage:
           headline: "Mudança de atribuição"
         start_date:
           year: "1929"
+  stylePeriod:
+    - text : "Neoclassicismo no Brasil"
+      vocab: "Wikidata"
+      refid: "Q10336204"
 identifier:
-  - source: "Conselho de Defesa do Patrimônio Histórico, Arqueológico, Artístico e Turístico do Estado de ão Paulo"
+  - source: "Condephaat"
     refid : "Inscrição n.º 460, p. 139"
 log:
   - date: 2024-04-24

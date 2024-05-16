@@ -12,6 +12,8 @@ alternative:
 creator:
   - name: "Louis Léger Vauthier"
     type: "personal"
+    vocab: "Wikidata"
+    refid: "Q3262567"
 coverage:
   spatial:
     location:
@@ -54,7 +56,7 @@ coverage:
       vocab: "Wikidata"
       refid: "Q10336204"
 identifier:
-  - source: "Instituto do Patrimônio Histórico e Artístico Nacional"
+  - source: "Iphan"
     refid : "em processo de tombamento Federal n.º 1224"
 log:
   - date: 2024-04-30

@@ -12,8 +12,9 @@ header:
   caption: "Foto: acervo do Instituto Moreira Sales"
 alternative:
   - "Gabinete Português de Leitura"
-contributor:
-  -role: "Instituição sem fins lucrativos"
+creator:
+  - name : "Rafael da Silva e Castro"
+    type : "personal"
 coverage:
   spatial:
     location:
@@ -23,7 +24,7 @@ coverage:
       name:
         type: "corporate"
         text: |
-          Rua Luís de Camões, 30, Centro, Rio de Janeiro - RJ<br />
+          Rua Luís de Camões, 30<br />
           20051-020
       city   : "Rio de Janeiro"
       state  : "Rio de Janeiro"

@@ -52,7 +52,7 @@ coverage:
       vocab: "Wikidata"
       refid: "Q10336204"
 identifier:
-  - source: "Instituto do Patrimônio Histórico e Artístico Nacional"
+  - source: "Iphan"
     refid : "Livro do Tombo Arqueológico, Etnográfico e Paisagístico: Inscr. n.º 69, de 09/11/1977. Livro do Tombo Histórico: Inscr. n.º 460, de 09/11/1977. Livro do Tombo Belas Artes: Inscr. n.º 525, de 09/11/1977"
 log:
   - date: 2024-04-30

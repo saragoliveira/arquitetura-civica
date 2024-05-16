@@ -9,8 +9,10 @@ alternative:
   - "Mercado Municipal Adolfo Lisboa"
   - "Mercadão"
 creator:
-  - name: "Gustave Eiffel"
-    type: "personal"
+  - name : "Gustave Eiffel"
+    type : "personal"
+    vocab: "Wikidata"
+    refid: "Q20882"
 coverage:
   spatial:
     location:
@@ -50,7 +52,7 @@ coverage:
       vocab : "Wikidata"
       refid : "Q34636"
 identifier:
-  - source: "Instituto do Patrimônio Histórico e Artístico Nacional"
+  - source: "Iphan"
     refid : "Processo de Tombamento n.º 1179-T-1985"
 log:
   - date: 2024-04-30

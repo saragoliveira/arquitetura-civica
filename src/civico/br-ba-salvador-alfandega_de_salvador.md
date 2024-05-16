@@ -57,7 +57,7 @@ coverage:
       vocab : "Wikidata"
       refid : "Q10336204"
 identifier:
-  - source: "Instituto do Patrimônio Histórico e Artístico Nacional"
+  - source: "Iphan"
     refid : "Inscr. n.º 388, de 25/10/1966"
 bibliographicCitation:
  text: |

@@ -7,8 +7,10 @@ description: >-
 alternative:
   - "Mercado Público Central"
 creator:
-  - name: "Friedrich Heydtmann"
-    type: "personal"
+  - name : "Frederico Heydtmann"
+    type : "personal"
+    vocab: "Wikidata"
+    refid: "Q10285788"
 coverage:
   spatial:
     location:

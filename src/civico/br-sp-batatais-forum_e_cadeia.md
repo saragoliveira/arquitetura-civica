@@ -52,9 +52,9 @@ coverage:
         start_date:
           year: "1951"
 identifier:
-  - source: "Instutito do Patrimônio Histórico e Artístico Nacional"
+  - source: "Iphan"
     refid : 
-  - source: "Conselho de Defesa do Patrimônio Histórico, Arqueológico, Artístico e Turístico do Estado de São Paulo"
+  - source: "Condephaat"
     refid :
 log:
   - date: 2024-04-24

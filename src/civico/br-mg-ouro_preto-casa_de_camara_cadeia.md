@@ -52,7 +52,7 @@ coverage:
       vocab: "Wikidata"
       refid: "Q10336204"
 identifier:
-  - source: "Instituto do Patrimônio Histórico e Artístico Nacional"
+  - source: "Iphan"
     refid : " Inscr. n.º 305, de 29/11/1954"
 log:
   - date: 2024-04-24

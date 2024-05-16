@@ -15,8 +15,10 @@ alternative:
   - "Colégio dos Meninos Órfãos"
   - "CP2"
 creator:
-  - name: "Francisco Bethencourt da Silva"
-    type: "personal"
+  - name : "Francisco Joaquim Béthencourt da Silva"
+    type : "personal"
+    vocab: "Wikidata"
+    refid: "Q10284839"
 coverage:
   spatial:
     location:
@@ -31,8 +33,6 @@ coverage:
       city   : "Rio de Janeiro"
       state  : "Rio de Janeiro"
       country: "BR"
-      locationHistoric:
-        - "Rio de Janeiro"
   temporal:
     events:
       - type: "creation"
@@ -58,7 +58,7 @@ coverage:
       vocab: "Wikidata"
       refid: "Q10336204"
 identifier:
-  - source: "Instituto do Patrimônio Histórico e Artístico Nacional"
+  - source: "Iphan"
     refid : "Inscr. n.º 489, de 19/05/1983"
 log:
   - date: 2024-04-11

@@ -10,8 +10,10 @@ alternative:
   - "Primeira Praça do Comércio"
   - "Real Junta de Comércio, Agricultura, Fábricas e Navegação"
 creator:
-  - name: "Grandjean de Montigny"
-    type: "personal"
+  - name : "Auguste Henri Victor Grandjean de Montigny"
+    type : "personal"
+    vocab: "Wikidata"
+    refid: "Q2871225"
 coverage:
   spatial:
     location:
@@ -51,7 +53,7 @@ coverage:
       vocab: "Wikidata"
       refid: "Q10336204"
 identifier:
-  - source: "Instituto do Patrimônio Histórico e Artístico Nacional"
+  - source: "Iphan"
     refid : "Inscr. n.º 36, de 24/05/1938"
 log:
   - date: 2024-04-30

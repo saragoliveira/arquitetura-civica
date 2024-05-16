@@ -45,7 +45,7 @@ coverage:
       vocab : "Wikidata"
       refid : "Q106772149"
 identifier:
-  - source: "Instituto do Patrimônio Artístico e Cultural da Bahia"
+  - source: "IPAC–BA"
     refid : "n.º 9.991/06, de 26/04/2006"
 log:
   - date: 2024-04-30

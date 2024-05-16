@@ -10,12 +10,18 @@ alternative:
   - "Museu Nacional"
   - "Museu Nacional da Quinta da Boa Vista"
 contributor:
-  - name: "Manuel da Costa"
+  - name: "Elias Antônio Lopes"
     type: "personal"
-    role: "Arquiteto"
-  - name: "Pierre Joseph Pézerat"
-    type: "personal"
-    role: "Engenheiro"
+    role: "comanditário"
+  - name : "Manuel da Costa"
+    type : "personal"
+    role : "Arquiteto"
+    vocab: "eViterbo"
+  - name : "Pedro José Pézerat"
+    type : "personal"
+    role : "Engenheiro"
+    vocab: "Wikidata"
+    refid: "Q10347532"
 coverage:
   spatial:
     location:
@@ -51,7 +57,7 @@ coverage:
       vocab: "Wikidata"
       refid: "Q10336204"
 identifier:
-  - source: "Instituto do Patrimônio Histórico e Artístico Nacional"
+  - source: "Iphan"
     refid : "Inscr. n.º 23, de 11/05/1938"
 log:
   - date: 2024-04-30

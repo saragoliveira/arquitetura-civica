@@ -10,12 +10,14 @@ alternative:
   - "Mercado Velho"
   - "Mercado Central São José"
 contributor:
-  - name: "Victor Lieutier"
-    type: "personal"
-    role: "Engenheiro responsável"
-  - name: "Louis Léger Vauthier"
-    type: "personal"
-    role: "Coordenador da obra"
+  - name : "João Luiz Victor Lieutier"
+    type : "personal"
+    role : "Engenheiro responsável"
+  - name : "Louis Léger Vauthier"
+    type : "personal"
+    vocab: "Wikidata"
+    refid: "Q3262567"
+    rol e: "Coordenador da obra"
 coverage:
   spatial:
     location:

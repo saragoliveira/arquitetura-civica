@@ -14,8 +14,10 @@ alternative:
   - "Museu de Florianópolis"
   - "Palácio Cruz e Souza"
 creator:
-  - name: "José da Silva Paes"
-    type: "personal"
+  - name : "José da Silva Pais"
+    type : "personal"
+    vocab: "Wikidata"
+    refid: "Q28723"
 coverage:
   spatial:
     location:

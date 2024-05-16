@@ -54,7 +54,7 @@ coverage:
       vocab : "Wikidata"
       refid : "Q106772149"
 identifier:
-  - source: "Instituto do Patrimônio Histórico e Artístico Nacional"
+  - source: "Iphan"
     refid : "Inscr. n.º 404, de 04/09/1967"
 log:
   - date: 2024-04-22

@@ -9,8 +9,10 @@ alternative:
   - "Casarão"
   - "Museu Nacional de Imigração e Colonização"
 creator:
-  - name: "Frederico Bruestlein"
-    type: "personal"
+  - name : "Frederico Bruestlein"
+    type : "personal"
+    vocab: "Wikidata"
+    refid: "Q10285765"
 coverage:
   spatial:
     location:
@@ -50,7 +52,7 @@ coverage:
       vocab : "Wikidata"
       refid : "Q34636"
 identifier:
-  - source: "Instituto do Patrimônio Histórico e Artístico Nacional"
+  - source: "Iphan"
     refid : "Livro do Tombo Histórico: Inscr. n.º 149, de 04/12/1939. Livro do Tombo Belas Artes: Inscr. n.º 290, de 04/12/1939"
 log:
   - date: 2024-04-30

@@ -49,7 +49,7 @@ coverage:
       vocab: "Wikidata"
       refid: "Q186363"
 identifier:
-  - source: "Instituto Estadual do Patrimônio Cultural"
+  - source: "Inepac–RJ"
     refid : "E-18/001.177/90"
 log:
   - date: 2024-02-09

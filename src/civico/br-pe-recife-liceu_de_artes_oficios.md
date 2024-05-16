@@ -9,8 +9,10 @@ alternative:
   - "Liceu Nóbrega de Artes e Ofícios"
   - "Palacete do Liceu"
 creator:
-  - name: "Francisco Joaquim Bethencourt da Silva"
-    type: "personal"
+  - name : "Francisco Joaquim Béthencourt da Silva"
+    type : "personal"
+    vocab: "Wikidata"
+    refid: "Q10284839"
 coverage:
   spatial:
     location:

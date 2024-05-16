@@ -15,8 +15,10 @@ alternative:
   - "Escola Nacional de Belas Artes"
   - "Escola de Belas Artes da Universidade Federal do Rio de Janeiro"
 creator:
-  - name: "Grandjean de Montigny"
-    type: "personal"
+  - name : "Auguste Henri Victor Grandjean de Montigny"
+    type : "personal"
+    vocab: "Wikidata"
+    refid: "Q2871225"
 coverage:
   spatial:
     location:
@@ -58,7 +60,7 @@ coverage:
       vocab: "Wikidata"
       refid: "Q10336204"
 identifier:
-  - source: "Instituto do Patrimônio Histórico e Artístico Nacional"
+  - source: "Iphan"
     refid : "n.º inscr.: 002; Vol. 1; F. 002; Data: 30/05/1938"
 log:
   - date: 2024-02-09

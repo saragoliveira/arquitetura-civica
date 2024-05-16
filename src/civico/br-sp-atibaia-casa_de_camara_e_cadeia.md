@@ -11,9 +11,11 @@ alternative:
 categories:
   - Eclético
 contributor:
-  - name: "Luis Saia"
-    type: "personal"
-    role: "restaurador"
+  - name : "Luis Saia"
+    type : "personal"
+    vocab: "Wikidata"
+    refid: "Q85633951"
+    role : "restaurador"
 coverage:
   spatial:
     location:
@@ -23,7 +25,7 @@ coverage:
       name:
         type: "corporate"
         text: |
-          Museu Municipal João Batista Conti - Praça Bento Paes, s/n - Centro<br />
+          Praça Bento Paes, s/n<br />
           12940-810
       city   : "Atibaia"
       state  : "São Paulo"
@@ -52,7 +54,7 @@ coverage:
         start_date:
           year: "1958"
 identifier:
-  - source: "Instituto do Patrimônio Histórico e Artístico Nacional"
+  - source: "Iphan"
     refid : "n.º inscr. 312, vol. 1, f. 052, 23/08/1955"
 log:
   - date: 2024-04-24

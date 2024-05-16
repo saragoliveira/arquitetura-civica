@@ -8,9 +8,16 @@ alternative:
   - "Cadeia Pública"
   - "Centro de Turismo do Ceará (Emcetur)"
   - "Velho casarão do Senador Jaguaribe"
-creator:
-  - name: "Manuel Caetano Gouveia"
+contributor:
+  - name: "Manoel Caetano de Gouveia"
     type: "personal"
+    role: "comanditário"
+  - name: "Francisco Afonso Porto Lima"
+    type: "personal"
+    role: "arquiteto restaurador"
+  - name: "Francisco Américo de Vasconcelos"
+    type: "personal"
+    role: "arquiteto restaurador"
 coverage:
   spatial:
     location:

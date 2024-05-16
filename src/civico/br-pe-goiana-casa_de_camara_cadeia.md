@@ -8,6 +8,8 @@ description: >-
 creator:
   - name: "Louis Léger Vauthier"
     type: "personal"
+    vocab: "Wikidata"
+    refid: "Q3262567"
 coverage:
   spatial:
     location:
@@ -43,7 +45,7 @@ coverage:
         start_date:
           year: "1984"
 identifier:
-  - source: "Instituto do Patrimônio Histórico e Artístico Nacional"
+  - source: "Iphan"
     refid : "Portaria Iphan n.º 07/1988; Processo de Tombamento Iphan 1483-T-2001 “Conjunto Arquitetônico, Urbanístico e Paisagístico do Município de Goiana”"
 log:
   - date: 2024-04-30

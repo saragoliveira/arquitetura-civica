@@ -46,9 +46,9 @@ contributor:        # Lista de outros envolvidos no ciclo de vida da obra.
 type:
   name            : "physicalObject" # https://www.dublincore.org/specifications/dublin-core/dcmi-type-vocabulary/
   worktype: # Classe de objetos à qual a obra pertence
-    - text        : "casa"
-      vocab       : ""
-      refid       : ""
+    - text        : "edificação"
+      vocab       : "TAM"
+      refid       : "04.2"
 format:
   extent: # https://www.loc.gov/standards/vracore/schemas.html
     - type        : "area" # area, base, circumference, count, depth, diameter, distanceBetween, height, length, width, other

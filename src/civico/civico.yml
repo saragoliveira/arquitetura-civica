@@ -12,11 +12,8 @@
 # conter qualquer número de linhas ou blocos.                          #
 ########################################################################
 title             : "" # Se a obra não tiver título próprio, usar um título descritivo sucinto.
-date              : # Data de inclusão da ficha no nosso repositório no
-                    # formato AAAA-MM-DD. Não confundir como campo
-                    # `created` mais abaixo.
-author            : "" # Quem incluiu a ficha no repositório e preencheu esta
-                       # ficha. Não confundir com o campo `creator` abaixo.
+date              : # Data de inclusão da ficha no nosso repositório no formato AAAA-MM-DD. Não confundir como campo `created` mais abaixo.
+author            : "" # Quem incluiu a ficha no repositório e preencheu esta ficha. Não confundir com o campo `creator` abaixo.
 description: >- # Descrição sucinta para aparecer em listagens. Começar
 # na linha abaixo da legenda, deixando dois espaços em branco no início
 # de cada linha. O ideal é se ater a no máximo 3 linhas de 72 toques.
@@ -31,10 +28,7 @@ creator:            # Quem criou a própria obra, não confundir com o campo `au
     attribution   : "" # atribuição, escola de, baseado em, cópia de, etc.
     vocab         : "" # Caso seja usado um vocabulário controlado para padronizar...
     refid         : "" # ...nomes de agentes, preencher as linhas `vocab` e `refid`.
-    href          : "" # Em vez de vocabulário controlado, pode-se usar um link para
-                    # identificar o agente. Caso o agente não possua site
-                    # institucional próprio, verificar se há um registro de
-                    # autoridade no Wikidata ou no vocabulário Getty.
+    href          : "" # Em vez de vocabulário controlado, pode-se usar um link para identificar o agente.
 contributor:        # Lista de outros envolvidos no ciclo de vida da obra.
   - name          : "" # Seguir as mesmas instruções que o campo `creator`.
     type          : ""
@@ -46,9 +40,9 @@ contributor:        # Lista de outros envolvidos no ciclo de vida da obra.
 type:
   name            : "physicalObject" # https://www.dublincore.org/specifications/dublin-core/dcmi-type-vocabulary/
   worktype: # Classe de objetos à qual a obra pertence
-    - text        : "casa"
-      vocab       : ""
-      refid       : ""
+    - text        : "edificação"
+      vocab       : "TAM"
+      refid       : "04.2"
 format:
   extent: # https://www.loc.gov/standards/vracore/schemas.html
     - type        : "area" # area, base, circumference, count, depth, diameter, distanceBetween, height, length, width, other
@@ -88,7 +82,7 @@ coverage:
       alt             :    # Em metros acima do nível do mar.
       zoom            : "15" # Zoom padrão do mapa gerado pelo plugin Leaflet.js
       name:                # O campo `name` pode ser qualquer localidade nomeável, não precisa ser um endereço postal.
-        type          : "" # corporate, geographic, personal, other
+        type          : "corporate" # corporate, geographic, personal, other
         text          : "" # Pode ter mais de uma linha.
       city            : "" # Cidade, estado e país devem usar os nomes atuais das localidades.
       state           : "" # Nome do estado por extenso!
@@ -126,7 +120,7 @@ coverage:
           display_date: "" # Para datas complexas, escrever por extenso aqui.
         end_date:          # Opcional, mesmo formato de start_date (VRA Core latestDate)
         media:             # Uma mídia por evento:
-          href        : "" # pode ser uma prévia da Wikipédia, imagem ou vídeo.
+          url         : "" # pode ser uma prévia da Wikipédia, imagem ou vídeo.
           caption     : "" # Legenda.
           credit      : "" # Créditos, se houver.
           alt         : "" # Descrição sucinta da mídia para acessibilidade.

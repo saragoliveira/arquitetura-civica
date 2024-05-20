@@ -1,0 +1,682 @@
+@charset "utf-8";
+
+/* ==========================================================================
+   Font providers {{{1
+   ========================================================================== */
+
+@import url("https://use.typekit.net/hny1sfi.css");
+@import "https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css";
+
+@font-face {
+    font-family: 'Weiss Std'; // Weiss Std normal italic {{{2
+    src: url('/assets/fonts/weissstd-italic-webfont.woff2') format('woff2'),
+         url('/assets/fonts/weissstd-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Weiss Std'; // Weiss Std bold {{{2
+    src: url('/assets/fonts/weissstd-bold-webfont.woff2') format('woff2'),
+         url('/assets/fonts/weissstd-bold-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Weiss Std'; // Weiss Std extra bold {{{2
+    src: url('/assets/fonts/weissstd-extrabold-webfont.woff2') format('woff2'),
+         url('/assets/fonts/weissstd-extrabold-webfont.woff') format('woff');
+    font-weight: bolder;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Weiss Std'; // Weiss Std regular {{{2
+    src: url('/assets/fonts/weissstd-webfont.woff2') format('woff2'),
+         url('/assets/fonts/weissstd-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face { // UnB Pro 900 {{{2
+  font-family: "UnB Pro";
+  font-style: normal;
+  font-weight: 900;
+  src: url("https://dmcpatrimonio.github.io/assets/fonts/unb_pro_black.eot");
+  src:
+    url("https://dmcpatrimonio.github.io/assets/fonts/unb_pro_black.eot?#iefix") format("embedded-opentype"),
+    url("https://dmcpatrimonio.github.io/assets/fonts/unb_pro_black.woff2") format("woff2"),
+    url("https://dmcpatrimonio.github.io/assets/fonts/unb_pro_black.woff") format("woff"),
+    url("https://dmcpatrimonio.github.io/assets/fonts/unb_pro_black.svg#unb_problack") format("svg");
+}
+@font-face { // UnB Pro 700 italic {{{2
+  font-family: "UnB Pro";
+  font-style: italic;
+  font-weight: 700;
+  src: url("https://dmcpatrimonio.github.io/assets/fonts/unb_pro_bold_italic.eot");
+  src:
+    url("https://dmcpatrimonio.github.io/assets/fonts/unb_pro_bold_italic.eot?#iefix") format("embedded-opentype"),
+    url("https://dmcpatrimonio.github.io/assets/fonts/unb_pro_bold_italic.woff2") format("woff2"),
+    url("https://dmcpatrimonio.github.io/assets/fonts/unb_pro_bold_italic.woff") format("woff"),
+    url("https://dmcpatrimonio.github.io/assets/fonts/unb_pro_bold_italic.svg#unb_probold_italic") format("svg");
+}
+@font-face { // UnB Pro 700 {{{2
+  font-family: "UnB Pro";
+  font-style: normal;
+  font-weight: 700;
+  src: url("https://dmcpatrimonio.github.io/assets/fonts/unb_pro_bold.eot");
+  src:
+    url("https://dmcpatrimonio.github.io/assets/fonts/unb_pro_bold.eot?#iefix") format("embedded-opentype"),
+    url("https://dmcpatrimonio.github.io/assets/fonts/unb_pro_bold.woff2") format("woff2"),
+    url("https://dmcpatrimonio.github.io/assets/fonts/unb_pro_bold.woff") format("woff"),
+    url("https://dmcpatrimonio.github.io/assets/fonts/unb_pro_bold.svg#unb_probold") format("svg");
+}
+@font-face { // UnB Pro 400 italic {{{2
+  font-family: "UnB Pro";
+  font-style: italic;
+  font-weight: 400;
+  src: url("https://dmcpatrimonio.github.io/assets/fonts/unb_pro_italic.eot");
+  src:
+    url("https://dmcpatrimonio.github.io/assets/fonts/unb_pro_italic.eot?#iefix") format("embedded-opentype"),
+    url("https://dmcpatrimonio.github.io/assets/fonts/unb_pro_italic.woff2") format("woff2"),
+    url("https://dmcpatrimonio.github.io/assets/fonts/unb_pro_italic.woff") format("woff"),
+    url("https://dmcpatrimonio.github.io/assets/fonts/unb_pro_italic.svg#unb_proregular_italic") format("svg");
+}
+@font-face { // UnB Pro 300 {{{2
+  font-family: "UnB Pro";
+  font-style: normal;
+  font-weight: 300;
+  src: url("https://dmcpatrimonio.github.io/assets/fonts/unb_pro_light.eot");
+  src:
+    url("https://dmcpatrimonio.github.io/assets/fonts/unb_pro_light.eot?#iefix") format("embedded-opentype"),
+    url("https://dmcpatrimonio.github.io/assets/fonts/unb_pro_light.woff2") format("woff2"),
+    url("https://dmcpatrimonio.github.io/assets/fonts/unb_pro_light.woff") format("woff"),
+    url("https://dmcpatrimonio.github.io/assets/fonts/unb_pro_light.svg#unb_prolight") format("svg");
+}
+@font-face { // UnB Pro 400 {{{2
+  font-family: "UnB Pro";
+  font-style: normal;
+  font-weight: 400;
+  src: url("https://dmcpatrimonio.github.io/assets/fonts/unb_pro_regular.eot");
+  src:
+    url("https://dmcpatrimonio.github.io/assets/fonts/unb_pro_regular.eot?#iefix") format("embedded-opentype"),
+    url("https://dmcpatrimonio.github.io/assets/fonts/unb_pro_regular.woff2") format("woff2"),
+    url("https://dmcpatrimonio.github.io/assets/fonts/unb_pro_regular.woff") format("woff"),
+    url("https://dmcpatrimonio.github.io/assets/fonts/unb_pro_regular.svg#unb_proregular") format("svg");
+}
+
+
+/* ==========================================================================
+   Variables {{{1
+   ========================================================================== */
+
+// Option 1
+// Import all of Bootstrap's CSS
+
+// @import "bootstrap/scss/bootstrap";
+
+// Option 2
+// Place variable overrides first, then import just the styles you need.
+// Note that some stylesheets are required no matter what.
+
+// Toggle global options
+$enable-shadows: false;
+//$enable-gradients: true;
+
+// This enables auto switching to dark mode based on the client's OS/browser settings:
+$color-mode-type: media-query;
+
+//$offcanvas-box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175);
+
+// Include functions first
+@import "bootstrap/scss/functions";
+@import "bootstrap/scss/variables";
+
+// Customize some defaults
+$body-color:          #111118;
+$body-bg:             #fffffc;
+$border-radius:       .4rem;
+//$primary:             #282f6a;
+$primary:             $blue-800;
+$light:               #fcf9e6;
+$body-emphasis-color: $primary;
+$link-decoration:     none;
+$success:             #7952b3;
+
+$font-family-serif:      "eb-garamond", "et-book", Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+$font-family-sans-serif: "UnB Pro", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
+$font-family-narrow:     "league-gothic-condensed", "Arial Narrow", sans-serif;
+
+$font-family-base:     $font-family-sans-serif;
+$font-size-base:       1.3rem;
+$headings-font-family: 'Weiss Std', Georgia, serif;
+$headings-font-weight: 700;
+$headings-font-style:  normal;
+$headings-color:       $body-color;
+$legend-font-weight:   500;
+
+$theme-colors: (
+  "primary":    $blue-800,
+  "secondary":  $secondary,
+  "success":    $success,
+  "info":       $info,
+  "warning":    $warning,
+  "danger":     $danger,
+  "light":      $light,
+  "dark":       $dark
+);
+
+$link-color: $primary;
+$link-hover-color: $blue-900;
+$component-active-bg: $primary;
+$pagination-active-bg: $primary;
+
+
+/* ==========================================================================
+   Imports {{{1
+   ========================================================================== */
+
+// Required
+// @import "bootstrap/scss/variables";
+@import "bootstrap/scss/variables-dark";
+@import "bootstrap/scss/maps";
+@import "bootstrap/scss/mixins";
+@import "bootstrap/scss/utilities";
+@import "bootstrap/scss/root";
+@import "bootstrap/scss/reboot";
+
+@import "bootstrap/scss/type";
+@import "bootstrap/scss/images";
+@import "bootstrap/scss/containers";
+@import "bootstrap/scss/grid";
+@import "bootstrap/scss/tables";
+@import "bootstrap/scss/forms";
+@import "bootstrap/scss/buttons";
+@import "bootstrap/scss/transitions";
+// @import "bootstrap/scss/dropdown";
+@import "bootstrap/scss/button-group";
+@import "bootstrap/scss/nav";
+@import "bootstrap/scss/navbar"; // Requires nav
+@import "bootstrap/scss/card";
+// @import "bootstrap/scss/breadcrumb";
+// @import "bootstrap/scss/accordion";
+@import "bootstrap/scss/pagination";
+// @import "bootstrap/scss/badge";
+// @import "bootstrap/scss/alert";
+// @import "bootstrap/scss/progress";
+// @import "bootstrap/scss/list-group";
+@import "bootstrap/scss/close";
+// @import "bootstrap/scss/toasts";
+// @import "bootstrap/scss/modal"; // Requires transitions
+// @import "bootstrap/scss/tooltip";
+// @import "bootstrap/scss/popover";
+// @import "bootstrap/scss/carousel";
+// @import "bootstrap/scss/spinners";
+@import "bootstrap/scss/offcanvas"; // Requires transitions
+// @import "bootstrap/scss/placeholders";
+
+// Helpers
+@import "bootstrap/scss/helpers";
+
+// Utilities
+@import "bootstrap/scss/utilities/api";
+
+
+/* ==========================================================================
+   Custom styles {{{1
+   ========================================================================== */
+
+// Structural elements {{{2
+* {
+  transition: 0.3s;
+}
+
+body {
+  font-variant-numeric: oldstyle-nums proportional-nums;
+  counter-reset: sidenote-counter;
+}
+
+h2 {
+  @extend .w-100;
+}
+
+main figure {
+  @extend .figure;
+  img {
+    @extend .figure-img;
+    @extend .img-fluid;
+    @extend .border;
+    @media (prefers-color-scheme: dark) {
+      opacity: 0.8;
+    }
+  }
+}
+
+figcaption,
+blockquote > footer {
+  @extend .figure-caption;
+}
+
+main figcaption,
+blockquote > footer {
+  @extend .float-lg-end;
+  @extend .col-lg-3;
+  clear: right;
+}
+
+// Typographical elements {{{2
+main p:not(.card-text) {
+  hyphens: auto;
+}
+
+.subtitle,
+h1,
+h2,
+h3 {
+  font-family: $headings-font-family;
+  font-variant-numeric: lining-nums;
+}
+
+h3:not(.card-title) {
+  @extend .fw-medium;
+}
+
+h1,
+h4,
+h5,
+h6 {
+  @extend .w-auto;
+  @extend .fw-light;
+}
+
+h5,
+dt {
+  @extend .me-2;
+  font-family: $font-family-base;
+  font-variant: small-caps;
+}
+
+dt {
+  @extend .d-inline-block;
+  @extend .float-start;
+  @extend .pe-3;
+  @extend .fw-medium;
+}
+
+table {
+  font-family: $font-family-narrow;
+}
+
+main .row > ul li::marker {
+  content: "– ";
+}
+
+tfoot,
+.keywords-title {
+  @extend .fw-bold;
+}
+
+.site-title {
+  @extend .lh-1;
+  @extend .text-body-secondary;
+  @extend .text-decoration-none;
+  @extend .fw-light;
+  font-family: $headings-font-family;
+  font-variant: uppercase;
+  .site-subtitle {
+    @extend .fs-6;
+    @extend .fw-bold;
+    font-variant: lowercase;
+  }
+}
+
+.subtitle {
+  @extend .display-6;
+}
+
+.lead {
+  @extend .fs-3;
+  @extend .fw-medium;
+}
+
+.sidebar,
+.toc {
+  @extend .fs-6;
+  @extend .text-secondary;
+  @extend .fw-light;
+  font-family: $font-family-narrow;
+  a {
+    @extend .text-decoration-none;
+    @extend .link-secondary;
+  }
+  ul {
+    @extend .list-unstyled;
+    &.sidebar__nav > li {
+      @extend .py-2;
+      @extend .border-bottom;
+      > a {
+        @extend .fw-bold;
+        text-transform: uppercase;
+      }
+    }
+  }
+}
+
+.capitalize-first {
+  @extend .d-inline-block;
+  &:first-letter {
+    text-transform: uppercase;
+  }
+}
+
+h3.card-title,
+.btn {
+  @extend .fst-normal;
+  a {
+    @extend .link-dark;
+  }
+}
+
+
+// Blockquote {{{3
+// Bootstrap specs <blockquote> wrapped in <figure>.
+.blockquote {
+  @extend .my-3;
+  @extend .fs-6;
+}
+
+blockquote > footer,
+blockquote + figcaption {
+  @extend .col-lg-6;
+  @extend .blockquote-footer;
+}
+
+figcaption,
+blockquote > footer {
+  @extend .fw-medium;
+}
+
+small {
+  @extend .fw-medium;
+}
+
+// IDs {{{2
+#hero {
+  @extend .text-center;
+  @extend .mb-5;
+  min-height: 50vh;
+  background-size: cover;
+  background-position: center;
+  input {
+    background-color: rgba($body-bg, 80%);
+    @media (prefers-color-scheme: dark) {
+      background-color: rgba($body-bg-dark, 70%);
+    }
+  }
+  h1,
+  .lead {
+    color: $body-emphasis-color;
+    text-shadow: 1px 1px 2px rgba($body-bg, 70%);
+    @media (prefers-color-scheme: dark) {
+      color: $body-bg;
+      text-shadow: 1px 1px 2px rgba($body-bg-dark, 70%);
+    }
+  }
+}
+
+#bibliography {
+  @extend .h2;
+  @extend .fw-light;
+}
+
+// Bootstrap Classes {{{2
+.masthead {
+  @extend .d-flex;
+  @extend .flex-wrap;
+  @extend .align-items-center;
+  @extend .justify-content-between;
+  @extend .justify-content-xl-evenly;
+  ul.nav {
+    @extend .col-12;
+    @extend .col-lg-auto;
+    @extend .me-lg-auto;
+    a {
+      @extend .link-secondary;
+    }
+  }
+  ul.nav,
+  .site-title {
+    @extend .d-flex;
+    @extend .align-items-center;
+    @extend .mb-2;
+    @extend .mb-lg-1;
+    @extend .me-2;
+  }
+}
+
+.site-title {
+  @extend .link-body-emphasis;
+  @extend .text-decoration-none;
+  @extend .text-dark;
+  .site-subtitle {
+    @extend .d-inline;
+    @extend .ps-3;
+  }
+}
+
+.card-img-top {
+  @extend .object-fit-cover;
+  aspect-ratio: 3 / 2;
+  width: 100%;
+}
+
+.card-header,
+.page-footer {
+  @extend .fw-medium;
+}
+
+.page-footer {
+  @extend .d-flex;
+  @extend .flex-wrap;
+  @extend .justify-content-between;
+  @extend .align-items-center;
+  @extend .py-3;
+  @extend .my-4;
+  @extend .border-top;
+  @extend .fs-6;
+}
+
+// Tufte and CSL classes {{{2
+// Columns {{{3
+main {
+  @extend .d-md-flex;
+  @extend .flex-md-nowrap;
+}
+
+.container.has-sidebar {
+  @extend .ms-lg-0;
+  @extend .d-md-flex;
+  @extend .flex-grow-1;
+}
+
+main > .container > .row {
+  @extend .gx-3;
+  &:not(.wide) {
+    > p,
+    > h2,
+    > h3, 
+    > h4, 
+    > h5, 
+    > h6, 
+    > hr,
+    > ol, 
+    > ul, 
+    > pre, 
+    > address, 
+    > dl, 
+    > fieldset, 
+    > form, 
+    > table,
+    > figure:not(.subfigures) img:not(.col-lg-12):not(.aside),
+    #refs {
+      @extend .col-lg-8;
+    }
+    > blockquote,
+    > .blockquote {
+      @extend .col-md-11;
+      @extend .col-lg-6;
+      @extend .offset-md-1;
+    }
+  }
+}
+
+.epigraph {
+  @extend .col-md-10;
+  @extend .col-lg-5;
+  @extend .offset-md-2;
+  @extend .col-lg-6;
+  @extend .offset-lg-1;
+  @extend .fst-italic;
+}
+
+// CSL {{{3
+.hanging-indent .csl-entry {
+  @extend .my-3;
+  @extend .ps-4;
+  text-indent: -1.3rem;
+}
+
+// Marginalia {{{3
+.aside {
+  @extend .col-md-4;
+  @extend .col-lg-3;
+  @extend .float-lg-end;
+  clear: right;
+  * {
+    @extend .w-100;
+  }
+}
+
+.sidebar {
+  @extend .order-first;
+  @extend .d-md-flex;
+  @extend .flex-column;
+  @extend .flex-shrink-1;
+  @extend .me-5;
+  @extend .ms-auto;
+  @extend .ps-5;
+  @extend .opacity-50;
+  &:hover {
+    @extend .opacity-100;
+  }
+  @include media-breakpoint-up(lg) {
+    width: 300px;
+  }
+}
+
+.sidenote,
+.marginnote {
+  @extend .d-inline;
+  @extend .offcanvas;
+  @extend .offcanvas-bottom;
+  @extend .p-3;
+  @extend .text-center;
+}
+
+.sidenote-number,
+.sidenote-number:after,
+.sidenote:before {
+  @extend .fw-medium;
+}
+
+.sidenote-number {
+  @extend .mx-1;
+  cursor: pointer;
+  font-family: $font-family-base;
+  counter-increment: sidenote-counter;
+  &:after {
+    content: counter(sidenote-counter);
+    @extend .p-0;
+    @extend .btn;
+    @extend .btn-outline-secondary;
+    @extend .rounded-pill;
+    width: 1.5rem;
+    height: 1.5rem;
+    line-height: .85;
+  }
+}
+
+.sidenote:before {
+  @extend .d-inline;
+  @extend .text-start;
+  @extend .text-nowrap;
+  width: 1.3rem;
+  content: counter(sidenote-counter) " ";
+}
+
+.margin-toggle:checked + .sidenote,
+.margin-toggle:checked + .marginnote {
+  @extend .show;
+}
+
+.margin-toggle:not(.sidenote-number) {
+  @extend .d-inline;
+  @extend .d-lg-none;
+}
+
+
+// Custom classes {{{2
+.keywords,
+.keywords li {
+  @extend .d-inline;
+  @extend .m-0;
+  @extend .p-0;
+}
+
+.subfigures > figcaption {
+  @extend .col-lg-4;
+  @extend .float-lg-end;
+  p {
+    @extend .text-start;
+  }
+}
+
+.hero__caption {
+  @extend .position-absolute;
+  @extend .bottom-0;
+  @extend .end-0;
+  @extend .px-3;
+  @extend .text-end;
+  @extend .opacity-50;
+  @extend .text-bg-dark;
+  font-size: 75%;
+  border-top-left-radius: var(--bs-border-radius) !important;
+  a {
+    @extend .link-light;
+    @extend .link-opacity-75;
+    &:hover {
+      @extend .link-opacity-100;
+    }
+  }
+}
+
+.tl-timeline,
+.tl-slider-background {
+  background-color: $body-bg !important;
+}
+
+.line {
+  @extend .border-0;
+  @media (prefers-color-scheme: dark) {
+    filter: invert(.86);
+  }
+}
+
+.page-footer__credit {
+  @extend .d-flex;
+  @extend .col-md-4;
+  @extend .align-items-center;
+  @extend .text-body-secondary;
+}
+// vim: shiftwidth=2 tabstop=2 expandtab foldmethod=marker nowrap

@@ -1,32 +1,26 @@
-{% for a in album %}
-<div class="col col-sm-6 col-md-4 col-lg-3 col-xl-2">
-  <div class="card shadow-sm">
-    <img class="card-img-top" alt="Imagem do(a) {{ a.data.title }}" src="{{ a.data.teaser | url }}" />
+<div class="col">
+  <div class="card h-100 shadow-sm">
+    <img class="card-img-top" src="{{ post.data.header.teaser }}" />
     <div class="card-header">
-      {% if a.data.coverage.spatial.location.country %}
-        <span aria-label="{{ ui[a.data.coverage.spatial.location.country] }}">
-          {{ a.data.coverage.spatial.location.country | countryEmoji }}
+      {% if post.data.coverage.spatial.location.country %}
+        <span aria-label="{{ post.data.coverage.spatial.location.country }}">
+          {{ post.data.coverage.spatial.location.country | countryEmoji }}
         </span>
       {% endif %}
-      {% if a.data.coverage.spatial.location.state %}
-        {{ a.data.coverage.spatial.location.state }}
+      {% if post.data.coverage.spatial.location.state %}
+        {{ post.data.coverage.spatial.location.state }}
         ›
       {% endif %}
-      {{ a.data.coverage.spatial.location.city }}
+      {{ post.data.coverage.spatial.location.city }}
     </div>
     <div class="card-body">
       <h3 class="card-title">
-        <a href="{{ a.url }}" class="text-decoration-none link-body-emphasis">{{ a.data.title }}</a>
+        <a href="{{ post.url }}" class="text-decoration-none link-body-emphasis stretched-link">{{ post.data.title }}</a>
       </h3>
-      <p class="card-text">{{ a.data.excerpt }}</p>
-      <div class="d-flex justify-content-between align-items-center">
-        <div class="btn-group">
-          <a type="button" class="btn btn-sm btn-outline-secondary" href="{{ a.url }}">Exibir</a></a>
-          <button type="button" class="btn btn-sm btn-outline-secondary">Guardar</button>
-        </div>
-        <small class="text-body-secondary">{{ a.data.date | dateFilter }}</small>
-      </div>
+      <p class="card-text">{{ post.data.description }}</p>
     </div>
+      <div class="card-footer text-right">
+        <small class="text-body-secondary">{{ ui_text[lang].date_label }} {{ post.date | dateFilter }}</small>
+      </div>
   </div>
 </div>
-{% endfor %}

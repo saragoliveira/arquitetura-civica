@@ -7,21 +7,31 @@
   </symbol>
 </svg>
 
-{% if prevStep or nextStep %}
+{%- if tags[0] -%}
+  {%- set currentCollection = tags[0] -%}
+{%- elif tags -%}
+  {%- set currentCollection = tags -%}
+{%- endif -%}
+{%- if currentCollection -%}
+{% set collectionToNavigate = collections[currentCollection] %}
+{% set previousPost = collectionToNavigate | getPreviousCollectionItem %}
+{% set nextPost = collectionToNavigate | getNextCollectionItem %}
+{% if previousPost or nextPost %}
 <div class="container">
   <div class="row justify-content-center">
     {% include "partials/prev-next.njk" %}
   </div><!--/.col-->
 </div><!--/.container-->
 {% endif %}
+{%- endif -%}
 
-<div class="container">
+<div class="container-fluid">
   <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
     <div class="col-md-4 d-flex align-items-center">
       <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
-        {{ site.name }}
+        {{ site.title }}
       </a>
-      <span class="mb-3 mb-md-0 text-body-secondary">&copy; 2024 {{ site.author }}</span>
+      <span class="mb-3 mb-md-0 text-body-secondary">&copy; 2024 {{ site.name }}</span>
     </div>
 
     <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
@@ -31,4 +41,4 @@
   </footer>
 </div>
 
-<script src="{{ '/assets/js/main.js' | url }}"></script>
+<script src="{{ '/assets/js/main.js' }}"></script>

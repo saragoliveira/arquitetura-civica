@@ -1,7 +1,8 @@
 ---
-title: "Página inicial"
-layout: "layouts/home.njk"
-isHome: true
+title: "Arquitetura cívica tradicional"
+description: >-
+  Documentário de arquitetura cívica publicada na bibliografia de referência
+layout: "layouts/base.njk"
 header:
   overlay_image: "https://i.pinimg.com/originals/f8/3e/fb/f83efb2810cb7ae3e05ca3a47afbf7ee.jpg"
   filter: 0.5
@@ -11,31 +12,44 @@ triptych:
   title     : "Monumentalidade"
   excerpt   : "Um resumo aqui"
   url       : /monumentalidade/
-  btn_class : "btn-primary"
+  btn_class : "btn-outline-primary"
 - image_path: https://placehold.co/210x210/png
   title     : "Neocolonial"
   excerpt   : "Transposição de motivos religiosos para a arquitetura cívica neocolonial"
   url       : /neocolonial/
-  btn_class : "btn-primary"
+  btn_class : "btn-outline-primary"
 - image_path: https://placehold.co/210x210/png
   title     : "Projetos ideais"
   excerpt   : "Obras cívicas não realizadas"
   url       : /ideal/
-  btn_class : "btn-primary"
+  btn_class : "btn-outline-primary"
+pagination:
+  data: collections.civico
+  reverse: true
+  size: 6
+  alias: posts
+templateEngineOverride: njk
 ---
+
+{%- if not lang -%}
+  {%- set lang = site.locale -%}
+{%- endif %}
 
 <section id="colecoes-especiais">
   <h2 class="text-center pb-3">Coleções especiais</h2>
-  {% include "partials/triptych.njk" %}
+{%- include "partials/triptych.njk" -%}
 </section>
 
 <section id="inclusoes-recentes">
   <h2 class="text-center my-3">Inclusões recentes</h2>
-
-  <div class="container-fluid">
-    <div class="row g-3 m-3">
-    {% assign album = collections.civico | reverse %}
+  <div class="row row-cols-md-2 row-cols-xl-3 g-3 mx-5">
+  {% for post in pagination.items %}
     {% include "partials/album.njk" %}
-    </div><!--/.row-->
-  </div><!--/.container-fluid-->
+  {% endfor %}
+  </div>
+  <div class="d-flex flex-columns row-cols-md-2 row-cols-lg-3 mx-auto mt-4 justify-content-center">
+    <a type="button" href="/civico/" class="btn btn-outline-primary btn-lg">
+      {{ ui_text[lang].load_all }}
+    </a>
+  </div>
 </section>

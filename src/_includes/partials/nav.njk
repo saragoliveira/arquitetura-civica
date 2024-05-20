@@ -13,25 +13,35 @@
   </symbol>
 </svg>
 
-<header class="p-3 mb-3 border-bottom">
-  <div class="container">
-    <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-      <a href="{{ '/' | url }}" class="d-flex align-items-center mb-2 mb-lg-0 link-body-emphasis text-decoration-none">
-        <svg class="bi me-2" width="36" height="36"><use xlink:href="#arqtrad" /></svg>
+<header class="px-3 py-1 border-bottom">
+  <div class="container-fluid">
+    <nav id="site-nav" class="masthead">
+      <a href="/" class="site-title">
+        <svg class="bi me-2" width="36" height="36"><use xlink:href="#arqtrad" fill="currentColor" /></svg>
+        {{ site.title }}
+        {%- if site.subtitle %}
+        <span class="site-subtitle">
+          {{ site.subtitle }}
+        </span>
+        {%- endif %}
       </a>
 
-      <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-        <li><a href="#" class="nav-link px-2 link-secondary">Sobre o projeto</a></li>
-        <li><a href="#" class="nav-link px-2 link-body-emphasis">Lista</a></li>
-        <li><a href="#" class="nav-link px-2 link-body-emphasis">Contato</a></li>
+      {% if navigation.main %}
+      <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-end mb-md-0 ps-3">
+        {% for item in navigation.main -%}
+        <li>
+          <a href="{{ item.url }}" target="_blank" class="nav-link px-2">
+            {{ item.title | safe }}
+          </a>
+        </li>
+        {%- endfor %}
       </ul>
-
-      {% if not isHome %}
-      <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
-        <input type="search" class="form-control" placeholder="{{ ui.search_verb }}..." aria-label="{{ ui.search_verb }}">
-      </form>
       {% endif %}
 
-    </div>
+      <form class="col-12 col-lg-auto my-1 me-lg-3" role="search">
+        <input type="search" class="form-control" placeholder="{{ ui_text[lang].search_label }}..." aria-label="{{ ui_text[lang].search_label }}">
+      </form>
+
+    </nav>
   </div>
 </header>

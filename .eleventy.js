@@ -5,7 +5,6 @@
 // const plugin = require('some-eleventy-plugin-package')
 const countryEmoji = require('./src/filters/country-emoji.js');
 const { DateTime } = require('luxon');
-const dynamicCategories = require('eleventy-plugin-dynamic-categories');
 const { EleventyHtmlBasePlugin } = require("@11ty/eleventy");
 const EleventyFetch = require('@11ty/eleventy-fetch');
 const fs = require("fs");
@@ -65,10 +64,6 @@ module.exports = function(eleventyConfig) {
 	eleventyConfig.addFilter('w3DateFilter', w3DateFilter);
   eleventyConfig.addFilter('countryEmoji', countryEmoji);
   eleventyConfig.addDataExtension('yaml', contents => yaml.load(contents));
-  eleventyConfig.addPlugin(dynamicCategories, {
-    categoryVar: "categories",
-    itemCollection: "all",
-  });
   eleventyConfig.addPlugin(pluginRss, {
     posthtmlRenderOptions: {
       closingSingleTag: "slash"
@@ -81,14 +76,6 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addDataExtension('yml, yaml', contents => yaml.load(contents));
   eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
   //eleventyConfig.setQuietMode(true);
-	// https://github.com/Myllaume/eleventy-plugin-citeproc/
-	/*
-	 *eleventyConfig.addPlugin(eleventyCiteproc, {
-	 *  bibliographicStylePath: path.join(__dirname, 'assets/biblio/chicago-note-bibliography.csl'),
-	 *  bibliographicLocalizationPath: path.join(__dirname, 'assets/biblio/locales-pt-BR.xml'),
-	 *  bibliographicDataPath: path.join(__dirname, '_data/biblio.json')
-	 *});
-	 */
  /********************
   * Setup views {{{2 *
   ********************/

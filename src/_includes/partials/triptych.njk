@@ -1,3 +1,6 @@
+{%- if not lang -%}
+  {%- set lang = site.locale -%}
+{%- endif %}
 <div class="container">
   <div class="row my-3 text-center">
     {% for t in triptych %}
@@ -12,7 +15,7 @@
         <p>{{ t.excerpt }}</p>
       {% endif %}
       {% if t.url %}
-        <p><a class="btn{% if t.btn_class %} {{ t.btn_class }}{% endif %}" href="{{ t.url }}">{% if t.btn_label %}{{ t.btn_label }}{% else %}{{ ui.read_more }}…{% endif %}</a></p>
+        <p><a class="btn{% if t.btn_class %} {{ t.btn_class }}{% endif %}" href="{{ t.url }}">{% if t.btn_label %}{{ t.btn_label }}{% else %}{{ ui_text[lang].more_label }}…{% endif %}</a></p>
       {% endif %}
     </div>
     {% endfor %}

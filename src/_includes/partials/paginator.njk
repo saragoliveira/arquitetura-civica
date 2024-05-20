@@ -1,0 +1,31 @@
+<nav class="paginator my-5">
+  <ol class="pagination pagination-lg justify-content-center">
+    <li class="page-item{% if page.url == pagination.href.first %} disabled{% endif %}">
+      <a href="{{ pagination.href.first }}"
+         class="page-link"> « </a>
+    </li>
+    <li class="page-item{% if not pagination.href.previous %} disabled{% endif %}">
+      <a href="{{ pagination.href.previous }}"
+         class="page-link"> ‹ </a>
+    </li>
+    {%- for pageEntry in pagination.pages %}
+    <li class="page-item
+               {% if page.url == pagination.hrefs[ loop.index0 ] %}active{% endif %}">
+      <a href="{{ pagination.hrefs[ loop.index0 ] }}"
+         class="page-link"
+         {% if page.url == pagination.hrefs[ loop.index0 ] %} aria-current="page"{% endif %}>
+        {{ loop.index }}
+      </a>
+    </li>
+    {%- endfor %}
+    <li class="page-item{% if not pagination.href.next %} disabled{% endif %}">
+      <a href="{{ pagination.href.next }}"
+         class="page-link"> › </a>
+    </li>
+    <li class="page-item{% if page.url == pagination.href.last %} disabled{% endif %}">
+      <a href="{{ pagination.href.last }}"
+         class="page-link"> » </a>
+    </li>
+  </ol>
+</nav>
+

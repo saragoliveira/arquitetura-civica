@@ -1,12 +1,13 @@
-<div class="btn-group me-2" role="group" aria-label="Avançar ou retroceder">
-{% if prevStep %}
-  <a type="button" class="btn btn-secondary" href="{{ prevStep.url }}">« Anterior</a>
+<div class="btn-group me-2 col-md-4" role="group" aria-label="Avançar ou retroceder">
+{% if previousPost %}
+  <a type="button" class="btn btn-outline-secondary" href="{{ previousPost.url }}">« {{ ui_text[lang].pagination_previous }}</a>
 {% else %}
-  <button type="button" class="btn btn-outline-secondary">« Anterior</button>
+  <button type="button" class="btn btn-outline-secondary" disabled>« {{ ui_text[lang].pagination_previous }}</button>
 {% endif %}
-{% if nextStep %}
-  <a type="button" class="btn btn-secondary" href="{{ nextStep.url }}">Próximo »</a>
+{% if nextPost %}
+  <a type="button" class="btn btn-outline-secondary" href="{{ nextPost.url }}">{{ ui_text[lang].pagination_next }} »</a>
 {% else %}
-  <button type="button" class="btn btn-outline-secondary">Próximo »</button>
+  <button type="button" class="btn btn-outline-secondary" disabled>{{ ui_text[lang].pagination_next }} »</button>
 {% endif %}
 </div><!--/.btn-group-->
+

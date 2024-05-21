@@ -1,0 +1,202 @@
+########################################################################
+# Todos os campos abaixo são definidos pela especificação:             #
+# https://www.dublincore.org/resources/userguide/creating_metadata/    #
+# -------------------------------------------------------------------- #
+# O caractere '#' indica o início de um comentário, que prossegue      #
+# até o final da linha. Os comentários e as linhas que contêm apenas   #
+# comentários podem ser apagados das fichas.                           #
+# Linhas que contêm campos não preenchidos também podem ser apagadas   #
+# das fichas.                                                          #
+# -------------------------------------------------------------------- #
+# Todos os blocos que começam com um hífen `-` são listas que podem    #
+# conter qualquer número de linhas ou blocos.                          #
+########################################################################
+title     : "Planta da Cidade de Manaus" 
+date      :  2024-05-21 
+author    : "Sara Guimarães de Oliveira"
+description:  Desenho cartográfico da planta da cidade de Manaus em 1889, indicando os principais edíficios públicos existentes na época.
+########################################################################
+# Os agentes listados nos campos abaixo podem ser pessoas, grupos de   #
+# pessoas tratados coletivamente, ou instituições.                     #
+########################################################################
+creator: # Quem criou a própria mídia, não confundir com o campo `author` acima e nem com o autor do objeto representado pela mídia.
+  - name          : "Durango Duarte"
+    type          : "Instituto" # personal, corporate, family, other
+    vocab         : "" # Caso seja usado um vocabulário controlado para padronizar...
+    refid         : "" # ...nomes de agentes, preencher as linhas `vocab` e `refid`.
+    href          : "https://idd.org.br/iconografia/planta-da-cidade-de-manaos-1899/" # Em vez de vocabulário controlado, pode-se usar um link para
+                       # identificar o agente. Caso o agente não possua site
+                       # institucional próprio, verificar se há um registro de
+                       # autoridade no Wikidata ou no vocabulário Getty.
+contributor:           # Lista de outros envolvidos no ciclo de vida da mídia.
+  - name          : "Arthur Caccavoni" # Mesmas instruções do campo `creator`.
+    type          : "Autor"
+    role          : "" # Usar mesmos tipos que as datas?
+    attribution   : ""
+    vocab         : ""
+    refid         : ""
+    href          : ""
+publisher: # Lista de responsáveis pela publicação e difusão da mídia, por exemplo num livro ou site.
+  - name          : "Durango Duarte"
+    type          : ""
+    attribution   : ""
+    vocab         : ""
+    refid         : ""
+    href          : ""
+rightsHolder:  # Lista de quem detém direitos (copyright, etc.) sobre a mídia.
+  - name          : ""
+    type          : ""
+    vocab         : ""
+    refid         : ""
+    href          : ""
+########################################################################
+type:
+  name            : "stillImage" # https://www.dublincore.org/specifications/dublin-core/dcmi-type-vocabulary/
+  worktype: # Classe de objetos à qual a obra pertence
+    - text        : "fotografia" # Usar vocabulário controlado se possível
+      vocab       : ""
+      refid       : ""
+format:
+  fileFormat: "image/jpeg" # https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Basics_of_HTTP/MIME_Types
+  extent:              # https://www.loc.gov/standards/vracore/schemas.html
+    - type        : "" # bitDepth, duration, fileSize, height, resolution, runningTime, size, width, other
+      measurements:    # apenas o valor numérico, se necessário com ponto decimal
+      unit        : "" # sigla universal da unidade de medida
+  medium: # Meio físico de suporte da mídia, não aplicável a imagens natas digitais.
+    material:
+      - type      : "" # medium (default), support, other
+        text      : "" # Usar vocabulário controlado se possível
+        vocab     : "" # Caso use vocabulário controlado, preencher os...
+        refid     : "" # ...campos `vocab` e `refid`.
+    technique:
+      - text      : "" # Usar vocabulário controlado se possível
+        vocab     : "" # Caso use vocabulário controlado, preencher os...
+        refid     : "" # ...campos `vocab` e `refid`.
+  inscription: # Caso existam legendas, anotações, ou assinaturas no desenho original.
+    - author  : ""
+      position: ""
+      text    : ""
+      type    : "" # signature, mark, caption, date, text, translation, other (default)
+bibliographiCitation: # Fonte de onde a imagem foi extraída.
+  citekey : ""  # No formato iphan:2012inventario, conforme cadastrado no Zotero/Better BibLaTeX.
+  href    : ""  # Conforme o caso, ambos os campos citekey e href podem ser preenchidos, ou apenas um deles.
+  text    : ""  # Só precisa ser preenchido se não existir `citekey`.
+  # Sempre que possível, localizar a fonte primária --- a primeira
+  # edição de um livro para o qual uma gravura foi produzida e que
+  # conste do Archive.org ou outra base bibliográfica online, por
+  # exemplo, ou o catálogo online do museu ou arquivo que detém o
+  # original da obra. Referenciar repositórios enciclopédicos como a
+  # Wikimedia Commons, a Brasiliana Iconográfica ou o Google Arts and
+  # Culture somente quando a fonte primária for insatisfatória (baixa
+  # resolução, ausência de reprodução online, ou impossibilidade de
+  # gerar um link persistente para um verbete de catálogo, por exemplo).
+identifier:     # Seguir o mesmo formato das fichas de edificação.
+  - source: ""  # Pode ser usado para indicar, por exemplo, a cota da
+    id    : ""  # imagem num arquivo.
+########################################################################
+# Atenção! Os campos abaixo se referem à mídia propriamente dita e não #
+# ao objeto que ela representa!                                        #
+########################################################################
+coverage:        # Seguir o mesmo formato das fichas de edificação, com as ressalvas abaixo.
+  spatial:       
+    location:    # Pode ter mais de uma locação, conforme https://www.loc.gov/standards/vracore/schemas.html 
+      - type   : "" # creation, discovery, exhibition, formerOwner, formerRepository, formerSite, installation, intended, owner, performance, publication, repository, site, other
+        lat    :    # Apenas fotografias georreferenciadas precisam ter coordenadas...
+        long   :    # ...senão, preencher apenas as linhas que descrevem a localização.
+        name:
+          type : "" # corporate, geographic, personal, other
+          text : "" # Pode ser um endereço com mais de uma linha ou um nome de lugar identificável
+        city   : "" # Cidade, estado e país devem usar os nomes atuais das localidades.
+        state  : "" # Nome do estado por extenso!
+        country: "BR" # Código ISO.
+  temporal:
+    created:        # Data de criação da mídia, não confundir com o campo `date` acima.
+      date     :    # Obrigatório, no formato ISO (AAAA-MM-DD). Os demais campos são opcionais
+      qualifier: "" # Ressalvas à data precisa, tais como 'c.', 'após', 'provavelmente', etc.
+      display_date: # Representação textual complexa, caso necessário.
+      source:       # Fonte de autoridade para a data indicada.
+        citekey: "" # Seguir as instruções do campo `bibliographicCitation` acima.
+        href   : ""
+        text   : ""
+    # Os tipos de datas abaixo devem ser usados apenas se realmente
+    # necessário. Normalmente vamos deixar tais informações a cargo do
+    # acervo de origem da mídia. Usar o formato ISO, se for o caso.
+    issued:
+    available:
+    modified: # Pode ser uma lista
+    # - date: # Data no formato ISO
+    #   text: # Descrição da modificação
+    valid:
+    dateCopyrighted:
+    dateSubmitted:
+    dateAccepted:
+# Preencher o campo `subject` apenas se o *conteúdo* da mídia representar
+# temas não cobertos pelo campo `coverage` nem pelas informações da obra
+# retratada.
+subject: # Refere-se ao conteúdo da obra, conforme https://www.loc.gov/standards/vracore/schemas.html
+  - type          : "" # conceptTopic, descriptiveTopic, iconographicTopic, otherTopic, builtworkPlace, geographicPlace, otherPlace, corporateName, familyName, personalName, scientificName, otherName
+    text          : ""
+    vocab         : "" # Caso use vocabulário controlado, preencher os...
+    refid         : "" # ...campos `vocab` e `refid`.
+########################################################################
+# Direitos de reprodução de mídia são coisa séria! Os campos abaixo    #
+# devem ser usados para descrever precisa e corretamente como cada     #
+# arquivo pode ser usado no nosso projeto de pesquisa.                 #
+########################################################################
+rights:         # Termo dos direitos de reprodução da mídia, tal como
+                # exigido pelo acervo de origem. Vai ser incluído nas
+                # legendas das figuras.
+  status: "" # copyrighted, publicDomain, undetermined, other
+  text  : ""
+accessRights:   # Só preencher se explicitamente indicado pelo acervo
+                # de origem.
+license:
+  href     : "" # Link para o texto da licença.
+  text     : "" # Nome abreviado da licença, por exemplo "CC_BY", ou os
+                # dizeres "Domínio público".
+provenance : "" # Contexto original de uma mídia. Aplica-se sobretudo a
+                # imagens artesanais que foram digitalizadas, tais como
+                # pinturas ou desenhos. Descrever textualmente.
+conformsTo : "" # Inserir dos links abaixo:
+                # https://schema.org/MediaObject
+                # https://schema.org/ImageObject
+                # https://schema.org/Photograph
+                # https://schema.org/Drawing
+                # https://schema.org/Map
+                # https://schema.org/Atlas
+                # https://schema.org/DigitalDocument
+                # https://schema.org/3DModel (sbustitui MediaObject)
+relation:
+  - type   : "depicts" # Tipos usados no VRA Core:
+             # cartoonFor, cartoonIs, componentOf, componentIs, copyAfter,
+             # copyIs, counterProofFor, counterProofIs, depicts, depictedIn,
+             # derivedFrom, sourceFor, designedFor, contextIs, exhibitedAt,
+             # venueFor, facsimileOf, facsimileIs, formerlyPartOf,
+             # formerlyLargerContextFor, imageOf, imageIs, mateOf, modelFor,
+             # modelIs, partOf, largerContextFor, partnerInSetWith, pendantOf,
+             # planFor, planIs, prepatoryFor, basedOn, printingPlateFor,
+             # printingPlateIs, prototypeFor, prototypeIs, relatedTo,
+             # reliefFor, impressionIs, replicaOf, replicaIs, studyFor,
+             # studyIs, versionOf, versionIs
+    relids : "" # Referência do objeto relacionado (nome de arquivo da ficha)
+    text   : "" # Legenda da imagem
+    href   : "" # Link direto para a imagem, no caso de arquivos hospedados em outro servidor.
+########################################################################
+# Para a maior parte das obras, as informações necessárias terminam    #
+# aqui. Não usar os campos de relação abaixo até nova ordem.           #
+########################################################################
+source: # Não é fonte no sentido historiográfico, mas um objeto do qual este objeto deriva ou foi tirado.
+isPartOf:
+hasPart:
+isVersionOf:
+hasVersion:
+isFormatOf:
+replaces:
+isReplacedBy:
+isReferencedBy:
+########################################################################
+# As linhas abaixo são usadas como padrão e não precisam ser copiadas  #
+# para a ficha de cada mídia.                                          #
+########################################################################
+tags: [ "media" ]
+layout: "layouts/base.njk"

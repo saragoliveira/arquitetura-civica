@@ -7,11 +7,11 @@
   {%- set title = site.title -%}
   {%- set metaTitle = title -%}
 {%- endif -%}
-{%- if not descriptionMeta -%}
-  {%- if description -%}
-    {%- set descriptionMeta = description -%}
+{%- if not excerptMeta -%}
+  {%- if excerpt -%}
+    {%- set excerptMeta = excerpt -%}
   {%- else -%}
-    {%- set descriptionMeta = site.description -%}
+    {%- set excerptMeta = site.excerpt -%}
   {%- endif -%}
 {%- endif -%}
 {%- set currentUrl = [ site.url, page.url ] | join -%}

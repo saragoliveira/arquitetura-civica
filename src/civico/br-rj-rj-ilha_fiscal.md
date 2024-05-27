@@ -2,7 +2,7 @@
 title : "Ilha Fiscal"
 date  : 2024-04-30
 author: "Sara Guimarães de Oliveira"
-description: >-
+excerpt: >-
  Posto alfandegário ao estilo neogótico inaugurado em 1889
 alternative:
   - "Palacete Alfandegário da Ilha dos Ratos"

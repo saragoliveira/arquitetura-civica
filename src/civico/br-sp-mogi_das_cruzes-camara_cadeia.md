@@ -2,7 +2,7 @@
 title : "Casa de Câmara e Cadeia de Mogi das Cruzes"
 date  : 2024-04-24
 author: Sara Guimarães de Oliveira
-description: >-
+excerpt: >-
   Edifício público construído em taipa em 1860 com funções administravias e penais.
 alternative:
   - "Ginásio do Estado"

@@ -2,7 +2,7 @@
 title : "Alfândega de Salvador"
 date  : 2024-04-22
 author: Sara Guimarães de Oliveira
-description: >-
+excerpt: >-
   Terceiro edifício a abrigar a intituição fiscal, construído a beira do
   mar em alvenaria de pedra, organizado em um corpo central e uma
   rotunda semicircular ao fundo.

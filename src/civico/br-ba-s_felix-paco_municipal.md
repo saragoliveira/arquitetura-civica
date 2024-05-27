@@ -2,7 +2,7 @@
 title : "Paço Municipal de São Félix"
 date  : 2024-04-30
 author: Sara Guimarães de Oliveira
-description: >-
+excerpt: >-
   Centro administrativo fo município de São Félix
 alternative:
   - "Prefeitura Municipal"

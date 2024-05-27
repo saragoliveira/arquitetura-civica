@@ -2,7 +2,7 @@
 title : "Alfândega de Rio Grande"
 date  : 2024-04-22
 author: "Sara Guimarães de Oliveira"
-description: >-
+excerpt: >-
   Instituição alfandegária constuída em alvenaria de pedra sob estilo
   eclético, inaugurada em 1879.
 header:

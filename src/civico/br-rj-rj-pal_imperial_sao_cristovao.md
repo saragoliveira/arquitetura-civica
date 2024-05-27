@@ -2,7 +2,7 @@
 title : "Palácio Imperial São Cristóvão"
 date  : 2024-04-30
 author: Sara Guimarães de Oliveira
-description: >-
+excerpt: >-
   Centro de comércio e abastecimento construído em estrutura metálica e inaugurado em 1883
 alternative:
   - "Paço Imperial"

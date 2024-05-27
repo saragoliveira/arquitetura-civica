@@ -2,7 +2,7 @@
 title : "Liceu Provincial Amazonense"
 date  : 2024-04-30
 author: Sara Guimarães de Oliveira
-description: >-
+excerpt: >-
   Primeira escola pública de ensino secundário do Amazonas, começou seu
   funcionamento em 1886
 alternative:

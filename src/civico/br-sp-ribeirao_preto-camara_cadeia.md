@@ -2,7 +2,7 @@
 title : "Casa de Camâra e Cadeia de Ribeirão Preto"
 date  : 2024-04-30
 author: Sara Guimarães de Oliveira
-description: >-
+excerpt: >-
   Edifício com características ecléticas de cunho administrativo e
   prisional, inaugurado em 1889
 alternative:

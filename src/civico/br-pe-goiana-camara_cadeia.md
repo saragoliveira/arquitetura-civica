@@ -2,7 +2,7 @@
 title : "Casa de Câmara e Cadeia de Goiana"
 date  : 2024-04-30
 author: "Sara Guimarães de Oliveira" 
-description: >- 
+excerpt: >- 
   Sobrado de planta retangular construído em alvenaria mista com projeto
   assinado por Louis Léger Vauthier
 creator:

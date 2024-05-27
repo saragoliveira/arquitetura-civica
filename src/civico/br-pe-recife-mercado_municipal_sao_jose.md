@@ -2,7 +2,7 @@
 title : "Mercado Municipal de São José"
 date  : 2024-04-30
 author: "Sara Guimarães de Oliveira"
-description: >-
+excerpt: >-
   Mercado municipal do bairro de São José, baseado em dois pavilhões
   construídos em ferro pré-fabricado, sendo pioneiro brasileiro neste
   tipo de construção

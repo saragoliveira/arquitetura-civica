@@ -2,7 +2,7 @@
 title : "Praça do Comércio"
 date  : 2024-04-11 
 author: "Sara Guimarães de Oliveira" 
-description: >- 
+excerpt: >- 
   O edifício neoclássico projetado por Grandjean de Montigny abrigou a
   Alfândega do Rio de Janeiro de 1824 a 1944.
 alternative:

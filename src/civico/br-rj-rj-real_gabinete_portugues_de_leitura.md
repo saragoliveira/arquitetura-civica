@@ -2,7 +2,7 @@
 title : "Real Gabinete Português de Leitura"
 date  : 2024-04-11 
 author: "Sara Guimarães de Oliveira" 
-description: >- 
+excerpt: >- 
   Instituição de ensino e cultura constuída entre 1880 e 1887 sob estilo
   neomanuelino, com estrutura metálica. Tombada pelo Instituto Estadual
   do Patrimônio Cultural.

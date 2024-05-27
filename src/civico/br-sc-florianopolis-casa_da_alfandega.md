@@ -2,7 +2,7 @@
 title : "Casa de Alfândega"
 date  : 2024-04-22
 author: Sara Guimarães de Oliveira
-description: >-
+excerpt: >-
   Edifício construído entre 1874 e 1876 para abrigar a Alfândega de
   Florianópolis, organizado em três corpos: um sobrado central e dois
   armazens laterais

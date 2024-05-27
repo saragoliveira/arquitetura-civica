@@ -2,7 +2,7 @@
 title : "Casa de Câmara e Cadeia de Icó"
 date  : 2024-04-24
 author: Sara Guimarães de Oliveira
-description: >-
+excerpt: >-
   Edifício público construído entre o século XVIII e XIX com funções
   administravias e penais.
 alternative:

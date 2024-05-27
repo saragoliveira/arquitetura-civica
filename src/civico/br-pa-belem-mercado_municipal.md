@@ -2,7 +2,7 @@
 title : "Mercado Municipal de Belém"
 date  : 2024-04-30
 author: Sara Guimarães de Oliveira
-description: >-
+excerpt: >-
   Centro de comércio e abastecimento construído inicialmente em
   alvenaria, mas que passou por reformas para receber mais um pavimento
   e estrutura metálica.

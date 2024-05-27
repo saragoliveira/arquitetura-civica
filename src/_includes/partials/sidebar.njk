@@ -1,0 +1,29 @@
+{% if not lang %}{% set lang = site.locale %}{% endif %}
+{%- if author_profile %}
+<div class="author__profile" itemscope itemtype="https://schema.org/Person">
+  {% if author %}
+    {% set author = members[author] %}
+  {% else %}
+    {% set author = members[site.name] %}
+  {% endif %}
+  {% include "partials/author-profile.njk" %}
+</div>
+{%- endif %}
+{% if sidebar.nav %}
+<ul class="sidebar__nav">
+  {% for i in navigation[sidebar.nav] %}
+  <li>
+    <a href="{{ i.url }}">{{ i.title }}</a>
+    {% if i.children %}
+    <ul>
+    {% for i in i.children %}
+      <li>
+        <a href="{{ i.url }}">{{ i.title }}</a>
+      </li>
+    {% endfor %}
+    </ul>
+    {% endif %}
+  </li>
+  {% endfor %}
+</ul>
+{% endif %}

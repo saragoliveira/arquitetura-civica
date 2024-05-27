@@ -6,12 +6,15 @@
 <hr class="clearfix border-0" />
 <div class="container-fluid">
   <div class="row row-cols-md-2 row-cols-lg-3 row-cols-xl-6 g-3 mx-5">
-  {% for post in pagination.items %}
-    {% include "partials/album.njk" %}
-  {% endfor %}
+  {%- if not paginationTemplate %}
+    {%- set paginationTemplate = "partials/album.njk" %}
+  {%- endif %}
+  {%- for post in pagination.items %}
+    {% include paginationTemplate %}
+  {%- endfor %}
   </div>
-  {% if pagination %}
+  {%- if ( pagination.href.last != pagination.href.first ) %}
   {%- include "partials/paginator.njk" %}
-  {% endif %}
+  {%- endif %}
 </div>
 {%- endblock -%}

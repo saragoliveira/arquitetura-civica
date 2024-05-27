@@ -1,8 +1,8 @@
 {% extends "layouts/base.njk" %}
 
-{% block pagecontent %}
 <script src="/assets/leaflet/leaflet.js"></script>
 
+{% block pagecontent %}
 <div class="col col-md-8 order-2">
   {{ content | safe }}
 </div><!--/.col-md-8-->
@@ -15,11 +15,10 @@
         {% if coverage.spatial.location.country %}
           {{ coverage.spatial.location.country | countryEmoji }}
           {{ ui[coverage.spatial.location.country] }}
-          ›
         {% endif %}
         {% if coverage.spatial.location.state %}
           {{ coverage.spatial.location.state }}
-          ›
+          <i class="bi bi-chevron-compact-right" aria-hidden="true"></i>
         {% endif %}
         {% if coverage.spatial.location.city %}
           {{ coverage.spatial.location.city }}
@@ -40,7 +39,7 @@
             {{ equipe[author].name }}
           {% endfor %}
         {% elif author %}
-          Responsável: {{ author }}
+          Responsável: {{ equipe[author].name }}
         {% endif %}
       </li>
     </ul>
@@ -48,13 +47,12 @@
 </div><!--/.col-md-4-->
 {% endblock %}
 
-{% block archive %}
+{% block after %}
 <div class="container-fluid text-center">
 {% if coverage.temporal %}
   {% set timelineData %}
     {{ coverage.temporal | dump | safe }}
   {% endset %}
-  <hr class="border-0 clearfix" />
   {% include "partials/timeline.njk" %}
 {% endif %}
 
@@ -65,7 +63,6 @@
 {% endif %}
 
 {% if media %}
-  <hr class="border-0 clearfix" />
   <h2 id="iconografia" style="text-transform: capitalize;">{{ ui_text[lang].iconography }}</h2>
   <div class="row g-3 mx-3">
   {% for post in media %}
@@ -74,8 +71,6 @@
   </div><!--/.row-->
 {% endif %}
 </div><!--/.container-fluid-->
-
-<hr class="border-0 clearfix" />
 
 <!--Leaflet map generator-->
 <script>

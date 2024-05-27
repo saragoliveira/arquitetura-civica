@@ -41,18 +41,24 @@
 {%- endblock %}
 
 <main>
-<div class="container{% if sidebar or author_profile %} has-sidebar{% endif %}">
+<div id="main" class="container{% if sidebar or author_profile %} has-sidebar{% endif %}">
   <div class="row{% if classes %} {{ classes }}{% endif %}">
+  {%- if sidebar.nav %}
+  <small class="d-md-none mb-5">
+    <a class="btn btn-outline-secondary" href="#sidebar">{{ ui_text[lang].skip_primary_nav }}</a>
+  </small>
+  {%- endif %}
   {% block pagecontent -%}
   {{ content | safe }}
   {%- endblock %}
   </div>
 </div>
-{%- if sidebar or author_profile -%}
-<div class="sidebar">
+{%- if sidebar or author_profile %}
+<div class="sidebar" id="sidebar">
+  <a class="d-md-none" href="#main">{{ ui_text[lang].skip_content }}</a>
   {%- include "partials/sidebar.njk" -%}
-  </div>
-{%- endif -%}
+</div>
+{%- endif %}
 </main>
 
 {% block archive %}

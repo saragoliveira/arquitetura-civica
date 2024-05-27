@@ -49,19 +49,23 @@ publisher: # Lista de responsáveis pela publicação e difusão da mídia, por 
     vocab         : ""
     refid         : ""
     href          : ""
-rightsHolder:  # Lista de quem detém direitos (copyright, etc.) sobre a mídia.
-  - name          : ""
-    type          : ""
-    vocab         : ""
-    refid         : ""
-    href          : ""
+rightsHolder:  # Lista de quem detém direitos (copyright, etc.) sobre a mídia. Mesmo formato que `contributor`.
 ########################################################################
+conformsTo : "" # Inserir dos links abaixo:
+                # https://schema.org/MediaObject
+                # https://schema.org/ImageObject
+                # https://schema.org/Photograph
+                # https://schema.org/Drawing
+                # https://schema.org/Map
+                # https://schema.org/Atlas
+                # https://schema.org/DigitalDocument
+                # https://schema.org/3DModel
 type:
   name            : "stillImage" # https://www.dublincore.org/specifications/dublin-core/dcmi-type-vocabulary/
   worktype: # Classe de objetos à qual a obra pertence
-    - text        : "fotografia" # Usar vocabulário controlado se possível
-      vocab       : ""
-      refid       : ""
+    text          : "fotografia" # Usar vocabulário controlado se possível
+    vocab         : ""
+    refid         : ""
 format:
   fileFormat: "image/jpeg" # https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Basics_of_HTTP/MIME_Types
   extent:              # https://www.loc.gov/standards/vracore/schemas.html
@@ -149,29 +153,15 @@ subject: # Refere-se ao conteúdo da obra, conforme https://www.loc.gov/standard
 # devem ser usados para descrever precisa e corretamente como cada     #
 # arquivo pode ser usado no nosso projeto de pesquisa.                 #
 ########################################################################
-rights:         # Termo dos direitos de reprodução da mídia, tal como
-                # exigido pelo acervo de origem. Vai ser incluído nas
-                # legendas das figuras.
-  status: "" # copyrighted, publicDomain, undetermined, other
-  text  : ""
+rights:         # Termo dos direitos de reprodução da mídia, tal como exigido pelo acervo de origem. Vai ser incluído nas legendas das figuras.
+  status       : "publicDomain"
+  text         : "Domínio público"
+license:
+  href         : "https://commons.wikimedia.org/wiki/Template:PD-BR-1935" # Link para o texto da licença.
+  text         : "Domínio público" # Nome abreviado da licença, por exemplo "CC_BY", ou os dizeres "Domínio público".
 accessRights:   # Só preencher se explicitamente indicado pelo acervo
                 # de origem.
-license:
-  href     : "" # Link para o texto da licença.
-  text     : "" # Nome abreviado da licença, por exemplo "CC_BY", ou os
-                # dizeres "Domínio público".
-provenance : "" # Contexto original de uma mídia. Aplica-se sobretudo a
-                # imagens artesanais que foram digitalizadas, tais como
-                # pinturas ou desenhos. Descrever textualmente.
-conformsTo : "" # Inserir dos links abaixo:
-                # https://schema.org/MediaObject
-                # https://schema.org/ImageObject
-                # https://schema.org/Photograph
-                # https://schema.org/Drawing
-                # https://schema.org/Map
-                # https://schema.org/Atlas
-                # https://schema.org/DigitalDocument
-                # https://schema.org/3DModel (sbustitui MediaObject)
+provenance : "" # Contexto original de uma mídia. Aplica-se sobretudo a imagens artesanais que foram digitalizadas, tais como pinturas ou desenhos. Descrever textualmente.
 relation:
   - type   : "depicts" # Tipos usados no VRA Core:
              # cartoonFor, cartoonIs, componentOf, componentIs, copyAfter,

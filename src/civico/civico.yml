@@ -142,6 +142,34 @@ subject: # Refere-se ao conteúdo da obra, conforme https://www.loc.gov/standard
     vocab         : "" # Caso use vocabulário controlado, preencher os...
     refid         : "" # ...campos `vocab` e `refid`.
 conformsTo : "https://schema.org/CivicStructure"
+drawings:
+  - refid             : "" # O nome do arquivo sem a extensão.
+    filetype          : "" # A extensão do nome do arquivo sem o ponto. Se omitido, o padrão é "svg".
+    text              : "" # Título do desenho.
+    type              :    # 0 = geral, 1 = planta baixa (padrão), 2 = elevação, 3 = corte, 4 = mapa de elementos, 5 = detalhe, 6 = mapa de revestimentos, 7 = planta de forro, 8 = vista ou modelo 3D, 9 = definido pelo agente
+    author            : "" # Quem fez o redesenho para este projeto de pesquisa.
+    date              :    # Data da atual revisão do redesenho.
+    revision          : "" # Formato BS1192
+    suitability       : "" # Formato BS1192
+    source:                # Original(is) a partir do(s) qual(is) o redesenho foi feito.
+      - relids        : "" # Caso o original tenha uma cota de arquivo ou outro identificador.
+        href          : "" # Link onde o original pode ser encontrado, se houver.
+        text          : "" # Título ou descrição sucinta que identifique o original.
+        creator:           # Autor (arquiteto ou desenhista) do original, se conhecido ou diferente do `creator` da edificação.
+          name        : ""
+          type        : ""
+          attribution : ""
+          vocab       : ""
+          refid       : ""
+          href        : ""
+    coverage:
+      temporal:            # Período histórico da edificação ao qual o desenho corresponde.
+        start_date:
+          year       :
+          display_date:
+        end_date:
+          year       :
+          display_date:
 # Registro de modificações na ficha:
 log:
   - date: 

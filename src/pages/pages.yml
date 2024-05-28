@@ -1,0 +1,6 @@
+layout          : "layouts/base.njk"
+header:
+  teaser        : "/assets/media/an-teaser.jpg"
+  overlay_image : "/assets/media/an-overlay.jpg"
+  overlay_filter: 0.7
+  caption       : "Antiga sede do Arquivo Nacional à praça da República, 1905"

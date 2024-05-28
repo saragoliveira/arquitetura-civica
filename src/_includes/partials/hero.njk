@@ -1,5 +1,5 @@
 <style>
-#hero {
+.page__hero--overlay {
   background-image:
     {%- if header.overlay_filter -%}
     linear-gradient(rgba(255, 255, 255, {{ header.overlay_filter }}),
@@ -18,7 +18,7 @@
 </style>
 
 <div class="position-relative mb-5">
-  <div id="hero" class="d-flex align-items-center p-5 bg-body-tertiary page__hero{% if header.overlay_color or header.overlay_image %}--overlay{% endif %}">
+  <div id="hero" class="page__hero{% if header.overlay_color or header.overlay_image %}--overlay{% endif %}{% if page.url == "/" %} hero-home{% endif %}">
     <div class="container py-5 flex-column">
       <h1 class="display-1">
         {% if title %}{{ title | safe }}{% else %}{{ site.title }}{% endif %}
@@ -36,9 +36,11 @@
         <p><a href="{{ header.cta_url }}" class="btn btn--light-outline btn--large">{{ header.cta_label }}</a></p>
       {% endif %}
       {% if header.actions %}
-        <p>
+        <p class="action">
         {% for action in header.actions %}
-          <a href="{{ action.url }}" class="btn btn--light-outline btn--large">{{ action.label }}</a>
+        <a href="{{ action.href }}"{% if action.btn_class %} class="{{ action.btn_class }}"{% endif %}>
+          {{ action.label | safe }}
+        </a>
         {% endfor %}
         {% endif %}
     </div>

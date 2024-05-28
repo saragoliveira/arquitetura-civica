@@ -67,16 +67,20 @@ log:
     message: "Inclui campos para bases documentais"
 ---
 
-Fundada em 1816, por um decreto de D. João VI, e construída entre 1822 e
-1826, a Escola Real de Ciências, Artes e Ofício, posteriormente
-renomeada de Academia Imperial de Belas Artes, é simbolo do trabalho da
-Missão Artística Francesa que trouxe o ensino artístico clássico europeu
-para o Rio de Janeiro. O edifício foi projetado por Grandjean de
-Montigny, o mesmo foi diretor da instituição quando inaugurada.
+</blockquote>
 
-O edifício, com sua missão de formação artística, cultural e técnica de
-estudantes, foi palco de aulas, cursos e exposições, como a I Exposição
-da Classe de Pintura Histórica, a primeira exposição de artes do Brasil,
-liderada pelo francês Jean Baptiste Debret. Com o advento da República a
-instituição foi extinta em 1931 e o edifício demolido em 1938.
-
+>Fundada em 1816, por um decreto de D. João VI, e construída entre 1822 e
+>1826, a Escola Real de Ciências, Artes e Ofício, posteriormente
+>renomeada de Academia Imperial de Belas Artes, é simbolo do trabalho da
+>Missão Artística Francesa que trouxe o ensino artístico clássico europeu
+>para o Rio de Janeiro. O edifício foi projetado por Grandjean de
+>Montigny, o mesmo foi diretor da instituição quando inaugurada.
+>
+>O edifício, com sua missão de formação artística, cultural e técnica de
+>estudantes, foi palco de aulas, cursos e exposições, como a I Exposição
+>da Classe de Pintura Histórica, a primeira exposição de artes do Brasil,
+>liderada pelo francês Jean Baptiste Debret. Com o advento da República a
+>instituição foi extinta em 1931 e o edifício demolido em 1938.
+>
+>  <footer class="figure-caption">Texto reproduzido do <cite>Ipatrimônio</footer>
+</blockquote>

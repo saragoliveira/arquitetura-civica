@@ -71,4 +71,4 @@ log:
 > Lisboa, visto que este nome esta gravado acima do portão de entrada, e
 > remete ao prefeito de Manaus na época de sua inauguração.
 >
-> <footer></footer>
+> <footer>Texto reproduzido do Instituto do Patrimônio Histórico e Artístico Nacional</footer>

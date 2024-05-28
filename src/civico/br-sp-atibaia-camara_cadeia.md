@@ -61,13 +61,18 @@ log:
     message: "Inclui campos para bases documentais"
 ---
 
-A Casa de Camara e Cadeia abrigava as funções legislativa e
-penitenciária do município de Atibaia, construída em taipa de pilão sob
-um partido simples e sem requintes de fachada e um telhado de quatro
-águas. Em razão do estado de depredação em que se encontrava em 1950 a
-comunidade e orgãos públicos buscaram o processo de tombamento e
-reforma. Em 1955 foi tombada pelo Iphan como patrimônio histórico e em
-1958 foram iniciadas as obras de reforma e restauro sob projeto do
-arquiteto Luis Saia. Hoje no edifício funciona o Museu João Batista
-Conti.
+</blockquote>
 
+>A Casa de Camara e Cadeia abrigava as funções legislativa e
+>penitenciária do município de Atibaia, construída em taipa de pilão sob
+>um partido simples e sem requintes de fachada e um telhado de quatro
+>águas. Em razão do estado de depredação em que se encontrava em 1950 a
+>comunidade e orgãos públicos buscaram o processo de tombamento e
+>reforma. Em 1955 foi tombada pelo Iphan como patrimônio histórico e em
+>1958 foram iniciadas as obras de reforma e restauro sob projeto do
+>arquiteto Luis Saia. Hoje no edifício funciona o Museu João Batista
+>Conti.
+
+  <footer class="figure-caption">Texto reproduzido
+  do <cite>IPatrimônio</footer>
+</blockquote>

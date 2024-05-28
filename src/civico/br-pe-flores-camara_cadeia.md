@@ -50,17 +50,24 @@ log:
     message: "Preenchimento da ficha. Falta adicionar a Iconografia, os DWGs e Docs"
 ---
 
-A Casa de Câmara e Cadeia de Flores foi inaugurada, provisoriamente, em
-17 de setembro de 1881 como estabelecimento público de administração e
-penal do município de Flores, em Pernambuco. O edifício foi construído
-sob uma planta retangular em torno de um pátio central, a partir do qual
-se organizavam as diferentes repartições do programa de necessidades,
-como a cadeia, com celas femininas e masculinas, o corpo de guarda, a
-câmara, o juri, a cozinha e a enfermaria. As paredes eram em alvenaria
-de tijolo de barro tendo cerca de 80cm de espessura. Por esses e outros
-fatores a cadeia, na época era considerada a maior do Sertão. Apesar
-disso, em 1930 o edifício passou a abrigar a sede da prefeitura
-municipal e atualmente é o Palácio Municipal de Manoel de Sousa Santana,
-ele está em processo de tombamento, até o presente momento a última
-deliberação foi que o Conselho Estadual aprovou o tombamento em Março de 2024.
 
+<blockquote>
+
+>A Casa de Câmara e Cadeia de Flores foi inaugurada, provisoriamente, em
+>17 de setembro de 1881 como estabelecimento público de administração e
+>penal do município de Flores, em Pernambuco. O edifício foi construído
+>sob uma planta retangular em torno de um pátio central, a partir do qual
+>se organizavam as diferentes repartições do programa de necessidades,
+>como a cadeia, com celas femininas e masculinas, o corpo de guarda, a
+>câmara, o juri, a cozinha e a enfermaria. As paredes eram em alvenaria
+>de tijolo de barro tendo cerca de 80cm de espessura. Por esses e outros
+>fatores a cadeia, na época era considerada a maior do Sertão. Apesar
+>disso, em 1930 o edifício passou a abrigar a sede da prefeitura
+>municipal e atualmente é o Palácio Municipal de Manoel de Sousa Santana,
+>ele está em processo de tombamento, até o presente momento a última
+>deliberação foi que o Conselho Estadual aprovou o tombamento em Março de 2024.
+
+
+  <footer class="figure-caption">Texto reproduzido
+  do <cite>CASAS DE CÂMARA E CADEIA: UMA ANÁLISE TIPOLÓGICA DE PORTUGAL À COLÔNIA<cite>, Cecília Barthel C. Campello<cite>, 2012</footer>
+</blockquote>

@@ -36,10 +36,10 @@
         {% if authors %}
           Responsáveis:
           {% for author in authors %}
-            {{ equipe[author].name }}
+            {{ members[author].name }}
           {% endfor %}
         {% elif author %}
-          Responsável: {{ equipe[author].name }}
+          Responsável: {{ members[author].name }}
         {% endif %}
       </li>
     </ul>

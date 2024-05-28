@@ -63,23 +63,17 @@ module.exports = function(eleventyConfig) {
   });
 	eleventyConfig.addFilter('w3DateFilter', w3DateFilter);
   eleventyConfig.addFilter('countryEmoji', countryEmoji);
-  eleventyConfig.addDataExtension('yaml', contents => yaml.load(contents));
   eleventyConfig.addPlugin(pluginRss, {
     posthtmlRenderOptions: {
       closingSingleTag: "slash"
     }
   });
-  // Convert YAML to JSON for timelineData
   eleventyConfig.addFilter('yamlToJson', (value) => {
     const yaml = require('js-yaml');
     return JSON.stringify(yaml.load(value));
   });
-  // Base Url plugin
+  eleventyConfig.addDataExtension('yml, yaml', contents => yaml.load(contents));
   eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
-  eleventyConfig.setFrontMatterParsingOptions({
-		excerpt: true,
-    excerpt_separator: "<!-- excerpt -->"
-	});
   //eleventyConfig.setQuietMode(true);
  /********************
   * Setup views {{{2 *
@@ -98,8 +92,8 @@ module.exports = function(eleventyConfig) {
   // If needed, return an object configuration
   return {
     dir: {
-			templateFormats: ["html", "liquid", "njk"],
 			htmlTemplateEngine: "njk",
+			templateFormats: ["html", "liquid", "njk"],
       input: 'src',
       output: '_site',
       includes: '_includes'

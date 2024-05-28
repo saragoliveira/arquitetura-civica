@@ -1,0 +1,35 @@
+Pedro Palazzo:
+  name          : "Pedro Paulo Palazzo"
+  avatar        : "https://avatars3.githubusercontent.com/u/8295666"
+  bio           : 'Coordenador do projeto'
+  location      : "Universidade de Brasília"
+  email         : "palazzo@unb.br"
+  uri           : "https://palazzo.pt"
+  orcid         : "https://orcid.org/0000-0002-0187-774X"
+  lattes        : "http://lattes.cnpq.br/5767592881382885"
+  links:
+    - label: "Ciência Vitæ"
+      icon: "ai ai-ciencia-vitae"
+      url: "https://www.cienciavitae.pt//pt/D91E-0C60-B56B"
+    - label: "ResearchGate"
+      icon: "ai ai-researchgate"
+      url: "https://www.researchgate.net/profile/Pedro-Palazzo"
+    - label: "LinkedIn"
+      icon : "bi bi-linkedin"
+      url  : "https://linkedin.com/in/p3palazzo"
+    - label: "GitHub"
+      icon: "bi bi-github"
+      url: "https://github.com/p3palazzo"
+
+Sara Guimarães de Oliveira:
+  name          : "Sara Guimarães de Oliveira"
+  givenName     : "Sara Guimarães"
+  additionalName: "de"
+  familyName    : "Oliveira"
+  avatar        : "https://estrategias-construcao.tradicional.arq.br/assets/media/avatar-sara-oliveira.jpg"
+  bio           : "Iniciação científica 2023–2024"
+  location      : "Universidade de Brasília"
+  orcid         : "https://orcid.org/0009-0001-0286-1870"
+  lattes        : "http://lattes.cnpq.br/0122614630973026"
+  links:
+

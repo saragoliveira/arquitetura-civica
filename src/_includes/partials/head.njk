@@ -55,3 +55,12 @@
 {% endif %}
 
 <link rel="stylesheet" type="text/css" href="/assets/css/main.css" />
+{%- if css %}
+{%- if css[0] %}
+{%- for css in css %}
+<link rel="stylesheet" type="text/css" href="{{ css }}" />
+{%- endfor %}
+{%- else %}
+<link rel="stylesheet" type="text/css" href="{{ css }}" />
+{%- endif %}
+{%- endif %}

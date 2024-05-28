@@ -147,7 +147,7 @@ $success:             #7952b3;
 
 $font-family-serif:      "eb-garamond", "et-book", Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
 $font-family-unb:        "UnB Pro", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
-$font-family-narrow:     "league-gothic", "Arial Narrow", sans-serif;
+$font-family-narrow:     "open-sans-condensed", "league-gothic", "Arial Narrow", sans-serif;
 
 $font-family-base:     $font-family-unb;
 $font-size-base:       1.3rem;
@@ -320,15 +320,13 @@ tfoot,
 
 .site-title {
   @extend .lh-1;
-  @extend .text-body-secondary;
   @extend .text-decoration-none;
-  @extend .fw-light;
+  @extend .text-primary-emphasis;
+  @extend .link-body-emphasis;
   font-family: $headings-font-family;
-  font-variant: uppercase;
   .site-subtitle {
     @extend .fs-6;
     @extend .fw-bold;
-    font-variant: lowercase;
   }
 }
 
@@ -341,15 +339,23 @@ tfoot,
   @extend .fw-medium;
 }
 
+#site-nav ul,
 .sidebar,
 .author__profile,
-.toc {
-  @extend .text-secondary;
+.toc,
+.page-footer {
+  @extend .text-body-secondary;
+  @extend .fw-light;
   font-family: $font-family-narrow;
   a {
     @extend .text-decoration-none;
     @extend .link-secondary;
   }
+}
+
+.sidebar,
+.author__profile,
+.toc {
   ul {
     @extend .list-unstyled;
     &.sidebar__nav > li {
@@ -380,13 +386,14 @@ h3.card-title,
 
 .author__profile,
 .author__profile li {
-  .author__bio {
-    @extend .text-secondary;
-  }
   a {
     @extend .link-body-emphasis;
     @extend .text-decoration-none;
   }
+}
+
+.author__bio {
+  @extend .text-secondary;
 }
 
 
@@ -443,12 +450,14 @@ small {
 }
 
 // Bootstrap Classes {{{2
-.masthead {
+.masthead,
+.page-footer {
   @extend .d-flex;
   @extend .flex-wrap;
   @extend .align-items-center;
   @extend .justify-content-between;
   @extend .justify-content-xl-evenly;
+  @extend .px-3;
 }
 
 ul.nav,
@@ -488,9 +497,6 @@ ul.nav {
 }
 
 .site-title {
-  @extend .link-body-emphasis;
-  @extend .text-decoration-none;
-  @extend .text-dark;
   .site-subtitle {
     @extend .d-inline;
     @extend .ps-3;
@@ -503,8 +509,7 @@ ul.nav {
   width: 100%;
 }
 
-.card-header,
-.page-footer {
+.card-header {
   @extend .fw-medium;
 }
 
@@ -522,14 +527,8 @@ ul.nav {
 }
 
 .page-footer {
-  @extend .d-flex;
-  @extend .flex-wrap;
-  @extend .justify-content-between;
-  @extend .align-items-center;
-  @extend .py-3;
   @extend .my-4;
   @extend .border-top;
-  @extend .fs-6;
 }
 
 // Tufte and CSL classes {{{2

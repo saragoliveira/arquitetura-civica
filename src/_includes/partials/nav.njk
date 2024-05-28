@@ -28,10 +28,10 @@
 
       {% if navigation.main %}
       <ul class="nav">
-        {% for item in navigation.main -%}
+        {% for m in navigation.main -%}
         <li>
-          <a href="{{ item.url }}" {% if item.target %}target="{{ item.target }}" {% endif %}class="nav-link{% if item.class %} {{ item.class }}{% endif %}">
-            {{ item.title | safe }}
+          <a href="{{ m.url }}" {% if m.target %}target="{{ m.target }}" {% endif %}class="nav-link{% if m.class %} {{ m.class }}{% endif %}">
+            {{ m.title | safe }}
           </a>
         </li>
         {%- endfor %}

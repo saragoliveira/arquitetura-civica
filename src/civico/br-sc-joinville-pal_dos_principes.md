@@ -59,14 +59,19 @@ log:
     message: "Completei o fichamento, falta adicionar mídia, docs e dwg"
 ---
 
-O engenheiro e administrador dos bens do Príncipe de Joinville,
-Frederico Bruestlein propôs um projeto para um casarão com dimensões
-inspiradas nos padrões de uma casa média de Paris, sob estilo
-predominante, o neoclássico; possuindo simetria, uso de colunas e arcos,
-pórtico colunado e frontão triangular. Inaugurado em 1870 o casarão
-passou a abrigar a administração da colônia Dona Francisca. Foi a
-primeira edificação não litorânea tombada em Santa Catarina, em 1939,
-pelo Patrimônio Histórico Nacional - SPHAN. Tornou-se Museu Nacional de
-Imigração e Colonização por intermédio da Lei Federal n.º 3.188, de 02
-de julho de 1957.
+</blockquote>
 
+>O engenheiro e administrador dos bens do Príncipe de Joinville,
+>Frederico Bruestlein propôs um projeto para um casarão com dimensões
+>inspiradas nos padrões de uma casa média de Paris, sob estilo
+>predominante, o neoclássico; possuindo simetria, uso de colunas e arcos,
+>pórtico colunado e frontão triangular. Inaugurado em 1870 o casarão
+>passou a abrigar a administração da colônia Dona Francisca. Foi a
+>primeira edificação não litorânea tombada em Santa Catarina, em 1939,
+>pelo Patrimônio Histórico Nacional - SPHAN. Tornou-se Museu Nacional de
+>Imigração e Colonização por intermédio da Lei Federal n.º 3.188, de 02
+>de julho de 1957.
+
+  <footer class="figure-caption">Texto reproduzido
+  do <cite>IPatrimônio</footer>
+</blockquote>

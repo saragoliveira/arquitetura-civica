@@ -65,29 +65,32 @@ log:
     message: "Preenchimento da ficha. Falta adicionar a Iconografia, os DWGs e Docs."
 ---
 
-O edifício foi construído inicialmente para abrigar os órfãos do
-Seminário de São Pedro sob o nome de Seminário de São Joaquim, no
-entanto, em 1837 foi estabelecido, por um decreto imperial, que ali
-seria uma nova instituição de ensino, o Imperial Colégio Dom Pedro II.
-Sob a lógica do período regencial essa mudança se deu visando fortalecer
-a unidade do Império por meio da ampliação das instituições estatais. O
-colégio desempenhou um papel crucial na formação de uma elite nacional,
-transmitindo valores culturais e conhecimentos variados, refletidos em
-um currículo voltado para as 'humanidades'. Após a proclamação da
-República, foi renomeado diversas vezes até adquirir sua denominação
-atual, Colégio Pedro II, em 1911.
+</blockquote>
 
-O prédio principal do Colégio Pedro II, localizado no bairro do São
-Cristóvão, foi inaugurado em 1858. O edifício é uma obra arquitetônica
-de grande importância, com um estilo neoclássico que reflete a
-influência da arquitetura europeia da época. Ao longo dos anos, o
-colégio passou por várias reformas e ampliações para atender à crescente
-demanda por educação de qualidade. Em 1983, o prédio foi tombado pelo
-Patrimônio Histórico e Cultural.
-
-Atualmente, o Colégio Pedro II é uma das mais prestigiadas instituições
-de ensino do país, oferecendo desde a educação básica até o ensino
-médio, além de cursos técnicos e de graduação. Sua história e tradição o
-tornam um símbolo da educação no Brasil, com um papel fundamental na
-formação de gerações de estudantes ao longo dos anos. 
-
+>O edifício foi construído inicialmente para abrigar os órfãos do
+>Seminário de São Pedro sob o nome de Seminário de São Joaquim, no
+>entanto, em 1837 foi estabelecido, por um decreto imperial, que ali
+>seria uma nova instituição de ensino, o Imperial Colégio Dom Pedro II.
+>Sob a lógica do período regencial essa mudança se deu visando fortalecer
+>a unidade do Império por meio da ampliação das instituições estatais. O
+>colégio desempenhou um papel crucial na formação de uma elite nacional,
+>transmitindo valores culturais e conhecimentos variados, refletidos em
+>um currículo voltado para as 'humanidades'. Após a proclamação da
+>República, foi renomeado diversas vezes até adquirir sua denominação
+>atual, Colégio Pedro II, em 1911.
+>
+>O prédio principal do Colégio Pedro II, localizado no bairro do São
+>Cristóvão, foi inaugurado em 1858. O edifício é uma obra arquitetônica
+>de grande importância, com um estilo neoclássico que reflete a
+>influência da arquitetura europeia da época. Ao longo dos anos, o
+>colégio passou por várias reformas e ampliações para atender à crescente
+>demanda por educação de qualidade. Em 1983, o prédio foi tombado pelo
+>Patrimônio Histórico e Cultural.
+>
+>Atualmente, o Colégio Pedro II é uma das mais prestigiadas instituições
+>de ensino do país, oferecendo desde a educação básica até o ensino
+>médio, além de cursos técnicos e de graduação. Sua história e tradição o
+>tornam um símbolo da educação no Brasil, com um papel fundamental na
+>formação de gerações de estudantes ao longo dos anos. 
+>  <footer class="figure-caption">Texto reproduzido do <cite>Arquivo Nacional <cite> MAPA </footer>
+</blockquote>

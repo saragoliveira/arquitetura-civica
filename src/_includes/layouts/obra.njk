@@ -1,13 +1,11 @@
 {% extends "layouts/base.njk" %}
-
-<script src="/assets/leaflet/leaflet.js"></script>
-
 {% block pagecontent %}
+<script src="/assets/leaflet/leaflet.js"></script>
 <div class="col col-md-8 order-2">
   {{ content | safe }}
 </div><!--/.col-md-8-->
 
-<div class="col col-md-4 order-1">
+<div class="col col-md-4 order-1 mb-5">
   <div class="card">
     <div id="map" class="card-img-top" style="width: 100%; height: 400px;"></div>
     <ul class="list-group list-group-flush">
@@ -48,7 +46,7 @@
 {% endblock %}
 
 {% block after %}
-<div class="container-fluid text-center">
+<div class="container-fluid text-center my-5">
 {% if coverage.temporal %}
   {% set timelineData %}
     {{ coverage.temporal | dump | safe }}
@@ -62,7 +60,7 @@
 {% if docs %}
 {% endif %}
 
-{% if media %}
+{% if relation %}
   <h2 id="iconografia" style="text-transform: capitalize;">{{ ui_text[lang].iconography }}</h2>
   <div class="row g-3 mx-3">
   {% for post in media %}
@@ -74,7 +72,7 @@
 
 <!--Leaflet map generator-->
 <script>
-  const map = L.map('map').setView([{{ coverage.spatial.location.lat }}, {{ coverage.spatial.location.long }}], {{ coverage.spatial.location.zoom }});
+  var map = L.map('map').setView([{{ coverage.spatial.location.lat }}, {{ coverage.spatial.location.long }}], {{ coverage.spatial.location.zoom }});
   const marker = L.marker([{{ coverage.spatial.location.lat }}, {{ coverage.spatial.location.long }}]).addTo(map);
   const tiles = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
     maxZoom: 19,

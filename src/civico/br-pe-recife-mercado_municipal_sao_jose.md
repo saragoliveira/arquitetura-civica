@@ -53,7 +53,7 @@ coverage:
           year: "1875"
         display_date: "c. 1872-75"
       - text:
-          headline: "Incêncio e reconstrução"
+          headline: "Incêndio e reconstrução"
         start_date:
           year: "1989"
   stylePeriod:

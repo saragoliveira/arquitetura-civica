@@ -56,6 +56,8 @@ log:
     message: "Completei o fichamento, falta adicionar mídia, docs e dwg"
 ---
 
+<blockquote>
+
 O Liceu Amazonense surgiu por meio do Regulamento 13, de 31 de agosto de
 1864, na administração do presidente da Província, Adolfo de Barros
 Cavalcante de Albuquerque Lacerda. Inicialmente suas atividades se davam
@@ -69,3 +71,6 @@ abrigar o Liceu e a Escola normal. As atividades educacionais continuam
 em pleno funcionamento no edifício, sendo atualmente uma escola estadual
 de ensino médio.
 
+  <footer class="figure-caption">Texto reproduzido
+  do <cite>IPatrimônio</cite>,</footer>
+</blockquote>

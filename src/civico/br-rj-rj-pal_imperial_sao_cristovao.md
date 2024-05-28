@@ -64,23 +64,25 @@ log:
     message: "Completei o fichamento, falta adicionar mídia, docs e dwg"
 ---
 
-O atual Museu Nacional da Quinta da Boa Vista era inicialmente um
-casarão de um comerciante de escravos brasileiro, Elias Antônio Lopes,
-que com a transferência da Coroa Portuguesa para o Rio de Janeiro em
-1808, doou sua propriedade para a coroa que por sua vez se instalou na
-edificação, transformando-a em residência oficial da família real. O
-projeto original de José Domingos Monteiro sofreu inúmeras alterações ao
-longo do tempo, como a remodelação do palácio ao estilo neoclássico
-comandada por D. Pedro I, o arquiteto português Manuel da Costa e o
-engenheiro francês Pierre Joseph Pézerat. Ademais, outras intervenções
-ocorreram sob projeto de diferentes arquitetos e engenheiros como Manuel
-de Araújo Porto-Alegre, Theodore Marx, Mario Bragaldi e Francisco
-Joaquim Bettencourt da Silva. 
+>O atual Museu Nacional da Quinta da Boa Vista era inicialmente um
+>casarão de um comerciante, Elias Antônio Lopes, que com a transferência 
+>da Coroa Portuguesa para o Rio de Janeiro em 1808, doou sua propriedade
+>para a coroa que por sua vez se instalou na edificação, transformando-a
+>em residência oficial da família real. O projeto original de José Domingos
+>Monteiro sofreu inúmeras alterações ao longo do tempo, como a remodelação
+>do palácio ao estilo neoclássico comandada por D. Pedro I, o arquiteto
+>português Manuel da Costa e o engenheiro francês Pierre Joseph Pézerat.
+>Ademais, outras intervenções ocorreram sob projeto de diferentes arquitetos
+>e engenheiros como Manuel de Araújo Porto-Alegre, Theodore Marx, Mario Bragaldi
+>e Francisco Joaquim Bettencourt da Silva. 
+>
+>Com o advento da República a família real foi expulsa do palácio e o
+>mesmo foi brutalmente descaracterizado e seus pertences, vendidos em
+>instalado em 25 de Junho de 1892, subordinado à Universidade Federal do
+>leilões realizados entre agosto e novembro de 1890. O Museu Nacional foi
+>Rio de Janeiro (UFRJ), no entanto foi acometido por um grande incêndio
+>em 2018.
 
-Com o advento da República a família real foi expulsa do palácio e o
-mesmo foi brutalmente descaracterizado e seus pertences, vendidos em
-instalado em 25 de Junho de 1892, subordinado à Universidade Federal do
-leilões realizados entre agosto e novembro de 1890. O Museu Nacional foi
-Rio de Janeiro (UFRJ), no entanto foi acometido por um grande incêndio
-em 2018.
-
+  <footer class="figure-caption">Texto reproduzido
+  do <cite>Brasiliana Iconográfica <cite>, 2017</footer>
+</blockquote>

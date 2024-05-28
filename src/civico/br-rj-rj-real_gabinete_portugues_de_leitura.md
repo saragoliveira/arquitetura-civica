@@ -61,20 +61,25 @@ log:
     message: "Preenchimento da ficha. Falta adicionar a Iconografia, os DWGs e Docs"
 ---
 
-O Real Gabinete Português de Leitura no Rio de Janeiro é uma instituição
-cultural fundada em 1837 por um grupo de imigrantes portugueses, surgiu
-com o objetivo de fomentar atividades culturais para a comunidade
-portuguesa na capital do Império naquela época. Localizado no centro
-histórico da cidade, o edifício é uma obra-prima da arquitetura
-neomanuelina, um estilo que remete ao período do renascimento em
-Portugal e que se destaca por sua rica ornamentação e detalhes
-decorativos, como uma fachada adornada com bustos de ilustres escritores
-portugueses, como Camões e Gil Vicente.
+</blockquote>
 
-A construção do edifício começou em 1880, com base no projeto do
-arquiteto português Rafael da Silva e Castro. Sendo o primeiro em
-estrutura metálica da cidade. 
+>O Real Gabinete Português de Leitura no Rio de Janeiro é uma instituição
+>cultural fundada em 1837 por um grupo de imigrantes portugueses, surgiu
+>com o objetivo de fomentar atividades culturais para a comunidade
+>portuguesa na capital do Império naquela época. Localizado no centro
+>histórico da cidade, o edifício é uma obra-prima da arquitetura
+>neomanuelina, um estilo que remete ao período do renascimento em
+>Portugal e que se destaca por sua rica ornamentação e detalhes
+>decorativos, como uma fachada adornada com bustos de ilustres escritores
+>portugueses, como Camões e Gil Vicente.
+>
+>A construção do edifício começou em 1880, com base no projeto do
+>arquiteto português Rafael da Silva e Castro. Sendo o primeiro em
+>estrutura metálica da cidade. 
+>
+>O edifício teve seu tombamento definitivo em 1970 pelo Instituto
+>Estadual do Patrimônio Cultural.
 
-O edifício teve seu tombamento definitivo em 1970 pelo Instituto
-Estadual do Patrimônio Cultural.
-
+  <footer class="figure-caption">Texto reproduzido
+  do <cite> Arquitectura Neomanuelina no Brasil - a saudade da Pátria Revista Camões, nº 11, <cite> Regina Anacleto</footer>
+</blockquote>

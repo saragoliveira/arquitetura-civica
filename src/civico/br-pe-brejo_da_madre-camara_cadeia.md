@@ -63,13 +63,19 @@ log:
     message: "Preenchimento da ficha. Falta adicionar a Iconografia, os DWGs e Docs"
 ---
 
-A Casa de Câmara e Cadeia do Brejo da Madre tem projeto assinado pelo
-engenheiro francês Louis Léger Vauthier, mas contou com participação
-ativa do engenheiro recifense José Mamede Alves Ferreira. Construído
-entre 1837 e 1847, em alvenaria de tijolo maciço, com paredes de até
-90cm de espessura, posteriormente foi ocupado por várias repartições
-públicas, como a Cadeia Pública, A Câmara Municipal, o Fórum, a
-Prefeitura, a Câmara Municipal e o Instituto Brasileiro de Geografia e
-Estatística (IBGE). Atualmente o edifício abriga um centro cultural, o
-"Museu Histórico do Brejo da Madre de Deus".
+<blockquote>
 
+>A Casa de Câmara e Cadeia do Brejo da Madre tem projeto assinado pelo
+>engenheiro francês Louis Léger Vauthier, mas contou com participação
+>ativa do engenheiro recifense José Mamede Alves Ferreira. Construído
+>entre 1837 e 1847, em alvenaria de tijolo maciço, com paredes de até
+>90cm de espessura, posteriormente foi ocupado por várias repartições
+>públicas, como a Cadeia Pública, A Câmara Municipal, o Fórum, a
+>Prefeitura, a Câmara Municipal e o Instituto Brasileiro de Geografia e
+>Estatística (IBGE). Atualmente o edifício abriga um centro cultural, o
+>"Museu Histórico do Brejo da Madre de Deus".
+
+
+  <footer class="figure-caption">Texto reproduzido
+  do <cite>CASAS DE CÂMARA E CADEIA: UMA ANÁLISE TIPOLÓGICA DE PORTUGAL À COLÔNIA<cite>, Cecília Barthel C. Campello<cite>, 2012</footer>
+</blockquote>

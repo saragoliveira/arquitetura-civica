@@ -59,16 +59,22 @@ log:
     message: "Inclui campos para bases documentais"
 ---
 
-A Casa de Câmara e Cadeia de Ouro Preto teve sua construção iniciada em
-1785 em alvenaria de pedra, para substituir a antiga prisão de
-pau-a-pique. Sua construção se estendeu até 1855 devido diversas pausas
-por falta de recursos. A edificação de cunho administrativo e judicial,
-tinham múltiplas funções, sendo um local destinado à administração
-municipal, abrigando as sessões da Câmara Municipal, onde eram debatidos
-e deliberados os assuntos políticos, econômicos e sociais da cidade. E
-em outro nível, semienterrado servia como prisão, onde eram detidos os
-infratores da lei que aguardavam julgamento ou cumpriam pena. A
-edificação cumpriu com estes papéis até 1938 quando foi transferida para
-o governo federal e se tornou o Museu da Inconfidência. Em 1954 foi
-tombada pelo Iphan como patrimônio histórico e de belas artes.
 
+<blockquote>
+
+>A Casa de Câmara e Cadeia de Ouro Preto teve sua construção iniciada em
+>1785 em alvenaria de pedra, para substituir a antiga prisão de
+>pau-a-pique. Sua construção se estendeu até 1855 devido diversas pausas
+>por falta de recursos. A edificação de cunho administrativo e judicial,
+>tinham múltiplas funções, sendo um local destinado à administração
+>municipal, abrigando as sessões da Câmara Municipal, onde eram debatidos
+>e deliberados os assuntos políticos, econômicos e sociais da cidade. E
+>em outro nível, semienterrado servia como prisão, onde eram detidos os
+>infratores da lei que aguardavam julgamento ou cumpriam pena. A
+>edificação cumpriu com estes papéis até 1938 quando foi transferida para
+>o governo federal e se tornou o Museu da Inconfidência. Em 1954 foi
+>tombada pelo Iphan como patrimônio histórico e de belas artes.
+
+  <footer class="figure-caption">Texto reproduzido
+  do <cite>IPatrimônio</footer>
+</blockquote>

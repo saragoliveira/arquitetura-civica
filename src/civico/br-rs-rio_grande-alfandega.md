@@ -61,15 +61,19 @@ log:
     message: "Inclui campos para bases documentais"
 ---
 
-A Alfândega de Rio Grande foi criada a partir de uma carta régia datada
-em 15 de julho de 1804 a fim de administrar as rendas públicas da
-chamada Vila do Rio Grande de São Pedro, a instituição foi abrigada em
-instalações provisórias entre 1804 e 1875, até que neste mesmo ano
-iniciou-se a construção de sua sede definitiva em um terreno trapezoidal
-entre na rua Riachuelo, de frente ao cais do porto, ao estilo
-neoclássico, se estabelecendo como um marco na cidade portuária.
+</blockquote>
 
-O edifício foi tombado como patrimônio histórico em 1967 pelo IPHAN e
-atualmente, após uma restauração na década de 70, ele abriga a Delegacia
-da Receita Federal e o Museu da Cidade de Rio Grande.
-
+>A Alfândega de Rio Grande foi criada a partir de uma carta régia datada
+>em 15 de julho de 1804 a fim de administrar as rendas públicas da
+>chamada Vila do Rio Grande de São Pedro, a instituição foi abrigada em
+>instalações provisórias entre 1804 e 1875, até que neste mesmo ano
+>iniciou-se a construção de sua sede definitiva em um terreno trapezoidal
+>entre na rua Riachuelo, de frente ao cais do porto, ao estilo
+>neoclássico, se estabelecendo como um marco na cidade portuária.
+>
+>O edifício foi tombado como patrimônio histórico em 1967 pelo IPHAN e
+>atualmente, após uma restauração na década de 70, ele abriga a Delegacia
+>da Receita Federal e o Museu da Cidade de Rio Grande.
+>
+>  <footer class="figure-caption">Texto reproduzido de <cite>A quase perda de um patrimônio:o antigo edifício da Alfândega da cidade do Rio Grande / RS <cite>, Eliza Furlong Antochevis<cite>, 2022</footer>
+</blockquote>

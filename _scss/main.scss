@@ -384,6 +384,11 @@ h3.card-title,
   }
 }
 
+.card-header,
+.card-footer {
+  font-family: $font-family-narrow;
+}
+
 .author__profile,
 .author__profile li {
   a {

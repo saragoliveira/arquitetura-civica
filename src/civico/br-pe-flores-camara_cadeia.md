@@ -2,7 +2,7 @@
 title : "Casa de Câmara e Cadeia de Flores"
 date  : 2024-04-30
 author: "Sara Guimarães de Oliveira" 
-description: >- 
+excerpt: >- 
   Sobrado de planta retangular com pátio interno, construído em
   alvenaria de tijolo de barro, que abrigou a Casa de Câmara e Cadeia
   entre 1881 e 1930

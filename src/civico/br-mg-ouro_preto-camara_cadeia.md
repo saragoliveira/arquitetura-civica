@@ -2,7 +2,7 @@
 title : "Casa de Câmara e Cadeia de Ouro Preto"
 date  : 2024-04-24
 author: "Sara Guimarães de Oliveira"
-description: >-
+excerpt: >-
   Edifício público em alvenaria de pedra em estilo neoclássico
 alternative:
   - "Câmara Municipal"

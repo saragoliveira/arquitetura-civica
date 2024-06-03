@@ -2,7 +2,7 @@
 title : "Liceu de Artes e Ofícios de Pernambuco"
 date  : 2024-04-30
 author: Sara Guimarães de Oliveira
-description: >-
+excerpt: >-
   Instituição de ensino profissionalizante fruto do trabalho da
   Sociedade dos Artistas Mecânicos e Liberais de Pernambuco.
 alternative:

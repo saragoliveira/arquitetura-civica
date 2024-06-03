@@ -2,7 +2,7 @@
 title : "Imperial Colégio D. Pedro II"
 date  : "2024-04-11"
 author: "Sara Guimarães de Oliveira" 
-description: >- 
+excerpt: >- 
  Instituição de ensino construída majoritariamente em pedra, ao estilo neoclássico em 1875
 header:
   teaser: "https://i.pinimg.com/564x/67/8e/52/678e52425f3a78ebe9f6435bb6de9e75.jpg"

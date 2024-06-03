@@ -7,11 +7,11 @@
   {%- set title = site.title -%}
   {%- set metaTitle = title -%}
 {%- endif -%}
-{%- if not descriptionMeta -%}
-  {%- if description -%}
-    {%- set descriptionMeta = description -%}
+{%- if not excerptMeta -%}
+  {%- if excerpt -%}
+    {%- set excerptMeta = excerpt -%}
   {%- else -%}
-    {%- set descriptionMeta = site.description -%}
+    {%- set excerptMeta = site.excerpt -%}
   {%- endif -%}
 {%- endif -%}
 {%- set currentUrl = [ site.url, page.url ] | join -%}
@@ -55,3 +55,12 @@
 {% endif %}
 
 <link rel="stylesheet" type="text/css" href="/assets/css/main.css" />
+{%- if css %}
+{%- if css[0] %}
+{%- for css in css %}
+<link rel="stylesheet" type="text/css" href="{{ css }}" />
+{%- endfor %}
+{%- else %}
+<link rel="stylesheet" type="text/css" href="{{ css }}" />
+{%- endif %}
+{%- endif %}

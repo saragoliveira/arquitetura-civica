@@ -17,7 +17,7 @@ date      :    # Data de inclusão da mídia no nosso repositório no
                # mais abaixo.
 author    : "" # Quem incluiu a mídia no repositório e preencheu esta
                # ficha. Não confundir com o campo `creator` abaixo.
-description: >- # Descrição sucinta para aparecer em listagens. Começar
+excerpt: >- # Descrição sucinta para aparecer em listagens. Começar
 # na linha abaixo da legenda, deixando dois espaços em branco no início
 # de cada linha. O ideal é se ater a no máximo 3 linhas de 72 toques.
 # Este campo NÃO vai entre aspas.

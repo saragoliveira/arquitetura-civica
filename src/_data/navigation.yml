@@ -1,0 +1,26 @@
+main:
+  - title : "Sobre o projeto"
+    url   : "/expediente/"
+  - title : "Equipe"
+    url   : "/equipe/"
+  - title : >
+      <i class="bi bi-github" aria-hidden="true"></i>
+      Dados abertos e como contribuir
+    url   : "https://github.com/arqtrad/arquitetura-civica"
+    target: "_blank"
+
+footer:
+  - title : >
+      <i class="bi bi-envelope" aria-label="email"></i>
+      <span class="ps-1 d-lg-none">E-mail</span>
+    url   : "mailto:labeurbe@unb.br"
+  - title : >
+      <i class="bi bi-instagram" aria-label="Instagram"></i>
+      <span class="ps-1 d-lg-none">Instagram</span>
+    url   : "https://instagram.com/arqtrad"
+    target: "_blank"
+  - title : >
+      <i class="bi bi-github" aria-label="GitHub"></i>
+      <span class="ps-1 d-lg-none">GitHub</span>
+    url   : "https://github.com/arqtrad/arquitetura-civica"
+    target: "_blank"

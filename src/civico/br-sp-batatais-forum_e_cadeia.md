@@ -2,7 +2,7 @@
 title : "Fórum e Cadeia de Batatais"
 date  : 2024-04-24
 author: "Sara Guimarães de Oliveira"
-description: >-
+excerpt: >-
   Edifício público neoclássico com planta em formato de U construído em
   alvenaria de pedra em 1911.
 alternative:

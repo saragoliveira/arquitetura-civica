@@ -2,7 +2,7 @@
 title : "Mercado Público Central de Porto Alegre" 
 date  : 2024-04-30
 author: Sara Guimarães de Oliveira
-description: >-
+excerpt: >-
   Centro de comércio e abastecimento construído em alvenaria de tijolo, sob planta simétrica nos dois eixos, configurando dois corredores perpendiculares e quatro pavilhões.
 alternative:
   - "Mercado Público Central"

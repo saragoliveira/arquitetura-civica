@@ -14,7 +14,7 @@
       {{ post.data.date | dateFilter }}
     </small>
     <p class="lead mt-3">
-      {{ post.data.description | safe }}
+      {{ post.data.excerpt | safe }}
     </p>
     <a class="icon-link mt-auto gap-1 icon-link-hover stretched-link link-secondary text-decoration-none d-block" href="{{ post.url }}">
       {{ ui_text[lang].more_label }} ›

@@ -1,0 +1,5 @@
+{%- set author = members[post] %}
+{%- if not lang %}{% set lang = site.locale %}{%- endif %}
+<div class="col author__profile" itemscope itemtype="https://schema.org/Person">
+  {% include "partials/author-profile.njk" %}
+</div><!--/.col-->

@@ -27,11 +27,11 @@
       </a>
 
       {% if navigation.main %}
-      <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-end mb-md-0 ps-3">
-        {% for item in navigation.main -%}
+      <ul class="nav">
+        {% for m in navigation.main -%}
         <li>
-          <a href="{{ item.url }}" target="_blank" class="nav-link px-2">
-            {{ item.title | safe }}
+          <a href="{{ m.url }}" {% if m.target %}target="{{ m.target }}" {% endif %}class="nav-link{% if m.class %} {{ m.class }}{% endif %}">
+            {{ m.title | safe }}
           </a>
         </li>
         {%- endfor %}

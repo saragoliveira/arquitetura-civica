@@ -2,7 +2,7 @@
 title : "Palácio dos Príncipes de Joinville"
 date  : 2024-04-30
 author: Sara Guimarães de Oliveira
-description: >-
+excerpt: >-
   Antigo casarão que passou a ter funções admnistrativas em 1866.
 alternative:
   - "Maison de Joinville"

@@ -2,7 +2,7 @@
 title : "Casa de Câmara e Cadeia do Brejo da Madre"
 date  : 2024-04-30
 author: "Sara Guimarães de Oliveira" 
-description: >- 
+excerpt: >- 
   O edfifício é composto por dois volumes, um sobrado e um anexo,
   construído em 1847
 alternative:

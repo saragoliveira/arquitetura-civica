@@ -2,7 +2,7 @@
 title : "Academia Imperial de Belas Artes"
 date  : 2024-04-04
 author: "Sara Guimarães de Oliveira"
-description: >-
+excerpt: >-
  Instituição de ensino construída majoritariamente em pedra, com adornos
  neoclássicos na fachada, inaugurada em 1826.
 header:

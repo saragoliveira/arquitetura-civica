@@ -1,13 +1,11 @@
 {% extends "layouts/base.njk" %}
-
 {% block pagecontent %}
 <script src="/assets/leaflet/leaflet.js"></script>
-
 <div class="col col-md-8 order-2">
   {{ content | safe }}
 </div><!--/.col-md-8-->
 
-<div class="col col-md-4 order-1">
+<div class="col col-md-4 order-1 mb-5">
   <div class="card">
     <div id="map" class="card-img-top" style="width: 100%; height: 400px;"></div>
     <ul class="list-group list-group-flush">
@@ -15,11 +13,10 @@
         {% if coverage.spatial.location.country %}
           {{ coverage.spatial.location.country | countryEmoji }}
           {{ ui[coverage.spatial.location.country] }}
-          ›
         {% endif %}
         {% if coverage.spatial.location.state %}
           {{ coverage.spatial.location.state }}
-          ›
+          <i class="bi bi-chevron-compact-right" aria-hidden="true"></i>
         {% endif %}
         {% if coverage.spatial.location.city %}
           {{ coverage.spatial.location.city }}
@@ -37,10 +34,10 @@
         {% if authors %}
           Responsáveis:
           {% for author in authors %}
-            {{ equipe[author].name }}
+            {{ members[author].name }}
           {% endfor %}
         {% elif author %}
-          Responsável: {{ author }}
+          Responsável: {{ members[author].name }}
         {% endif %}
       </li>
     </ul>
@@ -48,13 +45,12 @@
 </div><!--/.col-md-4-->
 {% endblock %}
 
-{% block archive %}
-<div class="container-fluid text-center">
+{% block after %}
+<div class="container-fluid text-center my-5">
 {% if coverage.temporal %}
   {% set timelineData %}
     {{ coverage.temporal | dump | safe }}
   {% endset %}
-  <hr class="border-0 clearfix" />
   {% include "partials/timeline.njk" %}
 {% endif %}
 
@@ -64,8 +60,7 @@
 {% if docs %}
 {% endif %}
 
-{% if media %}
-  <hr class="border-0 clearfix" />
+{% if relation %}
   <h2 id="iconografia" style="text-transform: capitalize;">{{ ui_text[lang].iconography }}</h2>
   <div class="row g-3 mx-3">
   {% for post in media %}
@@ -75,11 +70,9 @@
 {% endif %}
 </div><!--/.container-fluid-->
 
-<hr class="border-0 clearfix" />
-
 <!--Leaflet map generator-->
 <script>
-  const map = L.map('map').setView([{{ coverage.spatial.location.lat }}, {{ coverage.spatial.location.long }}], {{ coverage.spatial.location.zoom }});
+  var map = L.map('map').setView([{{ coverage.spatial.location.lat }}, {{ coverage.spatial.location.long }}], {{ coverage.spatial.location.zoom }});
   const marker = L.marker([{{ coverage.spatial.location.lat }}, {{ coverage.spatial.location.long }}]).addTo(map);
   const tiles = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
     maxZoom: 19,

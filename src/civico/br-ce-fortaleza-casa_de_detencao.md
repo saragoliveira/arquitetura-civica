@@ -2,7 +2,7 @@
 title : "Casa de detenção"
 date  : 2024-04-30
 author: Sara Guimarães de Oliveira
-description: >-
+excerpt: >-
   Cadeia pública construída no centro de Fortaleza a partir de 1850
 alternative:
   - "Cadeia Pública"

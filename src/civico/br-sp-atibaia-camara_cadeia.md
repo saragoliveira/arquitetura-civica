@@ -2,7 +2,7 @@
 title : "Casa de Camâra e Cadeia de Atibaia"
 date  : 2024-04-24
 author: Sara Guimarães de Oliveira
-description: >-
+excerpt: >-
   Exemplar eclético da primeira metade do século XIX construído em taipa de pilão
 alternative:
   - "Cadeia Pública de Atibaia"

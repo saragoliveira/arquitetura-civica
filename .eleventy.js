@@ -63,7 +63,6 @@ module.exports = function(eleventyConfig) {
   });
 	eleventyConfig.addFilter('w3DateFilter', w3DateFilter);
   eleventyConfig.addFilter('countryEmoji', countryEmoji);
-  eleventyConfig.addDataExtension('yaml', contents => yaml.load(contents));
   eleventyConfig.addPlugin(pluginRss, {
     posthtmlRenderOptions: {
       closingSingleTag: "slash"

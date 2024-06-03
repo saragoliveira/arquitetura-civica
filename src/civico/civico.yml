@@ -14,10 +14,18 @@
 title             : "" # Se a obra não tiver título próprio, usar um título descritivo sucinto.
 date              : # Data de inclusão da ficha no nosso repositório no formato AAAA-MM-DD. Não confundir como campo `created` mais abaixo.
 author            : "" # Quem incluiu a ficha no repositório e preencheu esta ficha. Não confundir com o campo `creator` abaixo.
-description: >- # Descrição sucinta para aparecer em listagens. Começar
+excerpt: >- # Descrição sucinta para aparecer em listagens. Começar
 # na linha abaixo da legenda, deixando dois espaços em branco no início
 # de cada linha. O ideal é se ater a no máximo 3 linhas de 72 toques.
 # Este campo NÃO vai entre aspas.
+created:            # Data de criação da obra, não confundir com o campo `date` acima.
+  date            : # Obrigatório, no formato ISO (AAAA-MM-DD). Os demais campos são opcionais
+  qualifier       : "" # Ressalvas à data precisa, tais como 'c.', 'após', 'provavelmente', etc.
+  display_date    : # Representação textual complexa, caso necessário.
+  source:           # Fonte de autoridade para a data indicada.
+    citekey       : "" # Seguir as instruções do campo `bibliographicCitation` acima.
+    href          : ""
+    text          : ""
 ########################################################################
 # Os agentes listados nos campos abaixo podem ser pessoas, grupos de   #
 # pessoas tratados coletivamente, ou instituições.                     #
@@ -90,14 +98,6 @@ coverage:
       locationHistoric:    # Escopos geográficos antigos
         - ""               # Se tiver mais de um item, representar em forma de lista.
   temporal:
-    created:            # Data de criação da obra, não confundir com o campo `date` acima.
-      date            : # Obrigatório, no formato ISO (AAAA-MM-DD). Os demais campos são opcionais
-      qualifier       : "" # Ressalvas à data precisa, tais como 'c.', 'após', 'provavelmente', etc.
-      display_date    : # Representação textual complexa, caso necessário.
-      source:           # Fonte de autoridade para a data indicada.
-        citekey       : "" # Seguir as instruções do campo `bibliographicCitation` acima.
-        href          : ""
-        text          : ""
     ####################################################################
     # Linha do tempo. Instruções de formatação:                        #
     # https://timeline.knightlab.com/docs/json-format.html             #
@@ -105,29 +105,29 @@ coverage:
     # em geral.                                                        #
     ####################################################################
     events:                # Esta linha é só o cabeçalho da linha do tempo.
-      - text:              # Cada evento tem texto, mídia e data(s).
-          headline    : "" # O texto pode ser dividido em cabeçalho e conteúdo.
-          text        : ""
-        type          : "" # Tipos de datas permitidos conforme https://www.loc.gov/standards/vracore/schemas.html
-                           # alteration, broadcast, bulk, commission, creation, design,
-                           # destruction, discovery, exhibition, inclusive, performance,
-                           # publication, restoration, view, other
-                           # (o tipo de data não é usado pela linha do tempo)
-        start_date:        # Apenas a start_date é obrigatória... (VRA Core: earliestDate)
-          year        : "" # ...e dentro dela, apenas o ano é necessário.
-          month       : ""
-          day         : ""
-          display_date: "" # Para datas complexas, escrever por extenso aqui.
-        end_date:          # Opcional, mesmo formato de start_date (VRA Core latestDate)
-        media:             # Uma mídia por evento:
-          url         : "" # pode ser uma prévia da Wikipédia, imagem ou vídeo.
-          caption     : "" # Legenda.
-          credit      : "" # Créditos, se houver.
-          alt         : "" # Descrição sucinta da mídia para acessibilidade.
-        source:            # Fonte de autoridade para a data.
-          text        : ""
-          href        : ""
-          dataDate    : "" # Data em que a informação foi incluída.
+#     - text:              # Cada evento tem texto, mídia e data(s).
+#         headline    : "" # O texto pode ser dividido em cabeçalho e conteúdo.
+#         text        : ""
+#       type          : "" # Tipos de datas permitidos conforme https://www.loc.gov/standards/vracore/schemas.html
+#                          # alteration, broadcast, bulk, commission, creation, design,
+#                          # destruction, discovery, exhibition, inclusive, performance,
+#                          # publication, restoration, view, other
+#                          # (o tipo de data não é usado pela linha do tempo)
+#       start_date:        # Apenas a start_date é obrigatória... (VRA Core: earliestDate)
+#         year        : "" # ...e dentro dela, apenas o ano é necessário.
+#         month       : ""
+#         day         : ""
+#         display_date: "" # Para datas complexas, escrever por extenso aqui.
+#       end_date:          # Opcional, mesmo formato de start_date (VRA Core latestDate)
+#       media:             # Uma mídia por evento:
+#         url         : "" # pode ser uma prévia da Wikipédia, imagem ou vídeo.
+#         caption     : "" # Legenda.
+#         credit      : "" # Créditos, se houver.
+#         alt         : "" # Descrição sucinta da mídia para acessibilidade.
+#       source:            # Fonte de autoridade para a data.
+#         text        : ""
+#         href        : ""
+#         dataDate    : "" # Data em que a informação foi incluída.
   stylePeriod:  # https://www.loc.gov/standards/vracore/schemas.html
     - text        : "" # Usar vocabulário controlado se possível
       vocab       : "" # Caso use vocabulário controlado, preencher os...
@@ -211,10 +211,11 @@ relation:
 # Os campos abaixo referem-se a informações de formatação da ficha.    #
 ########################################################################
 header:
+  #teaser: "/assets/media/an-teaser.jpg"
   teaser        : "https://placehold.co/600x400"
-  overlay_image : "https://i.pinimg.com/originals/f7/76/49/f7764902ee90d4fc48b6f795307bc366.jpg"
+  #overlay_image : "/assets/media/an-overlay.jpg"
   overlay_filter: 0.7
-  caption       : "Abigail de Andrade, Estrada do Mundo Novo, 1888"
+  #caption       : "Antiga sede do Arquivo Nacional à praça da República, 1905"
 ########################################################################
 # As linhas abaixo são usadas como padrão e não precisam ser copiadas  #
 # para a ficha de cada mídia.                                          #

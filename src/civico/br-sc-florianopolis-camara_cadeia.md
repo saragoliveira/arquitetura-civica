@@ -2,7 +2,7 @@
 title : "Casa de Câmara e Cadeia de Florianópolis"
 date  : 2024-04-11 
 author: "Sara Guimarães de Oliveira" 
-description: >- 
+excerpt: >- 
   Sobrado que abrigou instalações da administração colonial, incluindo a
   câmara municipal e a cadeia pública. Projetado pelo Sargento-Mor
   Thomaz Francisco da Costa e construído entre 1771 e 1780.

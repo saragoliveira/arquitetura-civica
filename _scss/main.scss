@@ -1,6 +1,57 @@
 @charset "utf-8";
 
 /* ==========================================================================
+   Variables {{{1
+   ========================================================================== */
+
+// Option 1
+// Import all of Bootstrap's CSS
+
+// @import "bootstrap/scss/bootstrap";
+
+// Option 2
+// Place variable overrides first, then import just the styles you need.
+// Note that some stylesheets are required no matter what.
+
+// Toggle global options
+$enable-shadows: false;
+//$enable-gradients: true;
+
+// This enables auto switching to dark mode based on the client's OS/browser settings:
+$color-mode-type: media-query;
+
+//$offcanvas-box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175);
+
+// Include functions first
+@import "bootstrap/scss/functions";
+@import "bootstrap/scss/variables";
+
+$theme-colors: (
+  "primary":           $blue-800,
+  "secondary":         $secondary,
+  "success":           $success,
+  "info":              $info,
+  "warning":           $warning,
+  "danger":            $danger,
+  "light":             $light,
+  "dark":              $dark
+);
+
+// Customize some defaults
+$body-color:           #111118;
+$body-bg:              #fffff8;
+$border-radius:        .4rem;
+$light:                #fcf9e6;
+$body-emphasis-color:  $primary;
+$link-decoration:      none;
+
+$link-color:           $primary;
+$link-hover-color:     $blue-900;
+$component-active-bg:  $primary;
+$pagination-active-bg: $primary;
+
+
+/* ==========================================================================
    Font providers {{{1
    ========================================================================== */
 
@@ -107,71 +158,17 @@
   font-weight: 400;
 }
 
-
-/* ==========================================================================
-   Variables {{{1
-   ========================================================================== */
-
-// Option 1
-// Import all of Bootstrap's CSS
-
-// @import "bootstrap/scss/bootstrap";
-
-// Option 2
-// Place variable overrides first, then import just the styles you need.
-// Note that some stylesheets are required no matter what.
-
-// Toggle global options
-$enable-shadows: false;
-//$enable-gradients: true;
-
-// This enables auto switching to dark mode based on the client's OS/browser settings:
-$color-mode-type: media-query;
-
-//$offcanvas-box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175);
-
-// Include functions first
-@import "bootstrap/scss/functions";
-@import "bootstrap/scss/variables";
-
-// Customize some defaults
-$body-color:          #111118;
-$body-bg:             #fffff8;
-$border-radius:       .4rem;
-//$primary:             #282f6a;
-$primary:             $blue-800;
-$light:               #fcf9e6;
-$body-emphasis-color: $primary;
-$link-decoration:     none;
-$success:             #7952b3;
-
-$font-family-serif:      "eb-garamond", "et-book", Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
-$font-family-unb:        "UnB Pro", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
-$font-family-narrow:     "open-sans-condensed", "league-gothic", "Arial Narrow", sans-serif;
+// Font variables {{{2
+$font-family-serif:    "eb-garamond", "et-book", Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+$font-family-unb:      "UnB Pro", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
+$font-family-narrow:   "open-sans-condensed", "league-gothic", "Arial Narrow", sans-serif;
 
 $font-family-base:     $font-family-unb;
-$font-size-base:       1.3rem;
 $headings-font-family: 'Weiss Std', Georgia, serif;
 $headings-font-weight: 700;
 $headings-font-style:  normal;
 $headings-color:       $body-color;
 $legend-font-weight:   500;
-
-$theme-colors: (
-  "primary":    $blue-800,
-  "secondary":  $secondary,
-  "success":    $success,
-  "info":       $info,
-  "warning":    $warning,
-  "danger":     $danger,
-  "light":      $light,
-  "dark":       $dark
-);
-
-$link-color: $primary;
-$link-hover-color: $blue-900;
-$component-active-bg: $primary;
-$pagination-active-bg: $primary;
 
 
 /* ==========================================================================
@@ -266,21 +263,11 @@ blockquote > footer {
   clear: right;
 }
 
-// Typographical elements {{{2
-main p:not(.card-text) {
+// Typography {{{2
+// General {{{3
+main p,
+.notes {
   hyphens: auto;
-}
-
-.subtitle,
-h1,
-h2,
-h3 {
-  font-family: $headings-font-family;
-  font-variant-numeric: lining-nums;
-}
-
-h3:not(.card-title) {
-  @extend .fw-medium;
 }
 
 h1,
@@ -289,6 +276,14 @@ h5,
 h6 {
   @extend .w-auto;
   @extend .fw-light;
+}
+
+.subtitle,
+h1,
+h2,
+h3 {
+  font-family: $headings-font-family;
+  font-variant-numeric: lining-nums;
 }
 
 h5,
@@ -318,25 +313,28 @@ tfoot,
   @extend .fw-bold;
 }
 
+.capitalize-first {
+  @extend .d-inline-block;
+  &:first-letter {
+    text-transform: uppercase;
+  }
+}
+
+// Masthead {{{3
 .site-title {
   @extend .lh-1;
+  @extend .fs-5;
   @extend .text-decoration-none;
   @extend .text-primary-emphasis;
   @extend .link-body-emphasis;
   font-family: $headings-font-family;
   .site-subtitle {
-    @extend .fs-6;
     @extend .fw-bold;
   }
 }
 
 .subtitle {
   @extend .display-6;
-}
-
-.lead {
-  @extend .fs-3;
-  @extend .fw-medium;
 }
 
 #site-nav ul,
@@ -353,6 +351,21 @@ tfoot,
   }
 }
 
+// Card {{{3
+h3.card-title,
+.btn {
+  @extend .fst-normal;
+  a {
+    @extend .link-dark;
+  }
+}
+
+.card-header,
+.card-footer {
+  font-family: $font-family-narrow;
+}
+
+// Marginalia {{{3
 .sidebar,
 .author__profile,
 .toc {
@@ -367,26 +380,6 @@ tfoot,
       }
     }
   }
-}
-
-.capitalize-first {
-  @extend .d-inline-block;
-  &:first-letter {
-    text-transform: uppercase;
-  }
-}
-
-h3.card-title,
-.btn {
-  @extend .fst-normal;
-  a {
-    @extend .link-dark;
-  }
-}
-
-.card-header,
-.card-footer {
-  font-family: $font-family-narrow;
 }
 
 .author__profile,
@@ -406,7 +399,6 @@ h3.card-title,
 // Bootstrap specs <blockquote> wrapped in <figure>.
 .blockquote {
   @extend .my-3;
-  @extend .fs-6;
 }
 
 blockquote > footer,
@@ -455,10 +447,6 @@ small {
       min-height: 50vh;
     }
   }
-  .action {
-    @extend .mt-5;
-    @extend .fs-1;
-  }
 }
 
 #bibliography {
@@ -467,6 +455,7 @@ small {
 }
 
 // Bootstrap Classes {{{2
+// Masthead {{{3
 .masthead,
 .page-footer {
   @extend .d-flex;
@@ -491,7 +480,6 @@ ul.nav {
   @extend .col-lg-auto;
   @extend .mx-lg-3;
   @extend .justify-content-end;
-  @extend .fs-5;
   li {
     @extend .mx-auto;
     @extend .mx-lg-0;
@@ -520,6 +508,7 @@ ul.nav {
   }
 }
 
+// Card and actions {{{3
 .card-img-top {
   @extend .object-fit-cover;
   aspect-ratio: 3 / 2;
@@ -543,6 +532,7 @@ ul.nav {
   }
 }
 
+// Footer {{{3
 .page-footer {
   @extend .my-4;
   @extend .border-top;
@@ -696,21 +686,6 @@ main > .container > .row {
 
 
 // Custom classes {{{2
-.keywords,
-.keywords li {
-  @extend .d-inline;
-  @extend .m-0;
-  @extend .p-0;
-}
-
-.subfigures > figcaption {
-  @extend .col-lg-4;
-  @extend .float-lg-end;
-  p {
-    @extend .text-start;
-  }
-}
-
 .hero__caption {
   @extend .position-absolute;
   @extend .bottom-0;
@@ -730,20 +705,19 @@ main > .container > .row {
   }
 }
 
-.tl-timeline,
-.tl-slider-background {
-  background-color: var(--bs-body-background) !important;
+.keywords,
+.keywords li {
+  @extend .d-inline;
+  @extend .m-0;
+  @extend .p-0;
 }
 
-.tl-headline,
-.tl-slidenav-description {
-  color: var(--bs-body-color) !important;
-}
-
-.tl-slidenav-icon,
-.tl-slidenav-title {
-  color: var(--bs-body-color) !important;
-  text-shadow: 1px 1px var(--bs-body-background) !important;
+.subfigures > figcaption {
+  @extend .col-lg-4;
+  @extend .float-lg-end;
+  p {
+    @extend .text-start;
+  }
 }
 
 .line {
@@ -758,5 +732,22 @@ main > .container > .row {
   @extend .col-md-4;
   @extend .align-items-center;
   @extend .text-body-secondary;
+}
+
+// TimelineJS {{{3
+.tl-timeline,
+.tl-slider-background {
+  background-color: var(--bs-body-background) !important;
+}
+
+.tl-headline,
+.tl-slidenav-description {
+  color: var(--bs-body-color) !important;
+}
+
+.tl-slidenav-icon,
+.tl-slidenav-title {
+  color: var(--bs-body-color) !important;
+  text-shadow: 1px 1px var(--bs-body-background) !important;
 }
 // vim: shiftwidth=2 tabstop=2 expandtab foldmethod=marker nowrap

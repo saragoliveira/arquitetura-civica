@@ -72,5 +72,5 @@ em pleno funcionamento no edifício, sendo atualmente uma escola estadual
 de ensino médio.
 
   <footer class="figure-caption">Texto reproduzido
-  do <cite>IPatrimônio</cite>,</footer>
+  do <cite>IPatrimônio</cite></footer>
 </blockquote>

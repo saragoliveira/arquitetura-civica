@@ -96,7 +96,7 @@ pelos romanos em suas termas e basílicas. As colunas dóricas que
 sustentam a cobertura do salão são revestidas de madeira com pintura
 marmorizada.
 
-  <footer class="figure-caption">Texto reproduzido do <cite>Patrimônio
-  de Influência Portuguesa</cite>, José Simões Belmont Pessôa,
+  <footer class="figure-caption">Texto reproduzido de José Simões Belmont
+  Pessôa, <cite>Patrimônio de Influência Portuguesa</cite>,
   SIPAC</footer>
 </blockquote>

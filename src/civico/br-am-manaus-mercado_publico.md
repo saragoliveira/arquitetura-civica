@@ -1,5 +1,5 @@
 ---
-title : "Mercado Público de Manaus"
+title : "Mercado Público"
 date  : 2024-04-30
 author: Sara Guimarães de Oliveira
 bibliographicCitation:

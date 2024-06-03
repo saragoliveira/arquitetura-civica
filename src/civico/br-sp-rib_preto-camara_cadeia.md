@@ -1,5 +1,5 @@
 ---
-title : "Casa de Camâra e Cadeia de Ribeirão Preto"
+title : "Casa de Camâra e Cadeia"
 date  : 2024-04-30
 author: Sara Guimarães de Oliveira
 excerpt: >-
@@ -58,16 +58,13 @@ log:
     message: "Inclui dados pertinentes. Falta adicionar midia, dwg, docs e verificar quanto ao tombamento."
 ---
 
-</blockquote>
-
->O edifício projetado para abrigar uma cadeia pública e a Câmara de
->Ribeirão Preto teve sua construção interrompida diversas vezes devido
->falta de verba. Isso levou a instalação da Cadeia Pública de forma não
->concomitante à Câmara, a Cadeia funcionou no sobrado entre 1889 e 1904,
->enquanto a Câmara de 1890 a 1892. Em 1908 o prédio foi reformado para
->então abrigar somente a Administração Municipal (Câmara e Prefeitura)
->funcionando lá até 1917.
-
-  <footer class="figure-caption">Texto reproduzido
-  do <cite>IPatrimônio</footer>
-</blockquote>
+> O edifício projetado para abrigar uma cadeia pública e a Câmara de
+> Ribeirão Preto teve sua construção interrompida diversas vezes devido
+> falta de verba. Isso levou a instalação da Cadeia Pública de forma não
+> concomitante à Câmara, a Cadeia funcionou no sobrado entre 1889 e 1904,
+> enquanto a Câmara de 1890 a 1892. Em 1908 o prédio foi reformado para
+> então abrigar somente a Administração Municipal (Câmara e Prefeitura)
+> funcionando lá até 1917.
+>
+> <footer class="figure-caption">Texto reproduzido
+> do <cite>IPatrimônio</footer>

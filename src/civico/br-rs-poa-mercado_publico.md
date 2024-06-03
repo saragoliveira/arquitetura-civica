@@ -1,9 +1,11 @@
 ---
-title : "Mercado Público Central de Porto Alegre" 
+title : "Mercado Público Central" 
 date  : 2024-04-30
 author: Sara Guimarães de Oliveira
 excerpt: >-
-  Centro de comércio e abastecimento construído em alvenaria de tijolo, sob planta simétrica nos dois eixos, configurando dois corredores perpendiculares e quatro pavilhões.
+  Centro de comércio e abastecimento construído em alvenaria de tijolo, sob
+  planta simétrica nos dois eixos, configurando dois corredores perpendiculares
+  e quatro pavilhões.
 alternative:
   - "Mercado Público Central"
 creator:
@@ -58,18 +60,15 @@ log:
     message: "Completei o fichamento, falta adicionar mídia, docs e dwg"
 ---
 
-</blockquote>
-
->O Mercado Municipal de Porto Alegre tem seu projeto assinado pelo
->arquiteto alemão Friedrich Heydtmann, ele foi proposto para substituir o
->mercado anterior que já não atendia as necessidades de comércio e
->abastecimento da cidade de Porto Alegre. Dessa forma, o novo mercado,
->construído entre 1864 e 1869, ocupa todo um quarteirão na Praça XV, com
->planta quadrangular perimetral e simétrica, além dos quatro torreões, um
->em cada vértice. No entanto, em vista de um incêndio o edifício foi
->reformado, passando de um para dois pavimentos e agora em estrutura
->metálica. 
-
-  <footer class="figure-caption">Texto reproduzido
-  do <cite>IPatrimônio</footer>
-</blockquote>
+> O Mercado Municipal de Porto Alegre tem seu projeto assinado pelo
+> arquiteto alemão Friedrich Heydtmann, ele foi proposto para substituir o
+> mercado anterior que já não atendia as necessidades de comércio e
+> abastecimento da cidade de Porto Alegre. Dessa forma, o novo mercado,
+> construído entre 1864 e 1869, ocupa todo um quarteirão na Praça XV, com
+> planta quadrangular perimetral e simétrica, além dos quatro torreões, um
+> em cada vértice. No entanto, em vista de um incêndio o edifício foi
+> reformado, passando de um para dois pavimentos e agora em estrutura
+> metálica. 
+> 
+>  <footer class="figure-caption">Texto reproduzido
+>  do <cite>IPatrimônio</footer>

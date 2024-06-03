@@ -1,5 +1,5 @@
 ---
-title : "Casa de Câmara e Cadeia de Florianópolis"
+title : "Casa de Câmara e Cadeia"
 date  : 2024-04-11 
 author: "Sara Guimarães de Oliveira" 
 excerpt: >- 
@@ -64,27 +64,24 @@ log:
     message: "Preenchimento da ficha. Falta adicionar a Iconografia, os DWGs e Docs"
 ---
 
-</blockquote>
-
->A Casa de Câmara e Cadeia de Florianópolis, também conhecida como
->Palácio Cruz e Sousa, é um importante monumento histórico localizado no
->centro da cidade de Florianópolis, em Santa Catarina, concebido para
->abrigar as instalações da administração colonial, incluindo a câmara
->municipal e a cadeia pública. Com o passar dos anos, o edifício passou
->por várias reformas e ampliações para atender às necessidades da
->administração pública local.
+> A Casa de Câmara e Cadeia de Florianópolis, também conhecida como
+> Palácio Cruz e Sousa, é um importante monumento histórico localizado no
+> centro da cidade de Florianópolis, em Santa Catarina, concebido para
+> abrigar as instalações da administração colonial, incluindo a câmara
+> municipal e a cadeia pública. Com o passar dos anos, o edifício passou
+> por várias reformas e ampliações para atender às necessidades da
+> administração pública local.
+> 
+> A construção do sobrado teve início em 1771 e foi concluída em 1780,
+> durante o período colonial brasileiro. O projeto arquitetônico é
+> atribuído ao engenheiro militar José da Silva Paes.
+> 
+> Em 1972, a Casa de Câmara e Cadeia foi tombada pelo Instituto do
+> Patrimônio Histórico e Artístico Nacional (IPHAN) como patrimônio
+> histórico e cultural brasileiro. O tombamento garante a preservação do
+> edifício e sua importância como parte da história e da arquitetura
+> colonial brasileira. Atualmente, a Casa de Câmara e Cadeia de
+> Florianópolis abriga o Museu Histórico de Florianópolis.
 >
->A construção do sobrado teve início em 1771 e foi concluída em 1780,
->durante o período colonial brasileiro. O projeto arquitetônico é
->atribuído ao engenheiro militar José da Silva Paes.
->
->Em 1972, a Casa de Câmara e Cadeia foi tombada pelo Instituto do
->Patrimônio Histórico e Artístico Nacional (IPHAN) como patrimônio
->histórico e cultural brasileiro. O tombamento garante a preservação do
->edifício e sua importância como parte da história e da arquitetura
->colonial brasileira. Atualmente, a Casa de Câmara e Cadeia de
->Florianópolis abriga o Museu Histórico de Florianópolis.
-
-  <footer class="figure-caption">Texto reproduzido
-  do <cite>Sesc-SC</footer>
-</blockquote>
+>  <footer class="figure-caption">Texto reproduzido
+>  do <cite>Sesc--[SC]{style="font-variant:all-small-caps"}</footer>

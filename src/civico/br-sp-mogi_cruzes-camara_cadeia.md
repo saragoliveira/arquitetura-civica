@@ -1,9 +1,10 @@
 ---
-title : "Casa de Câmara e Cadeia de Mogi das Cruzes"
+title : "Casa de Câmara e Cadeia"
 date  : 2024-04-24
 author: Sara Guimarães de Oliveira
 excerpt: >-
-  Edifício público construído em taipa em 1860 com funções administravias e penais.
+  Edifício público construído em taipa em 1860 com funções administravias
+  e penais.
 alternative:
   - "Ginásio do Estado"
   - "Escola Técnica Industrial" 
@@ -60,7 +61,6 @@ log:
 ---
 
 <blockquote>
-
 A antiga Casa de Câmara e Cadeia de Mogi das Cruzes, concebida e
 construída em meados do século XIX (c. 1830-1860), é exemplar de taipa
 da tipologia de edifício funcional para administração e segurança
@@ -72,5 +72,6 @@ período colonial, perduraram no Império e serviram de base nas reformas
 republicanas.
 
   <footer class="figure-caption">Texto reproduzido
-  do <cite>Condephaat – Conselho de Defesa do Patrimônio Histórico, Arqueológico, Artístico e Turístico</cite></footer>
+  do <cite>Condephaat – Conselho de Defesa do Patrimônio Histórico,
+  Arqueológico, Artístico e Turístico</cite></footer>
 </blockquote>

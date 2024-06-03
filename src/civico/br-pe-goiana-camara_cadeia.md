@@ -1,5 +1,5 @@
 ---
-title : "Casa de Câmara e Cadeia de Goiana"
+title : "Casa de Câmara e Cadeia"
 date  : 2024-04-30
 author: "Sara Guimarães de Oliveira" 
 excerpt: >- 
@@ -62,15 +62,16 @@ alcova.
 
 <blockquote>
 
->Data de 1836 a primeira aparição da Casa de Câmara e Cadeia de Goiana
->nos relatórios de obra da Repartição de Obras Públicas de Pernambuco,
->indicando uma provável data para o início de sua construção. O edifício
->é um sobrado com acesso único centralizado no piso térreo, fachada
->adornada com elementos ecléticos e esquadrias de madeira. Ele abrigou o
->programa de cadeia, corpo de guarda, júri, casa do carcereiro, cozinha e
->alcova.
+Data de 1836 a primeira aparição da Casa de Câmara e Cadeia de Goiana
+nos relatórios de obra da Repartição de Obras Públicas de Pernambuco,
+indicando uma provável data para o início de sua construção. O edifício
+é um sobrado com acesso único centralizado no piso térreo, fachada
+adornada com elementos ecléticos e esquadrias de madeira. Ele abrigou o
+programa de cadeia, corpo de guarda, júri, casa do carcereiro, cozinha e
+alcova.
 
 
-  <footer class="figure-caption">Texto reproduzido
-  do <cite>CASAS DE CÂMARA E CADEIA: UMA ANÁLISE TIPOLÓGICA DE PORTUGAL À COLÔNIA<cite>, Cecília Barthel C. Campello<cite>, 2012</footer>
+  <footer class="figure-caption">Texto reproduzido de Cecília Barthel C.
+  Campello, <cite>Casas de câmara e cadeia: uma análise tipológica de Portugal
+  à Colônia</cite>, 2012</footer>
 </blockquote>

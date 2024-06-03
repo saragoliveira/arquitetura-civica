@@ -1,5 +1,5 @@
 ---
-title : "Mercado Municipal de Belém"
+title : "Mercado Municipal"
 date  : 2024-04-30
 author: Sara Guimarães de Oliveira
 excerpt: >-
@@ -9,7 +9,6 @@ excerpt: >-
 alternative:
   - "Mercado Bolonha"
   - "Mercado de Carne"
-  - "Mercado Municipal"
 creator:
   - name: "Gama Abreu"
     type: "personal"
@@ -59,18 +58,16 @@ log:
     message: "Completei o fichamento, falta adicionar mídia, docs e dwg"
 ---
 
-<blockquote>
-
->O Mercado Municipal de Belém foi construído inicialmente em 1867 em
->alvenaria com apenas um pavimento, no entanto, em 1904 este foi
->reformado para ampliar sua capacidade de comércio e abastecimento, sob
->projeto do engenheiro Francisco Bolonha, a quem se deve o nome
->atribuído posteriormente de Mercado Bolonha, criando mais um pavimento
->intermediário e um superior em todo o edifício em estrutura metálica. O
->mercado tem lojas abertas para as ruas que o circundam e acesso ao pátio
->interno em todas suas quatro faces.
-
-  <footer class="figure-caption">Texto reproduzido
-  do <cite>Mercado Bolonha: Patrimônio Arquitetônico e locus de práticas
-culturais comerciais em Belém do Pará<cite>, Luiz Henrique Rabelo da Silva<cite>, 2018</footer>
-</blockquote>
+> O Mercado Municipal de Belém foi construído inicialmente em 1867 em
+> alvenaria com apenas um pavimento, no entanto, em 1904 este foi
+> reformado para ampliar sua capacidade de comércio e abastecimento, sob
+> projeto do engenheiro Francisco Bolonha, a quem se deve o nome
+> atribuído posteriormente de Mercado Bolonha, criando mais um pavimento
+> intermediário e um superior em todo o edifício em estrutura metálica. O
+> mercado tem lojas abertas para as ruas que o circundam e acesso ao pátio
+> interno em todas suas quatro faces.
+> 
+> <footer class="figure-caption">Texto reproduzido
+> de Luiz Henrique Rabelo da Silva, <cite>Mercado Bolonha: Patrimônio
+> Arquitetônico e locus de práticas > culturais comerciais em Belém do
+> Pará</cite>, 2018</footer>

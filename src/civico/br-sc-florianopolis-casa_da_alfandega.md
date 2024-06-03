@@ -72,17 +72,14 @@ log:
     message: "Inclui campos para bases documentais"
 ---
 
-</blockquote>
-
->O edifício foi construído a mando do presidente da Província de Santa
->Catarina, em 1874, João Tomé da Silva, para substituir a antiga
->alfandega que havia sofrido um incêndio em 1866. O projeto e execução da
->obra são atribuídos ao engenheiro Martinho Domiense Pinto Braga e ao
->Coronel José Feliciano Alves, inaugurado em 1876, ele se desenvolve em
->três corpos, um sobrado central e dois armazéns ans lateais, ao estilo
->neoclássico. O prédio foi tombado em 1975 e desde 1988 abriga a Galeria
->do Artesanato.
-
-  <footer class="figure-caption">Texto reproduzido
-  do <cite>IPatrimônio</footer>
-</blockquote>
+> O edifício foi construído a mando do presidente da Província de Santa
+> Catarina, em 1874, João Tomé da Silva, para substituir a antiga
+> alfandega que havia sofrido um incêndio em 1866. O projeto e execução da
+> obra são atribuídos ao engenheiro Martinho Domiense Pinto Braga e ao
+> Coronel José Feliciano Alves, inaugurado em 1876, ele se desenvolve em
+> três corpos, um sobrado central e dois armazéns ans lateais, ao estilo
+> neoclássico. O prédio foi tombado em 1975 e desde 1988 abriga a Galeria
+> do Artesanato.
+> 
+> <footer class="figure-caption">Texto reproduzido
+> do <cite>IPatrimônio</footer>

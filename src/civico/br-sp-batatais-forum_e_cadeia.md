@@ -61,17 +61,14 @@ log:
     message: "Inclui campos para bases documentais"
 ---
 
-</blockquote>
-
->Edificação de cunho administrativo e judicial, tinham múltiplas funções,
->sendo um local destinado à administração municipal, abrigando as sessões
->da Câmara Municipal, onde eram debatidos e deliberados os assuntos
->políticos, econômicos e sociais da cidade. E em outro nível,
->semienterrado servia como prisão, onde eram detidos os infratores da lei
->que aguardavam julgamento ou cumpriam pena. A planta de base quase
->quadrada levanta-se com paredes robustas, um corredor central organiza
->as dependências a sua volta. Tombado pelo Iphan e pelo Condephaat.
-
-  <footer class="figure-caption">Texto reproduzido
-  do <cite>IPatrimônio</footer>
-</blockquote>
+> Edificação de cunho administrativo e judicial, tinham múltiplas funções,
+> sendo um local destinado à administração municipal, abrigando as sessões
+> da Câmara Municipal, onde eram debatidos e deliberados os assuntos
+> políticos, econômicos e sociais da cidade. E em outro nível,
+> semienterrado servia como prisão, onde eram detidos os infratores da lei
+> que aguardavam julgamento ou cumpriam pena. A planta de base quase
+> quadrada levanta-se com paredes robustas, um corredor central organiza
+> as dependências a sua volta. Tombado pelo Iphan e pelo Condephaat.
+>
+> <footer class="figure-caption">Texto reproduzido
+> do <cite>IPatrimônio</footer>

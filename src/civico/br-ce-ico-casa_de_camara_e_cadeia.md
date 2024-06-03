@@ -1,5 +1,5 @@
 ---
-title : "Casa de Câmara e Cadeia de Icó"
+title : "Casa de Câmara e Cadeia"
 date  : 2024-04-24
 author: Sara Guimarães de Oliveira
 excerpt: >-

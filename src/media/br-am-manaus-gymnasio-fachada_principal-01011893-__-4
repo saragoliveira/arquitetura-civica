@@ -1,0 +1,96 @@
+title             : "Lyceum,-Manáos" 
+date              :  2024-06-05
+author            : "Sara Guimarães de Oliveira"
+excerpt:  >
+  Fotografia da fachada principal do prédio do Liceu, parte do acervo exposto na World's Columbian Exposition (1893, Chicago III)
+creator:
+  - name          : "s.n"
+    type          : ""
+publisher:
+  - name          : "s.n."
+    type          : ""
+contributor:
+  - name          : "State Library of Pennsylvania"
+    type          : "corporate"
+    role          : "other"
+    href          : "https://archive.org/details/cityofmanaoscoun00unse"
+   - name          : "Instituto Durango Duarte"
+    type          : "corporate"
+    role          : "other"
+    href          : "https://idd.org.br/livros-durango-duarte/manaus-entre-o-passado-e-o-presente.pdf"
+conformsTo     : "https://schema.org/Map"
+type:
+  name            : "stillImage"
+  worktype:
+    text          : "imagem"
+    vocab         : "TAM" # sigla para o livro Thesaurus para Acervos Museológicos, de Ferrez e Bianchini
+    refid         : "10.1"
+format:
+  fileFormat: "image/jpeg"
+  extent:
+    - type        : "width"
+      measurements: 
+      unit        : "px"
+    - type        : "height"
+      measurements: 
+      unit        : "px"
+    - type        : "fileSize"
+      measurements: 
+      unit        : "MB"
+    - type        : "width"
+      measurements:  
+      unit        : "mm"
+    - type        : "height"
+      measurements: 
+      unit        : "mm"
+  medium:
+    material:
+      - type      : "medium"
+        text      : "" # Usar vocabulário controlado se possível
+        vocab     : "" # Caso use vocabulário controlado, preencher os...
+        refid     : "" # ...campos `vocab` e `refid`.
+      - type      : "support"
+        text      : "" # Usar vocabulário controlado se possível
+        vocab     : "" # Caso use vocabulário controlado, preencher os...
+        refid     : "" # ...campos `vocab` e `refid`.
+    technique:
+      - text      : "fotografia" # Usar vocabulário controlado se possível
+        vocab     : "" # Caso use vocabulário controlado, preencher os...
+        refid     : "" # ...campos `vocab` e `refid`.
+bibliographiCitation:
+  citekey : "cityofmanaoscoun00unse"
+identifier:     # Seguir o mesmo formato das fichas de edificação.
+  - source: ""  # Pode ser usado para indicar, por exemplo, a cota da
+    id    : ""  # imagem num arquivo.
+coverage:
+  spatial:       
+    location:
+      - type   : "site"
+        name:
+          type : "geographic"
+          text : "Manaus"
+        city   : "Manaus"
+        state  : "Amazonas"
+        country: "BR"
+  temporal:
+    created:
+      date     : 1893-01-01
+      display_date: "1893"
+      source:
+        citekey: ""
+        href   : ""
+        text   : ""
+subject:
+  - type       : "geographicPlace"
+    text       : "Manaus (Amazonas, Brasil)"
+    vocab      : "" # Caso use vocabulário controlado, preencher os...
+    refid      : "" # ...campos `vocab` e `refid`.
+rights:
+  status       : "publicDomain"
+  text         : "Domínio público"
+license:
+  href         : "https://commons.wikimedia.org/wiki/Template:PD-BR-1935"
+  text         : "Domínio público"
+relation:
+  - type       : "depicts"
+    relids     : "br-am-manaus-gymnasio"

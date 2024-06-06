@@ -1,0 +1,92 @@
+title             : "Vista ampla do Mercado Municipal Adolpho Lisboa" 
+date              :  2024-06-06
+author            : "Sara Guimarães de Oliveira"
+excerpt:  >
+  Vista ampla do então Mercado Municipal Adolpho Lisboa e adjacências, foto tirada durante o período de seca do Rio Negro, na década de 1960.
+creator:
+  - name          : "Corrêa Lima"
+    type          : "personal"
+publisher:
+  - name          : "Eduardo Braga"
+    type          : "personal"
+contributor:
+  - name          : "Instituto Durango Duarte"
+    type          : "corporate"
+    role          : "other"
+    href          : "https://idd.org.br/iconografia/vista-ampla-do-mercado-municipal-adolpho-lisboa/"
+conformsTo     : "https://schema.org/Map"
+type:
+  name            : "stillImage"
+  worktype:
+    text          : "fotografia"
+    vocab         : "TAM" # sigla para o livro Thesaurus para Acervos Museológicos, de Ferrez e Bianchini
+    refid         : "10.1"
+format:
+  fileFormat: "image/jpeg"
+  extent:
+    - type        : "width"
+      measurements: 
+      unit        : "px"
+    - type        : "height"
+      measurements: 
+      unit        : "px"
+    - type        : "fileSize"
+      measurements: 
+      unit        : "MB"
+    - type        : "width"
+      measurements:  
+      unit        : "mm"
+    - type        : "height"
+      measurements: 
+      unit        : "mm"
+  medium:
+    material:
+      - type      : "medium"
+        text      : "" # Usar vocabulário controlado se possível
+        vocab     : "" # Caso use vocabulário controlado, preencher os...
+        refid     : "" # ...campos `vocab` e `refid`.
+      - type      : "support"
+        text      : "" # Usar vocabulário controlado se possível
+        vocab     : "" # Caso use vocabulário controlado, preencher os...
+        refid     : "" # ...campos `vocab` e `refid`.
+    technique:
+      - text      : "fotografia" # Usar vocabulário controlado se possível
+        vocab     : "" # Caso use vocabulário controlado, preencher os...
+        refid     : "" # ...campos `vocab` e `refid`.
+bibliographiCitation:
+  citekey : ""
+identifier:     # Seguir o mesmo formato das fichas de edificação.
+  - source: ""  # Pode ser usado para indicar, por exemplo, a cota da
+    id    : ""  # imagem num arquivo.
+coverage:
+  spatial:       
+    location:
+      - type   : "site"
+        name:
+          type : "geographic"
+          text : "Manaus"
+        city   : "Manaus"
+        state  : "Amazonas"
+        country: "BR"
+  temporal:
+    created:
+      date     : 1960-01-01
+      display_date: "1960"
+      source:
+        citekey: ""
+        href   : ""
+        text   : ""
+subject:
+  - type       : "geographicPlace"
+    text       : "Manaus (Amazonas, Brasil)"
+    vocab      : "" # Caso use vocabulário controlado, preencher os...
+    refid      : "" # ...campos `vocab` e `refid`.
+rights:
+  status       : "publicDomain"
+  text         : "Domínio público"
+license:
+  href         : "https://commons.wikimedia.org/wiki/Template:PD-BR-1935"
+  text         : "Domínio público"
+relation:
+  - type       : "depicts"
+    relids     : "br-am-manaus-mercado_publico"

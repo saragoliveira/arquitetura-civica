@@ -1,0 +1,92 @@
+title             : "Pavilhão do Mercado do Peixe do Mercado Adolpho Lisboa" 
+date              :  2024-06-05
+author            : "Sara Guimarães de Oliveira"
+excerpt:  >
+  Fotografia de um galpão lateral do Mercado Adolpho Lisboa, em estrutura metálica
+creator:
+  - name          : ""
+    type          : ""
+publisher:
+  - name          : "Acervo Moacir Andrade"
+    type          : "corporate"
+contributor:
+   - name          : "Instituto Durango Duarte"
+    type          : "corporate"
+    role          : "other"
+    href          : "https://idd.org.br/iconografia/pavilhao-do-mercado-do-peixe-do-mercado-adolpho-lisboa/"
+conformsTo     : "https://schema.org/Map"
+type:
+  name            : "stillImage"
+  worktype:
+    text          : "fotografia"
+    vocab         : "TAM" # sigla para o livro Thesaurus para Acervos Museológicos, de Ferrez e Bianchini
+    refid         : "10.1"
+format:
+  fileFormat: "image/jpeg"
+  extent:
+    - type        : "width"
+      measurements: 
+      unit        : "px"
+    - type        : "height"
+      measurements: 
+      unit        : "px"
+    - type        : "fileSize"
+      measurements: 
+      unit        : "MB"
+    - type        : "width"
+      measurements:  
+      unit        : "mm"
+    - type        : "height"
+      measurements: 
+      unit        : "mm"
+  medium:
+    material:
+      - type      : "medium"
+        text      : "" # Usar vocabulário controlado se possível
+        vocab     : "" # Caso use vocabulário controlado, preencher os...
+        refid     : "" # ...campos `vocab` e `refid`.
+      - type      : "support"
+        text      : "" # Usar vocabulário controlado se possível
+        vocab     : "" # Caso use vocabulário controlado, preencher os...
+        refid     : "" # ...campos `vocab` e `refid`.
+    technique:
+      - text      : "fotografia" # Usar vocabulário controlado se possível
+        vocab     : "" # Caso use vocabulário controlado, preencher os...
+        refid     : "" # ...campos `vocab` e `refid`.
+bibliographiCitation:
+  citekey : ""
+identifier:     # Seguir o mesmo formato das fichas de edificação.
+  - source: ""  # Pode ser usado para indicar, por exemplo, a cota da
+    id    : ""  # imagem num arquivo.
+coverage:
+  spatial:       
+    location:
+      - type   : "site"
+        name:
+          type : "geographic"
+          text : "Manaus"
+        city   : "Manaus"
+        state  : "Amazonas"
+        country: "BR"
+  temporal:
+    created:
+      date     : 
+      display_date: ""
+      source:
+        citekey: ""
+        href   : ""
+        text   : ""
+subject:
+  - type       : "geographicPlace"
+    text       : "Manaus (Amazonas, Brasil)"
+    vocab      : "" # Caso use vocabulário controlado, preencher os...
+    refid      : "" # ...campos `vocab` e `refid`.
+rights:
+  status       : "publicDomain"
+  text         : "Domínio público"
+license:
+  href         : "https://commons.wikimedia.org/wiki/Template:PD-BR-1935"
+  text         : "Domínio público"
+relation:
+  - type       : "depicts"
+    relids     : "br-am-manaus-gymnasio"

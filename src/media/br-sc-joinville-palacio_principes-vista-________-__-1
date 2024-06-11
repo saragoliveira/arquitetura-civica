@@ -1,0 +1,92 @@
+title             : "Museu Nacional da Imigração e Colonização : Joinville, SC" 
+date              :  2024-06-11 
+author            : "Sara Guimarães de Oliveira"
+excerpt:  >
+  Foto em preto e branco da fachada principal do antigo Palácio dos Príncipes, atual Museu Nacional da Imigração e Colonização, por volta dos anos 1900
+creator:
+  - name          : ""
+    type          : ""
+publisher:
+  - name          : "Acervo dos municípios brasileiros"
+    type          : "corporate"
+contributor:
+  - name          : "IBGE"
+    type          : "corporate"
+    role          : "other"
+    href          : "https://biblioteca.ibge.gov.br/index.php/biblioteca-catalogo?view=detalhes&id=444733"
+conformsTo     : "https://schema.org/Map"
+type:
+  name            : "stillImage"
+  worktype:
+    text          : "fotografia"
+    vocab         : "TAM" # sigla para o livro Thesaurus para Acervos Museológicos, de Ferrez e Bianchini
+    refid         : "10.1"
+format:
+  fileFormat: "image/jpeg"
+  extent:
+    - type        : "width"
+      measurements: 
+      unit        : "px"
+    - type        : "height"
+      measurements: 
+      unit        : "px"
+    - type        : "fileSize"
+      measurements: 
+      unit        : "MB"
+    - type        : "width"
+      measurements:  
+      unit        : "mm"
+    - type        : "height"
+      measurements: 
+      unit        : "mm"
+  medium:
+    material:
+      - type      : "medium"
+        text      : "" # Usar vocabulário controlado se possível
+        vocab     : "" # Caso use vocabulário controlado, preencher os...
+        refid     : "" # ...campos `vocab` e `refid`.
+      - type      : "support"
+        text      : "" # Usar vocabulário controlado se possível
+        vocab     : "" # Caso use vocabulário controlado, preencher os...
+        refid     : "" # ...campos `vocab` e `refid`.
+    technique:
+      - text      : "fotografia" # Usar vocabulário controlado se possível
+        vocab     : "" # Caso use vocabulário controlado, preencher os...
+        refid     : "" # ...campos `vocab` e `refid`.
+bibliographiCitation:
+  citekey : ""
+identifier:     # Seguir o mesmo formato das fichas de edificação.
+  - source: ""  # Pode ser usado para indicar, por exemplo, a cota da
+    id    : ""  # imagem num arquivo.
+coverage:
+  spatial:       
+    location:
+      - type   : "site"
+        name:
+          type : "geographic"
+          text : "Joinville, SC"
+        city   : "Joinville"
+        state  : "Santa Catarina"
+        country: "BR"
+  temporal:
+    created:
+      date     : 19---01-01
+      display_date: "19--"
+      source:
+        citekey: ""
+        href   : ""
+        text   : ""
+subject:
+  - type       : "geographicPlace"
+    text       : "Joinville (Santa Catarina, Brasil)"
+    vocab      : "" # Caso use vocabulário controlado, preencher os...
+    refid      : "" # ...campos `vocab` e `refid`.
+rights:
+  status       : "publicDomain"
+  text         : "Domínio público"
+license:
+  href         : "https://commons.wikimedia.org/wiki/Template:PD-BR-1935"
+  text         : "Domínio público"
+relation:
+  - type       : "depicts"
+    relids     : "br-sc-joinville-pal_dos_principes"

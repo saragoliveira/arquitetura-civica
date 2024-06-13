@@ -1,0 +1,92 @@
+title             : "Cidade baixa- Salvador" 
+date              :  2024-06-13
+author            : "Sara Guimarães de Oliveira"
+excerpt:  >
+Cidade Baixa, Salvador (BA), anos 1940
+creator:
+  - name          : ""
+    type          : "personal"
+publisher:
+  - name          : "Correio da Manhã"
+    type          : "corporate"
+contributor:
+  - name          : "Arquivo Nacional"
+    type          : "corporate"
+    role          : "other"
+    href          : "http://imagem.sian.an.gov.br/acervo/derivadas/BR_RJANRIO_PH/0/FOT/05908/BR_RJANRIO_PH_0_FOT_05908_011.pdf"
+conformsTo     : "https://schema.org/Map"
+type:
+  name            : "stillImage"
+  worktype:
+    text          : "fotografia"
+    vocab         : "TAM" # sigla para o livro Thesaurus para Acervos Museológicos, de Ferrez e Bianchini
+    refid         : "10.1"
+format:
+  fileFormat: "image/jpeg"
+  extent:
+    - type        : "width"
+      measurements: 563
+      unit        : "px"
+    - type        : "height"
+      measurements: 349
+      unit        : "px"
+    - type        : "fileSize"
+      measurements: 0.036
+      unit        : "MB"
+    - type        : "width"
+      measurements:  
+      unit        : "mm"
+    - type        : "height"
+      measurements: 
+      unit        : "mm"
+  medium:
+    material:
+      - type      : "medium"
+        text      : "" # Usar vocabulário controlado se possível
+        vocab     : "" # Caso use vocabulário controlado, preencher os...
+        refid     : "" # ...campos `vocab` e `refid`.
+      - type      : "support"
+        text      : "" # Usar vocabulário controlado se possível
+        vocab     : "" # Caso use vocabulário controlado, preencher os...
+        refid     : "" # ...campos `vocab` e `refid`.
+    technique:
+      - text      : "fotografia" # Usar vocabulário controlado se possível
+        vocab     : "TAM" # Caso use vocabulário controlado, preencher os...
+        refid     : "10.1" # ...campos `vocab` e `refid`.
+bibliographiCitation:
+  citekey : ""
+identifier:  BR_RJANRIO_PH_0_FOT_05908_011   # Seguir o mesmo formato das fichas de edificação.
+  - source: "Arquivo Nacional"  # Pode ser usado para indicar, por exemplo, a cota da
+    id    : "05908_011"  # imagem num arquivo.
+coverage:
+  spatial:       
+    location:
+      - type   : "site"
+        name:
+          type : "geographic"
+          text : "Salvador"
+        city   : "Salvador"
+        state  : "Bahia"
+        country: "BR"
+  temporal:
+    created:
+      date     : 1940-01-01
+      display_date: "1940"
+      source:
+        citekey: ""
+        href   : ""
+        text   : ""
+subject:
+  - type       : "geographicPlace"
+    text       : "Salvador (Bahia, Brasil)"
+    vocab      : "" # Caso use vocabulário controlado, preencher os...
+    refid      : "" # ...campos `vocab` e `refid`.
+rights:
+  status       : "publicDomain"
+  text         : "Domínio público"
+license:
+  href         : "https://commons.wikimedia.org/wiki/Template:PD-BR-1935"
+  text         : "Domínio público"
+relation:
+  - type       : "depicts"
+    relids     : "br-ba-salvador-alfandega"

@@ -1,0 +1,92 @@
+title             : "Bahia- vista" 
+date              :  2024-06-13
+author            : "Sara Guimarães de Oliveira"
+excerpt:  >
+  Vista da cidade de Salvador, no século XIX, antes da construção do Elevador Lacerda. O edifício da alfândega em destaque, onde hoje encontra-se o Mercado Modelo.
+creator:
+  - name          : "Rafael Castro y Ordoñez"
+    type          : "personal"
+publisher:
+  - name          : "La Comision Científica destinada al Pacífico"
+    type          : "corporate"
+contributor:
+  - name          : "Biblioteca Nacional"
+    type          : "corporate"
+    role          : "other"
+    href          : "https://objdigital.bn.br/objdigital2/acervo_digital/div_iconografia/icon21044/icon1018501.jpg"
+conformsTo     : "https://schema.org/Map"
+type:
+  name            : "stillImage"
+  worktype:
+    text          : "fotografia"
+    vocab         : "TAM" # sigla para o livro Thesaurus para Acervos Museológicos, de Ferrez e Bianchini
+    refid         : "10.1"
+format:
+  fileFormat: "image/jpeg"
+  extent:
+    - type        : "width"
+      measurements: 1816
+      unit        : "px"
+    - type        : "height"
+      measurements: 1196
+      unit        : "px"
+    - type        : "fileSize"
+      measurements: 0.151
+      unit        : "MB"
+    - type        : "width"
+      measurements:  274
+      unit        : "mm"
+    - type        : "height"
+      measurements: 173
+      unit        : "mm"
+  medium:
+    material:
+      - type      : "medium"
+        text      : "" # Usar vocabulário controlado se possível
+        vocab     : "" # Caso use vocabulário controlado, preencher os...
+        refid     : "" # ...campos `vocab` e `refid`.
+      - type      : "support"
+        text      : "" # Usar vocabulário controlado se possível
+        vocab     : "" # Caso use vocabulário controlado, preencher os...
+        refid     : "" # ...campos `vocab` e `refid`.
+    technique:
+      - text      : "fotografia" # Usar vocabulário controlado se possível
+        vocab     : "" # Caso use vocabulário controlado, preencher os...
+        refid     : "" # ...campos `vocab` e `refid`.
+bibliographiCitation:
+  citekey : ""
+identifier:     # Seguir o mesmo formato das fichas de edificação.
+  - source: ""  # Pode ser usado para indicar, por exemplo, a cota da
+    id    : ""  # imagem num arquivo.
+coverage:
+  spatial:       
+    location:
+      - type   : "site"
+        name:
+          type : "geographic"
+          text : "Salvador"
+        city   : "Salvador"
+        state  : "Bahia"
+        country: "BR"
+  temporal:
+    created:
+      date     : 
+      display_date: ""
+      source:
+        citekey: ""
+        href   : ""
+        text   : ""
+subject:
+  - type       : "geographicPlace"
+    text       : "Salvador (Bahia, Brasil)"
+    vocab      : "" # Caso use vocabulário controlado, preencher os...
+    refid      : "" # ...campos `vocab` e `refid`.
+rights:
+  status       : "publicDomain"
+  text         : "Domínio público"
+license:
+  href         : "https://commons.wikimedia.org/wiki/Template:PD-BR-1935"
+  text         : "Domínio público"
+relation:
+  - type       : "depicts"
+    relids     : "br-ba-salvador-alfandega"

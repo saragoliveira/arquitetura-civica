@@ -2,7 +2,7 @@ title             : "Icó- Casa de Câmara e Cadeia"
 date              :  2024-06-13
 author            : "Sara Guimarães de Oliveira"
 excerpt:  >
-Fotografia da fahcada principal e muro circundante da Casa de Câmara e Cadeia de Icó
+Fotografia da fachada principal e muro circundante da Casa de Câmara e Cadeia de Icó
 creator:
   - name          : ""
     type          : "personal"
@@ -25,13 +25,13 @@ format:
   fileFormat: "image/jpeg"
   extent:
     - type        : "width"
-      measurements: 1070
+      measurements: 1076
       unit        : "px"
     - type        : "height"
-      measurements: 722
+      measurements: 650
       unit        : "px"
     - type        : "fileSize"
-      measurements: 0.200
+      measurements: 0.155
       unit        : "MB"
     - type        : "width"
       measurements:  

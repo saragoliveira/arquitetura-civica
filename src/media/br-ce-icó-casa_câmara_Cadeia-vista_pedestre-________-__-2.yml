@@ -1,0 +1,92 @@
+title             : "Casa de Câmara e Cadeia de Icó" 
+date              :  2024-06-13
+author            : "Sara Guimarães de Oliveira"
+excerpt:  >
+Fotografia lateralizada da fachada principal e muro da Casa de Câmara e Cadeia de Icó
+creator:
+  - name          : ""
+    type          : "personal"
+publisher:
+  - name          : ""
+    type          : "corporate"
+contributor:
+  - name          : "IPHAN"
+    type          : "corporate"
+    role          : "other"
+    href          : "https://www.ipatrimonio.org/ico-antiga-casa-de-camara-e-cadeia/ico-casa-de-camara-e-cadeia-imagem-acervo-digital-do-iphan-6/"
+conformsTo     : "https://schema.org/Map"
+type:
+  name            : "stillImage"
+  worktype:
+    text          : "fotografia"
+    vocab         : "TAM" # sigla para o livro Thesaurus para Acervos Museológicos, de Ferrez e Bianchini
+    refid         : "10.1"
+format:
+  fileFormat: "image/jpeg"
+  extent:
+    - type        : "width"
+      measurements: 1070
+      unit        : "px"
+    - type        : "height"
+      measurements: 722
+      unit        : "px"
+    - type        : "fileSize"
+      measurements: 0.200
+      unit        : "MB"
+    - type        : "width"
+      measurements:  
+      unit        : "mm"
+    - type        : "height"
+      measurements: 
+      unit        : "mm"
+  medium:
+    material:
+      - type      : "medium"
+        text      : "" # Usar vocabulário controlado se possível
+        vocab     : "" # Caso use vocabulário controlado, preencher os...
+        refid     : "" # ...campos `vocab` e `refid`.
+      - type      : "support"
+        text      : "" # Usar vocabulário controlado se possível
+        vocab     : "" # Caso use vocabulário controlado, preencher os...
+        refid     : "" # ...campos `vocab` e `refid`.
+    technique:
+      - text      : "fotografia" # Usar vocabulário controlado se possível
+        vocab     : "TAM" # Caso use vocabulário controlado, preencher os...
+        refid     : "10.1" # ...campos `vocab` e `refid`.
+bibliographiCitation:
+  citekey : ""
+identifier:     # Seguir o mesmo formato das fichas de edificação.
+  - source: ""  # Pode ser usado para indicar, por exemplo, a cota da
+    id    : ""  # imagem num arquivo.
+coverage:
+  spatial:       
+    location:
+      - type   : "site"
+        name:
+          type : "geographic"
+          text : "Icó"
+        city   : "Icó"
+        state  : "Ceará"
+        country: "BR"
+  temporal:
+    created:
+      date     : 
+      display_date: ""
+      source:
+        citekey: ""
+        href   : ""
+        text   : ""
+subject:
+  - type       : "geographicPlace"
+    text       : "Icó (Ceará, Brasil)"
+    vocab      : "" # Caso use vocabulário controlado, preencher os...
+    refid      : "" # ...campos `vocab` e `refid`.
+rights:
+  status       : "publicDomain"
+  text         : "Domínio público"
+license:
+  href         : "https://commons.wikimedia.org/wiki/Template:PD-BR-1935"
+  text         : "Domínio público"
+relation:
+  - type       : "depicts"
+    relids     : "br-ce-icó-casa_de_camara_e_cadeia"

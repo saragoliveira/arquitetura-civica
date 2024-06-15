@@ -1,0 +1,92 @@
+title             : "Rotunda com Varanda fechada" 
+date              :  2024-06-13
+author            : "Sara Guimarães de Oliveira"
+excerpt:  >
+Fotografia da orla de Salvador com detaque para a rotunda da Alfândega.
+creator:
+  - name          : "Guilherme Gaensly"
+    type          : "personal"
+publisher:
+  - name          : ""
+    type          : "corporate"
+contributor:
+  - name          : "Instituto Moreira Sales"
+    type          : "corporate"
+    role          : "other"
+    href          : "https://brasilianafotografica.bn.gov.br/wp-content/uploads/2016/02/"
+conformsTo     : "https://schema.org/Map"
+type:
+  name            : "stillImage"
+  worktype:
+    text          : "fotografia"
+    vocab         : "TAM" # sigla para o livro Thesaurus para Acervos Museológicos, de Ferrez e Bianchini
+    refid         : "10.1"
+format:
+  fileFormat: "image/jpeg"
+  extent:
+    - type        : "width"
+      measurements: 2784
+      unit        : "px"
+    - type        : "height"
+      measurements: 2000
+      unit        : "px"
+    - type        : "fileSize"
+      measurements: 4.85
+      unit        : "MB"
+    - type        : "width"
+      measurements:  
+      unit        : "mm"
+    - type        : "height"
+      measurements: 
+      unit        : "mm"
+  medium:
+    material:
+      - type      : "medium"
+        text      : "" # Usar vocabulário controlado se possível
+        vocab     : "" # Caso use vocabulário controlado, preencher os...
+        refid     : "" # ...campos `vocab` e `refid`.
+      - type      : "support"
+        text      : "" # Usar vocabulário controlado se possível
+        vocab     : "" # Caso use vocabulário controlado, preencher os...
+        refid     : "" # ...campos `vocab` e `refid`.
+    technique:
+      - text      : "fotografia" # Usar vocabulário controlado se possível
+        vocab     : "TAM" # Caso use vocabulário controlado, preencher os...
+        refid     : "10.1" # ...campos `vocab` e `refid`.
+bibliographiCitation:
+  citekey : ""
+identifier:  	007A5P4F3-04   # Seguir o mesmo formato das fichas de edificação.
+  - source: "Brasiliana Fotográfica"  # Pode ser usado para indicar, por exemplo, a cota da
+    id    : "	007A5P4F3-04"  # imagem num arquivo.
+coverage:
+  spatial:       
+    location:
+      - type   : "site"
+        name:
+          type : "geographic"
+          text : "Salvador"
+        city   : "Salvador"
+        state  : "Bahia"
+        country: "BR"
+  temporal:
+    created:
+      date     : 
+      display_date: ""
+      source:
+        citekey: ""
+        href   : ""
+        text   : ""
+subject:
+  - type       : "geographicPlace"
+    text       : "Salvador (Bahia, Brasil)"
+    vocab      : "" # Caso use vocabulário controlado, preencher os...
+    refid      : "" # ...campos `vocab` e `refid`.
+rights:
+  status       : "publicDomain"
+  text         : "Domínio público"
+license:
+  href         : "https://commons.wikimedia.org/wiki/Template:PD-BR-1935"
+  text         : "Domínio público"
+relation:
+  - type       : "depicts"
+    relids     : "br-ba-salvador-alfandega"

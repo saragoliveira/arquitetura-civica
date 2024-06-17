@@ -57,6 +57,10 @@ identifier:
 log:
   - date: 2024-04-24
     message: "Inclui campos para bases documentais"
+relation:
+  - type  : "depictedIn"
+    relids: "/media/br-mg-ouro_preto-casa_camara_cadeia-planta_telhado-________-jr-3/"
+    href  : ""
 ---
 
 

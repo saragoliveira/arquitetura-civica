@@ -1,0 +1,93 @@
+title             : "Fundo da Câmara de Ouro Preto" 
+date              :  2024-06-13
+author            : "Sara Guimarães de Oliveira"
+excerpt:  >
+Documento cartográfico inserido no Dossiê "Plantas da Casa da Câmara e Cadeia de Ouro Preto" ilustrando a elevação do fundo do edifício
+
+creator:
+  - name          : "João Reinaldo"
+    type          : "personal"
+publisher:
+  - name          : "Fundo Obras Públicas"
+    type          : "corporate"
+contributor:
+  - name          : "Arquivo Público Mineiro"
+    type          : "corporate"
+    role          : "other"
+    href          : "http://www.siaapm.cultura.mg.gov.br/modules/grandes_formatos/brtacervo.php?cid=947&op=1"
+conformsTo     : "https://schema.org/Map"
+type:
+  name            : "stillImage"
+  worktype:
+    text          : "desenho documental"
+    vocab         : "TAM" # sigla para o livro Thesaurus para Acervos Museológicos, de Ferrez e Bianchini
+    refid         : "02.2"
+format:
+  fileFormat: "image/jpeg"
+  extent:
+    - type        : "width"
+      measurements: 3200
+      unit        : "px"
+    - type        : "height"
+      measurements: 1939
+      unit        : "px"
+    - type        : "fileSize"
+      measurements: 0.842
+      unit        : "MB"
+    - type        : "width"
+      measurements: 395
+      unit        : "mm"
+    - type        : "height"
+      measurements: 240
+      unit        : "mm"
+  medium:
+    material:
+      - type      : "medium"
+        text      : "" # Usar vocabulário controlado se possível
+        vocab     : "" # Caso use vocabulário controlado, preencher os...
+        refid     : "" # ...campos `vocab` e `refid`.
+      - type      : "support"
+        text      : "" # Usar vocabulário controlado se possível
+        vocab     : "" # Caso use vocabulário controlado, preencher os...
+        refid     : "" # ...campos `vocab` e `refid`.
+    technique:
+      - text      : "nanquim" # Usar vocabulário controlado se possível
+        vocab     : "TAM" # Caso use vocabulário controlado, preencher os...
+        refid     : "" # ...campos `vocab` e `refid`.
+bibliographiCitation:
+  citekey : ""
+identifier:     # Seguir o mesmo formato das fichas de edificação.
+  - source: "SIAAPM"  # Pode ser usado para indicar, por exemplo, a cota da
+    id    : "OP - 018(05)"  # imagem num arquivo.
+coverage:
+  spatial:       
+    location:
+      - type   : "site"
+        name:
+          type : "geographic"
+          text : "Ouro Preto"
+        city   : "Ouro Preto"
+        state  : "Minas Gerais"
+        country: "BR"
+  temporal:
+    created:
+      date     : 1801-01-01 - 1900-01-01
+      display_date: "1801-1900"
+      source:
+        citekey: ""
+        href   : ""
+        text   : ""
+subject:
+  - type       : "geographicPlace"
+    text       : "Ouro Preto (Minas Gerais, Brasil)"
+    vocab      : "" # Caso use vocabulário controlado, preencher os...
+    refid      : "" # ...campos `vocab` e `refid`.
+rights:
+  status       : "publicDomain"
+  text         : "Domínio público"
+license:
+  href         : "https://commons.wikimedia.org/wiki/Template:PD-BR-1935"
+  text         : "Domínio público"
+relation:
+  - type       : "depicts"
+    relids     : "br-mg-ouro_preto-casa_de_camara_e_cadeia"

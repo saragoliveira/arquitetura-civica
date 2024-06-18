@@ -1,0 +1,74 @@
+title             : "Palacete do Liceu de Artes e Ofícios do Recife" 
+date              :  2024-06-13
+author            : "Sara Guimarães de Oliveira"
+excerpt:  >-
+  Negativo da fachada principal do Liceu de Artes e Ofícios do Recife logo que inaugurado
+creator:
+  - name          : "Menna da Costa"
+    type          : "personal"
+contributor:
+  - name          : "Fundação Biblioteca Nacional"
+    type          : "corporate"
+    role          : "other"
+    href          : "https://revistazcultural.pacc.ufrj.br/wp-content/uploads/2019/08/Palacete-do-Liceu-de-Artes-e-Of%C3%ADcios-do-Recife-768x273.png"
+conformsTo        : "https://schema.org/Map"
+type:
+  name            : "stillImage"
+  worktype:
+    text          : "negativo"
+    vocab         : "TAM"
+    refid         : "10.1"
+format:
+  fileFormat: "image/jpeg"
+  extent:
+    - type        : "width"
+      measurements: 768
+      unit        : "px"
+    - type        : "height"
+      measurements: 273
+      unit        : "px"
+    - type        : "fileSize"
+      measurements: 0.348
+      unit        : "MB"
+  medium:
+    material:
+      - type      : "medium"
+        text      : "negativo"
+      - type      : "support"
+        text      : "papel"
+bibliographiCitation:
+  citekey : ""
+  text    : ""
+identifier:     # Seguir o mesmo formato das fichas de edificação.
+  - source: "BN"  # Pode ser usado para indicar, por exemplo, a cota da
+    id    : ""  # imagem num arquivo.
+coverage:
+  spatial:       
+    location:
+      - type   : "site"
+        name:
+          type : "geographic"
+          text : "Recife"
+        city   : "Recife"
+        state  : "Pernambuco"
+        country: "BR"
+  temporal:
+    created:
+      date     : 1880-01-01
+      display_date: "1880"
+      source:
+        citekey: ""
+        href   : ""
+        text   : ""
+subject:
+  - type       : "geographicPlace"
+    text       : "Recife (Pernambuco, Brasil)"
+rights:
+  status       : "publicDomain"
+  text         : "Domínio público"
+license:
+  href         : "https://commons.wikimedia.org/wiki/Template:PD-BR-1935"
+  text         : "Domínio público"
+relation:
+  - type       : "depicts"
+    relids     : "br-mg-ouro_preto-casa_de_camara_e_cadeia"

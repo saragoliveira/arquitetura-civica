@@ -6,11 +6,14 @@ excerpt:  >-
 creator:
   - name          : "Menna da Costa"
     type          : "personal"
+publisher:
+  - name          : "Coleção D. Teresa Cristina Maria"
+    type          : "corporate"
 contributor:
   - name          : "Fundação Biblioteca Nacional"
     type          : "corporate"
     role          : "other"
-    href          : "https://revistazcultural.pacc.ufrj.br/wp-content/uploads/2019/08/Palacete-do-Liceu-de-Artes-e-Of%C3%ADcios-do-Recife-768x273.png"
+    href          : "https://acervo.bn.gov.br/sophia_web/acervo/detalhe/1008324"
 conformsTo        : "https://schema.org/Map"
 type:
   name            : "stillImage"
@@ -30,18 +33,24 @@ format:
     - type        : "fileSize"
       measurements: 0.348
       unit        : "MB"
+    - type        : "width"
+      measurements: 250 
+      unit        : "mm"
+    - type        : "height"
+      measurements: 190
+      unit        : "mm"
   medium:
     material:
       - type      : "medium"
         text      : "negativo"
       - type      : "support"
-        text      : "papel"
+        text      : "triacetato de celulose"
 bibliographiCitation:
   citekey : ""
   text    : ""
-identifier:     # Seguir o mesmo formato das fichas de edificação.
-  - source: "BN"  # Pode ser usado para indicar, por exemplo, a cota da
-    id    : ""  # imagem num arquivo.
+identifier:     
+  - source: "BN"  
+    id    : "Iconografia - FOTOS-ARM.8.2.2(6-7)"  
 coverage:
   spatial:       
     location:
@@ -71,4 +80,4 @@ license:
   text         : "Domínio público"
 relation:
   - type       : "depicts"
-    relids     : "br-mg-ouro_preto-casa_de_camara_e_cadeia"
+    relids     : "br-pe-recife-liceu_de_artes_oficios"

@@ -1,0 +1,80 @@
+title             : "Mercado Público" 
+date              :  2024-06-13
+author            : "Sara Guimarães de Oliveira"
+excerpt:  >
+Fotografia em preto e branco da vista de pedestre do Boulevard da República para a fachada do Mercado Municipal
+creator:
+  - name          : "Felipe Augusto Fidanza"
+    type          : "personal"
+publisher:
+  - name          : "Álbum de Belém, Pará"
+    type          : "corporate"
+contributor:
+  - name          : "Fundação Cultural Tancredo Neves"
+    type          : "corporate"
+    role          : "other"
+    href          : "http://www.fcptn.pa.gov.br/index.php/a/a-titulos/albumbelem1902"
+conformsTo     : "https://schema.org/Map"
+type:
+  name            : "stillImage"
+  worktype:
+    text          : "desenho documental"
+    vocab         : "TAM" # sigla para o livro Thesaurus para Acervos Museológicos, de Ferrez e Bianchini
+    refid         : "10.1"
+format:
+  fileFormat: "image/jpeg"
+  extent:
+    - type        : "width"
+      measurements: 3200
+      unit        : "px"
+    - type        : "height"
+      measurements: 2411
+      unit        : "px"
+    - type        : "fileSize"
+      measurements: 2.2
+      unit        : "MB"
+  medium:
+    material:
+      - type      : "medium"
+        text      : "fotografia" 
+        vocab     : "TAM" 
+        refid     : "10.1" 
+      - type      : "support"
+        text      : "papel" 
+bibliographiCitation:
+  citekey : ""
+identifier:     # Seguir o mesmo formato das fichas de edificação.
+  - source: ""  # Pode ser usado para indicar, por exemplo, a cota da
+    id    : ""  # imagem num arquivo.
+coverage:
+  spatial:       
+    location:
+      - type   : "site"
+        name:
+          type : "geographic"
+          text : "Belém"
+        city   : "Belém"
+        state  : "Pará"
+        country: "BR"
+  temporal:
+    created:
+      date     : 1902-01-01
+      display_date: "1902"
+      source:
+        citekey: ""
+        href   : ""
+        text   : ""
+subject:
+  - type       : "geographicPlace"
+    text       : "Belém (Pará, Brasil)"
+    vocab      : "" # Caso use vocabulário controlado, preencher os...
+    refid      : "" # ...campos `vocab` e `refid`.
+rights:
+  status       : "publicDomain"
+  text         : "Domínio público"
+license:
+  href         : "https://commons.wikimedia.org/wiki/Template:PD-BR-1935"
+  text         : "Domínio público"
+relation:
+  - type       : "depicts"
+    relids     : "br-pa-belem-mercado_municipal"

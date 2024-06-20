@@ -1,0 +1,85 @@
+title             : "Académie Impériale des Beaux Arts de Rio de Janeiro : ouverte à l'étude le 15 Novembre 1826" 
+date              :  2024-06-13
+author            : "Sara Guimarães de Oliveira"
+excerpt:  >-
+  Desenho de Thierry Frères a partir de Jean-Baptiste Debret para planta baixa e fachada da Academia Imperial de Belas Artes
+  - name          : "Thierry Frères"
+    type          : "personal"
+publisher:
+  - name          : "Firmin Didot Frères"
+    type          : "corporate"
+contributor:
+  - name          : "Brasiliana Fotográfica"
+    type          : "corporate"
+    role          : "other"
+    href          : "https://acervos.ims.com.br/portals/#/search/0072430cx033b-01"
+conformsTo        : "https://schema.org/Map"
+  - name          : "Biblioteca Nacional"
+    type          : "corporate"
+    role          : "other"
+type:
+  name            : "stillImage"
+  worktype:
+    text          : "desenho documental"
+    vocab         : "TAM"
+    refid         : "02.2"
+format:
+  fileFormat: "image/jpeg"
+  extent:
+    - type        : "width"
+      measurements: 1709
+      unit        : "px"
+    - type        : "height"
+      measurements: 821
+      unit        : "px"
+    - type        : "fileSize"
+      measurements: 1.511
+      unit        : "MB"
+    - type        : "width"
+      measurements: 303
+      unit        : "mm"
+    - type        : "height"
+      measurements: 203
+      unit        : "mm"
+  medium:
+    material:
+      - type      : "medium"
+        text      : "litografia"
+      - type      : "support"
+        text      : "papel"
+bibliographiCitation:
+  citekey : ""
+  text    : ""
+identifier:     
+  - source: "Biblioteca Nacional"  
+    id    : ""  
+coverage:
+  spatial:       
+    location:
+      - type   : "site"
+        name:
+          type : "geographic"
+          text : "Rio de Janeiro"
+        city   : "Rio de Janeiro"
+        state  : "Rio de Janeiro"
+        country: "BR"
+  temporal:
+    created:
+      date     : 1826-01-01
+      display_date: "1826"
+      source:
+        citekey: ""
+        href   : ""
+        text   : ""
+subject:
+  - type       : "geographicPlace"
+    text       : "Rio de Janeiro (Rio de Janeiro, Brasil)"
+rights:
+  status       : "publicDomain"
+  text         : "Domínio público"
+license:
+  href         : "https://commons.wikimedia.org/wiki/Template:PD-BR-1935"
+  text         : "Domínio público"
+relation:
+  - type       : "depicts"
+    relids     : "br-pe-recife-mercado_municipal_sao_jose"

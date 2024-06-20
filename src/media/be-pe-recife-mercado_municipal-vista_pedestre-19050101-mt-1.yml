@@ -1,0 +1,87 @@
+title             : "Mercado Municipal São José" 
+date              :  2024-06-13
+author            : "Sara Guimarães de Oliveira"
+excerpt:  >-
+  Fotografia em preto e branco da vista panorâmica do Mercado de São José em 1905, antes do incêndio de 1989.
+creator:
+  - name          : "Manoel Tondella"
+    type          : "personal"
+publisher:
+  - name          : "Photografia Tondella"
+    type          : "corporate"
+contributor:
+  - name          : "Brasiliana Fotográfica"
+    type          : "corporate"
+    role          : "other"
+    href          : "https://brasilianafotografica.bn.gov.br/brasiliana/handle/20.500.12156.1/6922"
+  - name          : "Fundação Joaquim Nabuco"
+    type          : "corporate"
+    role          : "other"
+    href          : "https://www.fundaj.gov.br/"
+conformsTo        : "https://schema.org/Map"
+type:
+  name            : "stillImage"
+  worktype:
+    text          : "fotografia"
+    vocab         : "TAM"
+    refid         : "10.1"
+format:
+  fileFormat: "image/jpeg"
+  extent:
+    - type        : "width"
+      measurements: 256
+      unit        : "px"
+    - type        : "height"
+      measurements: 255
+      unit        : "px"
+    - type        : "fileSize"
+      measurements: 0.048
+      unit        : "MB"
+    - type        : "width"
+      measurements: 180
+      unit        : "mm"
+    - type        : "height"
+      measurements: 130
+      unit        : "mm"
+  medium:
+    material:
+      - type      : "medium"
+        text      : "fotografia"
+      - type      : "support"
+        text      : "papel"
+bibliographiCitation:
+  citekey : ""
+  text    : ""
+identifier:     
+  - source: ""  
+    id    : ""  
+coverage:
+  spatial:       
+    location:
+      - type   : "site"
+        name:
+          type : "geographic"
+          text : "Recife"
+        city   : "Recife"
+        state  : "Pernambuco"
+        country: "BR"
+  temporal:
+    created:
+      date     : 1905-01-01
+      display_date: "1905"
+      source:
+        citekey: ""
+        href   : ""
+        text   : ""
+subject:
+  - type       : "geographicPlace"
+    text       : "Recife (Pernambuco, Brasil)"
+rights:
+  status       : "publicDomain"
+  text         : "Domínio público"
+license:
+  href         : "https://commons.wikimedia.org/wiki/Template:PD-BR-1935"
+  text         : "Domínio público"
+relation:
+  - type       : "depicts"
+    relids     : "br-pe-recife-mercado_municipal_sao_jose"

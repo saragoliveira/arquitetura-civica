@@ -1,0 +1,82 @@
+title             : "Estátua em homenagem a João Caetano, na Escola Nacional de Belas Artes" 
+date              :  2024-06-13
+author            : "Sara Guimarães de Oliveira"
+excerpt:  >-
+  Desenho de Thierry Frères a partir de Jean-Baptiste Debret para planta baixa e fachada da Academia Imperial de Belas Artes
+  - name          : ""
+    type          : "personal"
+publisher:
+  - name          : "Rodrigues & C. Editores e Proprietários"
+    type          : "corporate"
+contributor:
+  - name          : "Instituto Moreira Salles"
+    type          : "corporate"
+    role          : "other"
+    href          : "https://acervos.ims.com.br/portals/#/search/001RO001011"
+conformsTo        : "https://schema.org/Map"
+type:
+  name            : "stillImage"
+  worktype:
+    text          : "fotografia"
+    vocab         : "TAM"
+    refid         : "10.1"
+format:
+  fileFormat: "image/jpeg"
+  extent:
+    - type        : "width"
+      measurements: 1920
+      unit        : "px"
+    - type        : "height"
+      measurements: 1005
+      unit        : "px"
+    - type        : "fileSize"
+      measurements: 0.489
+      unit        : "MB"
+    - type        : "width"
+      measurements: 155
+      unit        : "mm"
+    - type        : "height"
+      measurements: 75
+      unit        : "mm"
+  medium:
+    material:
+      - type      : "medium"
+        text      : "fotografia"
+      - type      : "support"
+        text      : "papel"
+bibliographiCitation:
+  citekey : ""
+  text    : ""
+identifier:     
+  - source: "Instituto Moreira Salles"  
+    id    : "001RO001011"  
+coverage:
+  spatial:       
+    location:
+      - type   : "site"
+        name:
+          type : "geographic"
+          text : "Rio de Janeiro"
+        city   : "Rio de Janeiro"
+        state  : "Rio de Janeiro"
+        country: "BR"
+  temporal:
+    created:
+      date     : 1905-01-01
+      display_date: "1905"
+      source:
+        citekey: ""
+        href   : ""
+        text   : ""
+subject:
+  - type       : "geographicPlace"
+    text       : "Rio de Janeiro (Rio de Janeiro, Brasil)"
+rights:
+  status       : "publicDomain"
+  text         : "Domínio público"
+license:
+  href         : "https://commons.wikimedia.org/wiki/Template:PD-BR-1935"
+  text         : "Domínio público"
+relation:
+  - type       : "depicts"
+    relids     : "br-rj-rj-aiba"

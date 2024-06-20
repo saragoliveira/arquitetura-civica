@@ -1,0 +1,82 @@
+title             : "Fachada da Academia Imperial de Belas Artes" 
+date              :  2024-06-13
+author            : "Sara Guimarães de Oliveira"
+excerpt:  >-
+  Fotografia em preto e branco da fachada principal e entrada da Academia Imperial de Belas Artes durante processo de demolição, circa 1886
+  - name          : "Marc Ferrez"
+    type          : "personal"
+publisher:
+  - name          : "Coleção Gilberto Ferrez"
+    type          : "corporate"
+contributor:
+  - name          : "Instituto Moreira Sales"
+    type          : "corporate"
+    role          : "other"
+    href          : "https://acervos.ims.com.br/portals/#/search/0072430cx033b-01"
+conformsTo        : "https://schema.org/Map"
+type:
+  name            : "stillImage"
+  worktype:
+    text          : "fotografia"
+    vocab         : "TAM"
+    refid         : "10.1"
+format:
+  fileFormat: "image/jpeg"
+  extent:
+    - type        : "width"
+      measurements: 7426
+      unit        : "px"
+    - type        : "height"
+      measurements: 9297
+      unit        : "px"
+    - type        : "fileSize"
+      measurements: 8.39
+      unit        : "MB"
+    - type        : "width"
+      measurements: 240
+      unit        : "mm"
+    - type        : "height"
+      measurements: 300
+      unit        : "mm"
+  medium:
+    material:
+      - type      : "medium"
+        text      : "fotografia"
+      - type      : "support"
+        text      : "papel"
+bibliographiCitation:
+  citekey : ""
+  text    : ""
+identifier:     
+  - source: "Instituto Moreira Salles"  
+    id    : "0072430cx033b-01"  
+coverage:
+  spatial:       
+    location:
+      - type   : "site"
+        name:
+          type : "geographic"
+          text : "Rio de Janeiro"
+        city   : "Rio de Janeiro"
+        state  : "Rio de Janeiro"
+        country: "BR"
+  temporal:
+    created:
+      date     : 1886-01-01
+      display_date: "1886"
+      source:
+        citekey: ""
+        href   : ""
+        text   : ""
+subject:
+  - type       : "geographicPlace"
+    text       : "Rio de Janeiro (Rio de Janeiro, Brasil)"
+rights:
+  status       : "publicDomain"
+  text         : "Domínio público"
+license:
+  href         : "https://commons.wikimedia.org/wiki/Template:PD-BR-1935"
+  text         : "Domínio público"
+relation:
+  - type       : "depicts"
+    relids     : "br-pe-recife-mercado_municipal_sao_jose"

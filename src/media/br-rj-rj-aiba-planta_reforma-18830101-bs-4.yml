@@ -1,0 +1,74 @@
+title             : "Planta da Reforma da Academia de Belas Artes" 
+date              :  2024-06-13
+author            : "Sara Guimarães de Oliveira"
+excerpt:  >-
+  Planta da Reforma da Academia de Belas Artes. Desenho de 1883, assinado por Bethencourt da Silva.
+  - name          : "Bethencourt da Silva"
+    type          : "personal"
+publisher:
+  - name          : "Acervo do Museu d. João VI"
+    type          : "corporate"
+contributor:
+  - name          : "EBA-UFRJ"
+    type          : "corporate"
+    role          : "other"
+type:
+  name            : "stillImage"
+  worktype:
+    text          : "desenho documental"
+    vocab         : "TAM"
+    refid         : "02.2"
+format:
+  fileFormat: "image/jpeg"
+  extent:
+    - type        : "width"
+      measurements: 700
+      unit        : "px"
+    - type        : "height"
+      measurements: 403
+      unit        : "px"
+    - type        : "fileSize"
+      measurements: 0.464
+      unit        : "MB"
+  medium:
+    material:
+      - type      : "medium"
+        text      : "nanquim"
+      - type      : "support"
+        text      : "papel"
+bibliographiCitation:
+  citekey : ""
+  text    : ""
+identifier:     
+  - source: "Biblioteca Nacional"  
+    id    : ""  
+coverage:
+  spatial:       
+    location:
+      - type   : "site"
+        name:
+          type : "geographic"
+          text : "Rio de Janeiro"
+        city   : "Rio de Janeiro"
+        state  : "Rio de Janeiro"
+        country: "BR"
+  temporal:
+    created:
+      date     : 1883-01-01
+      display_date: "1883"
+      source:
+        citekey: ""
+        href   : ""
+        text   : ""
+subject:
+  - type       : "geographicPlace"
+    text       : "Rio de Janeiro (Rio de Janeiro, Brasil)"
+rights:
+  status       : "publicDomain"
+  text         : "Domínio público"
+license:
+  href         : "https://commons.wikimedia.org/wiki/Template:PD-BR-1935"
+  text         : "Domínio público"
+relation:
+  - type       : "depicts"
+    relids     : "br-rj-rj-aiba"

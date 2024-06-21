@@ -1,0 +1,68 @@
+title             : "Colégio Pedro II" 
+date              :  2024-06-13
+author            : "Sara Guimarães de Oliveira"
+excerpt:  >-
+  Desenho da fachada do Colégio Pedro II e da Igreja de São Joaquim
+  - name          : "Pieter Godfred Bertichen"
+    type          : "personal"
+publisher:
+  - name          : "Lithographia Imperial de Eduardo Rensburg Rio de Janeiro"
+    type          : "corporate"
+conformsTo        : "https://schema.org/Map"
+type:
+  name            : "stillImage"
+  worktype:
+    text          : "desenho documental"
+    vocab         : "TAM"
+    refid         : "02.2"
+format:
+  fileFormat: "image/jpeg"
+  extent:
+    - type        : "width"
+      measurements: 2102
+      unit        : "px"
+    - type        : "height"
+      measurements: 1651
+      unit        : "px"
+    - type        : "fileSize"
+      measurements: 1.43
+      unit        : "MB"
+  medium:
+    material:
+      - type      : "medium"
+        text      : "desenho"
+      - type      : "support"
+        text      : "papel"
+bibliographiCitation:
+  citekey : ""
+  text    : ""
+coverage:
+  spatial:       
+    location:
+      - type   : "site"
+        name:
+          type : "geographic"
+          text : "Rio de Janeiro"
+        city   : "Rio de Janeiro"
+        state  : "Rio de Janeiro"
+        country: "BR"
+  temporal:
+    created:
+      date     : 1856-01-01
+      display_date: "1856"
+      source:
+        citekey: ""
+        href   : ""
+        text   : ""
+subject:
+  - type       : "geographicPlace"
+    text       : "Rio de Janeiro (Rio de Janeiro, Brasil)"
+rights:
+  status       : "publicDomain"
+  text         : "Domínio público"
+license:
+  href         : "https://commons.wikimedia.org/wiki/Template:PD-BR-1935"
+  text         : "Domínio público"
+relation:
+  - type       : "depicts"
+    relids     : "br-rj-rj-colegio_d_pedro_ii"

@@ -41,6 +41,9 @@ format:
 bibliographiCitation:
   citekey : ""
   text    : ""
+identifier:     
+  - source: "IMS" 
+    id    : "0071824cx112-08" 
 coverage:
   spatial:       
     location:

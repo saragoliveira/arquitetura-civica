@@ -1,0 +1,71 @@
+title             : "Externato Pedro Ii (colégio) - 1º Pavimento Terreo - 1912" 
+date              :  2024-06-13
+author            : "Sara Guimarães de Oliveira"
+excerpt:  >-
+  Desenho documental planta baixa do pavimento térreo do Colégio Pedro II, na escala 1:100
+contributor:
+  - name          : "Acervo Histórico e Institucional da Secretaria do Patrimônio da União"
+    type          : "corporate"
+    role          : "other"
+    href          : "https://memoria-spu.gestao.gov.br/acervo-historico/externato-pedro-ii-colegio-1o-pavimento-terreo-1912/"
+conformsTo        : "https://schema.org/Map"
+type:
+  name            : "stillImage"
+  worktype:
+    text          : "desenho documental"
+    vocab         : "TAM"
+    refid         : "02.2"
+format:
+  fileFormat: "image/jpeg"
+  extent:
+    - type        : "width"
+      measurements: 
+      unit        : "px"
+    - type        : "height"
+      measurements: 
+      unit        : "px"
+    - type        : "fileSize"
+      measurements: 
+      unit        : "MB"
+  medium:
+    material:
+      - type      : "medium"
+        text      : ""
+      - type      : "support"
+        text      : "papel"
+bibliographiCitation:
+  citekey : ""
+  text    : ""
+identifier:     
+  - source: "SPUnet"  
+    id    : "2020200148067"  
+coverage:
+  spatial:       
+    location:
+      - type   : "site"
+        name:
+          type : "geographic"
+          text : "Rio de Janeiro"
+        city   : "Rio de Janeiro"
+        state  : "Rio de Janeiro"
+        country: "BR"
+  temporal:
+    created:
+      date     : 1913-01-27
+      display_date: "1913"
+      source:
+        citekey: ""
+        href   : ""
+        text   : ""
+subject:
+  - type       : "geographicPlace"
+    text       : "Rio de Janeiro (Rio de Janeiro, Brasil)"
+rights:
+  status       : "publicDomain"
+  text         : "Domínio público"
+license:
+  href         : "https://commons.wikimedia.org/wiki/Template:PD-BR-1935"
+  text         : "Domínio público"
+relation:
+  - type       : "depicts"
+    relids     : "br-rj-rj-colegio_d_pedro_ii"

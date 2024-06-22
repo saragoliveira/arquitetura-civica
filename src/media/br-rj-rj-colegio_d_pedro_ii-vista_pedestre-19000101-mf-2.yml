@@ -1,0 +1,73 @@
+title             : "Rio Atlas- Gynasyo Nacional" 
+date              :  2024-06-13
+author            : "Sara Guimarães de Oliveira"
+excerpt:  >-
+  Fotografia em preto e branco da vista de pedestre da lateral do antigo Gynasyo Nacional 
+  - name          : "Marc Ferrez"
+    type          : "personal"
+publisher:
+  - name          : "Coleção Gilberto Ferrez"
+    type          : "corporate"
+contributor:
+  - name          : "Acervo Instituto Moreira Salles"
+    type          : "corporate"
+    role          : "other"
+    href          : "https://acervos.ims.com.br/portals/#/search?filtersStateId=11&page=1"
+conformsTo        : "https://schema.org/Map"
+type:
+  name            : "stillImage"
+  worktype:
+    text          : "fotografia"
+    vocab         : "TAM"
+    refid         : "10.1"
+format:
+  fileFormat: "image/jpeg"
+  extent:
+    - type        : "width"
+      measurements: 9807
+      unit        : "px"
+    - type        : "height"
+      measurements: 7385
+      unit        : "px"
+    - type        : "fileSize"
+      measurements: 12.1
+      unit        : "MB"
+  medium:
+    material:
+      - type      : "medium"
+        text      : "glass plate negative"
+      - type      : "support"
+        text      : "papel"
+bibliographiCitation:
+  citekey : ""
+  text    : ""
+coverage:
+  spatial:       
+    location:
+      - type   : "site"
+        name:
+          type : "geographic"
+          text : "Rio de Janeiro"
+        city   : "Rio de Janeiro"
+        state  : "Rio de Janeiro"
+        country: "BR"
+  temporal:
+    created:
+      date     : 1900-01-01
+      display_date: "circa 1900"
+      source:
+        citekey: ""
+        href   : ""
+        text   : ""
+subject:
+  - type       : "geographicPlace"
+    text       : "Rio de Janeiro (Rio de Janeiro, Brasil)"
+rights:
+  status       : "publicDomain"
+  text         : "Domínio público"
+license:
+  href         : "https://commons.wikimedia.org/wiki/Template:PD-BR-1935"
+  text         : "Domínio público"
+relation:
+  - type       : "depicts"
+    relids     : "br-rj-rj-colegio_d_pedro_ii"

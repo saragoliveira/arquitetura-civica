@@ -1,0 +1,83 @@
+title             : "Real Gabinete Português de Leitura, na rua Luís de Camões. À direita os fundos da Escola Politécnica, atual IFCS/UFRJ" 
+date              :  2024-06-13
+author            : "Sara Guimarães de Oliveira"
+excerpt:  >-
+  Fotografia em preto e branco da fachada do Real Gabinete Português de Leitura em 1887
+creator:
+  - name          : "Marc Ferrez"
+    type          : "personal"
+publisher:
+  - name          : "Gilberto Ferrez"
+    type          : "personal"
+contributor:
+  - name          : "Instituto Moreira Salles"
+    type          : "corporate"
+    role          : "other"
+    href          : "https://acervos.ims.com.br/portals/#/detailpage/107727"
+conformsTo        : "https://schema.org/Map"
+type:
+  name            : "stillImage"
+  worktype:
+    text          : "fotografia"
+    vocab         : "TAM"
+    refid         : "10.1"
+format:
+  fileFormat: "image/jpeg"
+  extent:
+    - type        : "width"
+      measurements: 3390
+      unit        : "px"
+    - type        : "height"
+      measurements: 2731
+      unit        : "px"
+    - type        : "fileSize"
+      measurements: 8.08
+      unit        : "MB"
+    - type        : "width"
+      measurements:  300
+      unit        : "mm"
+    - type        : "height"
+      measurements: 240
+      unit        : "mm"
+  medium:
+ material:
+      - type      : "medium"
+        text      : "papel" # Usar vocabulário controlado se possível
+      - type      : "support"
+        text      : "negativo" # Usar vocabulário controlado se possível
+bibliographiCitation:
+  citekey : ""
+  text    : ""
+identifier:     
+  - source: "IMS"  
+    id    : "0072430cx097-11"  
+coverage:
+  spatial:       
+    location:
+      - type   : "site"
+        name:
+          type : "geographic"
+          text : "Rio de Janeiro"
+        city   : "Rio de Janeiro"
+        state  : "Rio de Janeiro"
+        country: "BR"
+  temporal:
+    created:
+      date     : 1887-01-01
+      display_date: "1887"
+      source:
+        citekey: ""
+        href   : ""
+        text   : ""
+subject:
+  - type       : "geographicPlace"
+    text       : "Rio de Janeiro (Rio de Janeiro, Brasil)"
+rights:
+  status       : "publicDomain"
+  text         : "Domínio público"
+license:
+  href         : "https://commons.wikimedia.org/wiki/Template:PD-BR-1935"
+  text         : "Domínio público"
+relation:
+  - type       : "depicts"
+    relids     : "br-rj-rj-gab_portugues"

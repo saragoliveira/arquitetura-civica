@@ -1,0 +1,83 @@
+title             : "Vista aérea do Largo de São Francisco de Paula" 
+date              :  2024-07-07
+author            : "Sara Guimarães de Oliveira"
+excerpt:  >-
+  Fotografia em preto e branco de uma vista aérea do Largo de São Francisco com indicação do Real Gabinete Português de Leitura na parte superior esquerda da imagem
+creator:
+  - name          : "Jorge Kfuri"
+    type          : "personal"
+publisher:
+  - name          : "Gilberto Ferrez"
+    type          : "personal"
+contributor:
+  - name          : "Instituto Moreira Salles"
+    type          : "corporate"
+    role          : "other"
+    href          : "https://acervos.ims.com.br/portals/#/detailpage/82492"
+conformsTo        : "https://schema.org/Map"
+type:
+  name            : "stillImage"
+  worktype:
+    text          : "fotografia"
+    vocab         : "TAM"
+    refid         : "10.1"
+format:
+  fileFormat: "image/jpeg"
+  extent:
+    - type        : "width"
+      measurements: 1133
+      unit        : "px"
+    - type        : "height"
+      measurements: 800
+      unit        : "px"
+    - type        : "fileSize"
+      measurements: 0.191
+      unit        : "MB"
+    - type        : "width"
+      measurements:  172
+      unit        : "mm"
+    - type        : "height"
+      measurements: 121
+      unit        : "mm"
+  medium:
+ material:
+      - type      : "medium"
+        text      : "papel" # Usar vocabulário controlado se possível
+      - type      : "support"
+        text      : "negativo" # Usar vocabulário controlado se possível
+bibliographiCitation:
+  citekey : ""
+  text    : ""
+identifier:     
+  - source: "IMS"  
+    id    : "007ALA036"  
+coverage:
+  spatial:       
+    location:
+      - type   : "site"
+        name:
+          type : "geographic"
+          text : "Rio de Janeiro"
+        city   : "Rio de Janeiro"
+        state  : "Rio de Janeiro"
+        country: "BR"
+  temporal:
+    created:
+      date     : 1921-01-01
+      display_date: "1921"
+      source:
+        citekey: ""
+        href   : ""
+        text   : ""
+subject:
+  - type       : "geographicPlace"
+    text       : "Rio de Janeiro (Rio de Janeiro, Brasil)"
+rights:
+  status       : "publicDomain"
+  text         : "Domínio público"
+license:
+  href         : "https://commons.wikimedia.org/wiki/Template:PD-BR-1935"
+  text         : "Domínio público"
+relation:
+  - type       : "depicts"
+    relids     : "br-rj-rj-gab_portugues"

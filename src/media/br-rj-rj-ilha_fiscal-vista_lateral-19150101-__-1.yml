@@ -1,0 +1,77 @@
+title             : "Isla Fiscal" 
+date              :  2024-07-07
+author            : "Sara Guimarães de Oliveira"
+excerpt:  >-
+  Fotografia em preto e branco que data de 1915 mostrando a recem-construída Ilha Fiscal
+contributor:
+  - name          : "Instituto Moreira Salles"
+    type          : "corporate"
+    role          : "other"
+    href          : "https://acervos.ims.com.br/portals/#/detailpage/82924"
+conformsTo        : "https://schema.org/Map"
+type:
+  name            : "stillImage"
+  worktype:
+    text          : "fotografia"
+    vocab         : "TAM"
+    refid         : "10.1"
+format:
+  fileFormat: "image/jpeg"
+  extent:
+    - type        : "width"
+      measurements: 2560
+      unit        : "px"
+    - type        : "height"
+      measurements: 1585
+      unit        : "px"
+    - type        : "fileSize"
+      measurements: 0.678
+      unit        : "MB"
+    - type        : "width"
+      measurements:  151
+      unit        : "mm"
+    - type        : "height"
+      measurements: 92
+      unit        : "mm"
+  medium:
+ material:
+      - type      : "medium"
+        text      : "papel" # Usar vocabulário controlado se possível
+      - type      : "support"
+        text      : "negativo" # Usar vocabulário controlado se possível
+bibliographiCitation:
+  citekey : ""
+  text    : ""
+identifier:     
+  - source: "IMS"  
+    id    : "001CC047"  
+coverage:
+  spatial:       
+    location:
+      - type   : "site"
+        name:
+          type : "geographic"
+          text : "Rio de Janeiro"
+        city   : "Rio de Janeiro"
+        state  : "Rio de Janeiro"
+        country: "BR"
+  temporal:
+    created:
+      date     : 1915-01-01
+      display_date: "1915"
+      source:
+        citekey: ""
+        href   : ""
+        text   : ""
+subject:
+  - type       : "geographicPlace"
+    text       : "Rio de Janeiro (Rio de Janeiro, Brasil)"
+rights:
+  status       : "publicDomain"
+  text         : "Domínio público"
+license:
+  href         : "https://commons.wikimedia.org/wiki/Template:PD-BR-1935"
+  text         : "Domínio público"
+relation:
+  - type       : "depicts"
+    relids     : "br-rj-rj-ilha_fiscal"

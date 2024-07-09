@@ -1,0 +1,83 @@
+title             : "Ilha Fiscal" 
+date              :  2024-07-07
+author            : "Sara Guimarães de Oliveira"
+excerpt:  >-
+  Fotografia aérea em preto e branco que data de 1916 mostrando a fachada principal da Ilha Fiscal
+creator:
+  - name          : "Jorge Kfuri"
+    type          : "corporate"
+    role          : "other"
+publisher:
+  - name          : "Álbum 102 Flotilha de Aviões de Guerra, Foto 47260"
+    type          : "corporate"
+    role          : "other"
+contributor:
+  - name          : "Diretoria do Patrimônio Histórico e Documentação da Marinha"
+    type          : "corporate"
+    role          : "other"
+conformsTo        : "https://schema.org/Map"
+type:
+  name            : "stillImage"
+  worktype:
+    text          : "fotografia"
+    vocab         : "TAM"
+    refid         : "10.1"
+format:
+  fileFormat: "image/jpeg"
+  extent:
+    - type        : "width"
+      measurements: 1280
+      unit        : "px"
+    - type        : "height"
+      measurements: 784
+      unit        : "px"
+    - type        : "fileSize"
+      measurements: 0.109
+      unit        : "MB"
+    - type        : "width"
+      measurements:  150
+      unit        : "mm"
+    - type        : "height"
+      measurements: 90
+      unit        : "mm"
+  medium:
+ material:
+      - type      : "medium"
+        text      : "papel" # Usar vocabulário controlado se possível
+      - type      : "support"
+        text      : "negativo" # Usar vocabulário controlado se possível
+bibliographiCitation:
+  citekey : ""
+  text    : ""
+identifier:     
+  - source: "DPHDM"  
+coverage:
+  spatial:       
+    location:
+      - type   : "site"
+        name:
+          type : "geographic"
+          text : "Rio de Janeiro"
+        city   : "Rio de Janeiro"
+        state  : "Rio de Janeiro"
+        country: "BR"
+  temporal:
+    created:
+      date     : 1916-01-01
+      display_date: "1916"
+      source:
+        citekey: ""
+        href   : ""
+        text   : ""
+subject:
+  - type       : "geographicPlace"
+    text       : "Rio de Janeiro (Rio de Janeiro, Brasil)"
+rights:
+  status       : "publicDomain"
+  text         : "Domínio público"
+license:
+  href         : "https://commons.wikimedia.org/wiki/Template:PD-BR-1935"
+  text         : "Domínio público"
+relation:
+  - type       : "depicts"
+    relids     : "br-rj-rj-ilha_fiscal"

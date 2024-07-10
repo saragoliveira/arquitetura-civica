@@ -1,0 +1,77 @@
+title             : "Plantas do Palácio Imperial de São Cristóvão e de um quartel militar do Largo do Paço" 
+date              :  2024-07-07
+author            : "Sara Guimarães de Oliveira"
+excerpt:  >-
+  	Plantas do Palácio Imperial de São Cristóvão e de um quartel militar do Largo do Paço de Theodore Marx, em 1861
+creator:
+  - name          : "Theodore Marx"
+    type          : "personal"
+publisher:
+  - name          : "Thereza Christina Maria"
+    type          : "corporate"
+contributor:
+  - name          : "Biblioteca Nacional"
+    type          : "corporate"
+    role          : "other"
+    href          : "https://acervobndigital.bn.gov.br/sophia/index.html"
+conformsTo        : "https://schema.org/Map"
+type:
+  name            : "stillImage"
+  worktype:
+    text          : "desneho documental"
+    vocab         : "TAM" 
+    refid         : "02.2"
+format:
+  fileFormat: "image/jpeg"
+  extent:
+    - type        : "width"
+      measurements: 4103
+      unit        : "px"
+    - type        : "height"
+      measurements: 2584
+      unit        : "px"
+    - type        : "fileSize"
+      measurements: 1.7
+      unit        : "MB"
+  medium:
+ material:
+      - type      : "medium"
+        text      : "papel" # Usar vocabulário controlado se possível
+      - type      : "support"
+        text      : "nanquim" # Usar vocabulário controlado se possível
+bibliographiCitation:
+  citekey : ""
+  text    : ""
+identifier:     
+  - source: "BND"  
+    id    : "ARC.29.6.3(2) - Iconografia"  
+coverage:
+  spatial:       
+    location:
+      - type   : "site"
+        name:
+          type : "geographic"
+          text : "Rio de Janeiro"
+        city   : "Rio de Janeiro"
+        state  : "Rio de Janeiro"
+        country: "BR"
+  temporal:
+    created:
+      date     : 1861-01-01
+      display_date: "1861"
+      source:
+        citekey: ""
+        href   : ""
+        text   : ""
+subject:
+  - type       : "geographicPlace"
+    text       : "Rio de Janeiro (Rio de Janeiro, Brasil)"
+rights:
+  status       : "publicDomain"
+  text         : "Domínio público"
+license:
+  href         : "https://commons.wikimedia.org/wiki/Template:PD-BR-1935"
+  text         : "Domínio público"
+relation:
+  - type       : "depicts"
+    relids     : "br-rj-rj-pal_imperial_s_cristovao"

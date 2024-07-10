@@ -1,0 +1,71 @@
+title             : "Secção C-D" 
+date              :  2024-07-07
+author            : "Sara Guimarães de Oliveira"
+excerpt:  >-
+   Desenho do projeto decorativo para a sala do trono, de Mário Bragaldi, 1857, indicando secção lingitudinal do Palácio
+creator:
+  - name          : "Mario Garibaldi"
+    type          : "personal"
+contributor:
+  - name          : "Iphan"
+    type          : "corporate"
+    role          : "other"
+    href          : "https://acervos.ims.com.br/portals/#/detailpage/101505"
+conformsTo        : "https://schema.org/Map"
+type:
+  name            : "stillImage"
+  worktype:
+    text          : "desenho documental"
+    vocab         : "TAM" 
+    refid         : "02.2"
+format:
+  fileFormat: "image/jpeg"
+  extent:
+    - type        : "width"
+      measurements: 5182
+      unit        : "px"
+    - type        : "height"
+      measurements: 3534
+      unit        : "px"
+    - type        : "fileSize"
+      measurements: 4.55
+      unit        : "MB"
+  medium:
+ material:
+      - type      : "medium"
+        text      : "papel" # Usar vocabulário controlado se possível
+      - type      : "support"
+        text      : "desenho" # Usar vocabulário controlado se possível
+bibliographiCitation:
+  citekey : ""
+  text    : ""
+coverage:
+  spatial:       
+    location:
+      - type   : "site"
+        name:
+          type : "geographic"
+          text : "Rio de Janeiro"
+        city   : "Rio de Janeiro"
+        state  : "Rio de Janeiro"
+        country: "BR"
+  temporal:
+    created:
+      date     : 1857-01-01
+      display_date: "1857"
+      source:
+        citekey: ""
+        href   : ""
+        text   : ""
+subject:
+  - type       : "geographicPlace"
+    text       : "Rio de Janeiro (Rio de Janeiro, Brasil)"
+rights:
+  status       : "publicDomain"
+  text         : "Domínio público"
+license:
+  href         : "https://commons.wikimedia.org/wiki/Template:PD-BR-1935"
+  text         : "Domínio público"
+relation:
+  - type       : "depicts"
+    relids     : "br-rj-rj-pal_imperial_s_cristovao"

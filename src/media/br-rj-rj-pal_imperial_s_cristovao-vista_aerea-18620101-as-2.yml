@@ -1,0 +1,80 @@
+title             : "Palácio Imperial em São Cristóvão na Quinta da Boa Vista" 
+date              :  2024-07-07
+author            : "Sara Guimarães de Oliveira"
+excerpt:  >-
+  Fotografia aérea em preto e branco do contexto geral do palácio  logo que inaugurado
+creator:
+  - name          : "Augusto Stahl"
+    type          : "personal"
+contributor:
+  - name          : "Instituto Moreira Salles"
+    type          : "corporate"
+    role          : "other"
+    href          : "https://acervos.ims.com.br/portals/#/detailpage/17203"
+conformsTo        : "https://schema.org/Map"
+type:
+  name            : "stillImage"
+  worktype:
+    text          : "fotografia"
+    vocab         : "TAM" 
+    refid         : "10.1"
+format:
+  fileFormat: "image/jpeg"
+  extent:
+    - type        : "width"
+      measurements: 5406
+      unit        : "px"
+    - type        : "height"
+      measurements: 4134
+      unit        : "px"
+    - type        : "fileSize"
+      measurements: 4.42
+      unit        : "MB"
+    - type        : "height"
+     measurements:  360
+      unit        : "mm"
+    - type        : "height"
+      measurements: 275
+      unit        : "mm"
+  medium:
+ material:
+      - type      : "medium"
+        text      : "papel" # Usar vocabulário controlado se possível
+      - type      : "support"
+        text      : "fotografia" # Usar vocabulário controlado se possível
+bibliographiCitation:
+  citekey : ""
+  text    : ""
+identifier:     
+  - source: "IMS"  
+    id    : "001SW001005"  
+coverage:
+  spatial:       
+    location:
+      - type   : "site"
+        name:
+          type : "geographic"
+          text : "Rio de Janeiro"
+        city   : "Rio de Janeiro"
+        state  : "Rio de Janeiro"
+        country: "BR"
+  temporal:
+    created:
+      date     : 1862-01-01
+      display_date: "1862"
+      source:
+        citekey: ""
+        href   : ""
+        text   : ""
+subject:
+  - type       : "geographicPlace"
+    text       : "Rio de Janeiro (Rio de Janeiro, Brasil)"
+rights:
+  status       : "publicDomain"
+  text         : "Domínio público"
+license:
+  href         : "https://commons.wikimedia.org/wiki/Template:PD-BR-1935"
+  text         : "Domínio público"
+relation:
+  - type       : "depicts"
+    relids     : "br-rj-rj-pal_imperial_s_cristovao"

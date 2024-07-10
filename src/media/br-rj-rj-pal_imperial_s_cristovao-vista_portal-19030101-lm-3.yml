@@ -1,0 +1,80 @@
+title             : "Museu Nacional - portal de entrada e fachada" 
+date              :  2024-07-07
+author            : "Sara Guimarães de Oliveira"
+excerpt:  >-
+  Fotografia em preto e branco a partir da rua do Imperador, atual Avenida Pedro II, mostrando o portal de entrada e fachada do Palácio
+creator:
+  - name          : "Luiz Musso"
+    type          : "personal"
+contributor:
+  - name          : "Instituto Moreira Salles"
+    type          : "corporate"
+    role          : "other"
+    href          : "https://acervos.ims.com.br/portals/#/detailpage/107607"
+conformsTo        : "https://schema.org/Map"
+type:
+  name            : "stillImage"
+  worktype:
+    text          : "fotografia"
+    vocab         : "TAM" 
+    refid         : "10.1"
+format:
+  fileFormat: "image/jpeg"
+  extent:
+    - type        : "width"
+      measurements: 5640
+      unit        : "px"
+    - type        : "height"
+      measurements: 4134
+      unit        : "px"
+    - type        : "fileSize"
+      measurements: 17.8
+      unit        : "MB"
+    - type        : "width"
+     measurements:  434
+      unit        : "mm"
+    - type        : "height"
+      measurements: 311
+      unit        : "mm"
+  medium:
+ material:
+      - type      : "medium"
+        text      : "papel" # Usar vocabulário controlado se possível
+      - type      : "support"
+        text      : "fotografia" # Usar vocabulário controlado se possível
+bibliographiCitation:
+  citekey : ""
+  text    : ""
+identifier:     
+  - source: "IMS"  
+    id    : "002073LM026"  
+coverage:
+  spatial:       
+    location:
+      - type   : "site"
+        name:
+          type : "geographic"
+          text : "Rio de Janeiro"
+        city   : "Rio de Janeiro"
+        state  : "Rio de Janeiro"
+        country: "BR"
+  temporal:
+    created:
+      date     : 1903-01-01
+      display_date: "1903"
+      source:
+        citekey: ""
+        href   : ""
+        text   : ""
+subject:
+  - type       : "geographicPlace"
+    text       : "Rio de Janeiro (Rio de Janeiro, Brasil)"
+rights:
+  status       : "publicDomain"
+  text         : "Domínio público"
+license:
+  href         : "https://commons.wikimedia.org/wiki/Template:PD-BR-1935"
+  text         : "Domínio público"
+relation:
+  - type       : "depicts"
+    relids     : "br-rj-rj-pal_imperial_s_cristovao"

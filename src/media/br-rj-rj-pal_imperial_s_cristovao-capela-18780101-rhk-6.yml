@@ -1,0 +1,86 @@
+title             : "La Chappelle Impl. du Palais, les environs de la Villa Isabella, prisa au (...) du Palais" 
+date              :  2024-07-07
+author            : "Sara Guimarães de Oliveira"
+excerpt:  >-
+  Fotografia em preto e branco da Capela Imperial do Palácio de São Cristóvão 
+creator:
+  - name          : "Revert Henrique Klumb"
+    type          : "personal"
+publisher:
+  - name          : "Klumb & Robin: Photographia Brazileira"
+    type          : "corporate"
+publisher:
+  - name          : "Gilberto Ferrez"
+    type          : "corporate"
+contributor:
+  - name          : "Instituto Moreira Salles"
+    type          : "corporate"
+    role          : "other"
+    href          : "https://acervos.ims.com.br/portals/#/detailpage/82755"
+conformsTo        : "https://schema.org/Map"
+type:
+  name            : "stillImage"
+  worktype:
+    text          : "fotografia"
+    vocab         : "TAM" 
+    refid         : "10.1"
+format:
+  fileFormat: "image/jpeg"
+  extent:
+    - type        : "width"
+      measurements: 5527
+      unit        : "px"
+    - type        : "height"
+      measurements: 4134
+      unit        : "px"
+    - type        : "fileSize"
+      measurements: 14.8
+      unit        : "MB"
+    - type        : "height"
+     measurements:  244
+      unit        : "mm"
+    - type        : "height"
+      measurements: 181
+      unit        : "mm"
+  medium:
+ material:
+      - type      : "medium"
+        text      : "papel" # Usar vocabulário controlado se possível
+      - type      : "support"
+        text      : "fotografia" # Usar vocabulário controlado se possível
+bibliographiCitation:
+  citekey : ""
+  text    : ""
+identifier:     
+  - source: "IMS"  
+    id    : "007A5P3F14-041"  
+coverage:
+  spatial:       
+    location:
+      - type   : "site"
+        name:
+          type : "geographic"
+          text : "Rio de Janeiro"
+        city   : "Rio de Janeiro"
+        state  : "Rio de Janeiro"
+        country: "BR"
+  temporal:
+    created:
+      date     : 1878-01-01
+      display_date: "1878"
+      source:
+        citekey: ""
+        href   : ""
+        text   : ""
+subject:
+  - type       : "geographicPlace"
+    text       : "Rio de Janeiro (Rio de Janeiro, Brasil)"
+rights:
+  status       : "publicDomain"
+  text         : "Domínio público"
+license:
+  href         : "https://commons.wikimedia.org/wiki/Template:PD-BR-1935"
+  text         : "Domínio público"
+relation:
+  - type       : "depicts"
+    relids     : "br-rj-rj-pal_imperial_s_cristovao"

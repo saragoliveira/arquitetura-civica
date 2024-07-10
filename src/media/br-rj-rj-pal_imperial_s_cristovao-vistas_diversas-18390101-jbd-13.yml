@@ -1,0 +1,83 @@
+title             : "Améliorations progressives du Palais de St. Christophe : (Quinta de Boa Vista); depuis 1808, jusq’en 1831" 
+date              :  2024-07-07
+author            : "Sara Guimarães de Oliveira"
+excerpt:  >-
+  Desenhos de Jean Baptiste Debret em 1839 retratando diferentes vistas do palácio 
+creator:
+  - name          : "Jean-Baptiste Debret"
+    type          : "personal"
+publisher:
+  - name          : "Firmin Diot Freres"
+    type          : "corporate"
+contributor:
+  - name          : "Biblioteca Nacional"
+    type          : "corporate"
+    role          : "other"
+    href          : "https://www.brasilianaiconografica.art.br/obras/17206/ameliorations-progressives-du-palais-de-st-christophe-quinta-de-boa-vista-depuis-1808-jusq-en-1831"
+conformsTo        : "https://schema.org/Map"
+type:
+  name            : "stillImage"
+  worktype:
+    text          : "desenho documental"
+    vocab         : "TAM" 
+    refid         : "02.2"
+format:
+  fileFormat: "image/jpeg"
+  extent:
+    - type        : "width"
+      measurements: 821
+      unit        : "px"
+    - type        : "height"
+      measurements: 844
+      unit        : "px"
+    - type        : "fileSize"
+      measurements: 0.859
+      unit        : "MB"
+    - type        : "height"
+     measurements:  346
+      unit        : "mm"
+    - type        : "height"
+      measurements: 526
+      unit        : "mm"
+  medium:
+ material:
+      - type      : "medium"
+        text      : "papel" # Usar vocabulário controlado se possível
+      - type      : "support"
+        text      : "litografia" # Usar vocabulário controlado se possível
+bibliographiCitation:
+  citekey : ""
+  text    : ""
+identifier:     
+  - source: "Brasiliana Fotográfica"  
+    id    : "icon393054_154"  
+coverage:
+  spatial:       
+    location:
+      - type   : "site"
+        name:
+          type : "geographic"
+          text : "Rio de Janeiro"
+        city   : "Rio de Janeiro"
+        state  : "Rio de Janeiro"
+        country: "BR"
+  temporal:
+    created:
+      date     : 1839-01-01
+      display_date: "1839"
+      source:
+        citekey: ""
+        href   : ""
+        text   : ""
+subject:
+  - type       : "geographicPlace"
+    text       : "Rio de Janeiro (Rio de Janeiro, Brasil)"
+rights:
+  status       : "publicDomain"
+  text         : "Domínio público"
+license:
+  href         : "https://commons.wikimedia.org/wiki/Template:PD-BR-1935"
+  text         : "Domínio público"
+relation:
+  - type       : "depicts"
+    relids     : "br-rj-rj-pal_imperial_s_cristovao"

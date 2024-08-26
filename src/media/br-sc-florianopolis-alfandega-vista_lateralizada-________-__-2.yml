@@ -1,0 +1,92 @@
+title             : "Alfândega de Florianópolis" 
+date              :  2024-08-25
+author            : "Sara Guimarães de Oliveira"
+excerpt:  >
+  Vista lateralizada do prédio da Casa da Alfândega
+creator:
+  - name          : "s.n"
+    type          : ""
+publisher:
+  - name          : "s.n"
+    type          : ""
+contributor:
+  - name          : "Arquivo Público de Santa Catarina"
+    type          : "corporate"
+    role          : "other"
+    href          : "http://acervo.arquivopublico.sc.gov.br/uploads/r/arquivo-publico-do-estado-de-santa-catarina/1/6/9/169378275cc04f8dec8590724fd5f1ab91971e9bf145f6b45f873110b2f0130f/a3910dc3-3339-4744-938d-7c19c9acbd20-62037-APESC_F3043_141.jpg"
+conformsTo     : "https://schema.org/Map"
+type:
+  name            : "stillImage"
+  worktype:
+    text          : "fotografia"
+    vocab         : "TAM" # sigla para o livro Thesaurus para Acervos Museológicos, de Ferrez e Bianchini
+    refid         : "10.1"
+format:
+  fileFormat: "image/jpeg"
+  extent:
+    - type        : "width"
+      measurements: 480
+      unit        : "px"
+    - type        : "height"
+      measurements: 309
+      unit        : "px"
+    - type        : "fileSize"
+      measurements: 0.251
+      unit        : "MB"
+    - type        : "width"
+      measurements: 14
+      unit        : "mm"
+    - type        : "height"
+      measurements: 65
+      unit        : "mm"
+  medium:
+    material:
+      - type      : "medium"
+        text      : "" 
+        vocab     : ""
+        refid     : ""
+      - type      : "support"
+        text      : ""
+        vocab     : "" 
+        refid     : "" 
+    technique:
+      - text      : "fotografia" 
+        vocab     : "TAM" 
+        refid     : "10.1" 
+bibliographiCitation:
+  citekey : ""
+identifier:    
+  - source: "APESC"  
+    id    : "APESC_F3043"  
+coverage:
+  spatial:       
+    location:
+      - type   : "site"
+        name:
+          type : "geographic"
+          text : "Florianópolis, SC"
+        city   : "Florianópolis"
+        state  : "Santa Catarina"
+        country: "BR"
+  temporal:
+    created:
+      date     : s.i
+      display_date: "s.i"
+      source:
+        citekey: ""
+        href   : ""
+        text   : ""
+subject:
+  - type       : "geographicPlace"
+    text       : "Florianópolis (Santa Catarina, Brasil)"
+    vocab      : ""
+    refid      : "" 
+rights:
+  status       : "publicDomain"
+  text         : "Domínio público"
+license:
+  href         : "https://commons.wikimedia.org/wiki/Template:PD-BR-1935"
+  text         : "Domínio público"
+relation:
+  - type       : "depicts"
+    relids     : "br-sc-florianopolis-casa_alfandega"

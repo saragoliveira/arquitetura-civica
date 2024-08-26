@@ -1,0 +1,92 @@
+title             : "Alfandega vista do mar [Iconográfico] : Porto do Rio Grande " 
+date              :  2024-08-25
+author            : "Sara Guimarães de Oliveira"
+excerpt:  >
+  Fotografia da vista da Alfândega do Rio Grande a partir do mar
+creator:
+  - name          : "s.n"
+    type          : "personal"
+publisher:
+  - name          : "Atelier Fontana"
+    type          : "corporate"
+contributor:
+  - name          : "BN Digital"
+    type          : "corporate"
+    role          : "other"
+    href          : "http://acervo.bndigital.bn.br/sophia/index.asp?codigo_sophia=82406"
+conformsTo     : "https://schema.org/Map"
+type:
+  name            : "stillImage"
+  worktype:
+    text          : "imagem"
+    vocab         : "TAM" # sigla para o livro Thesaurus para Acervos Museológicos, de Ferrez e Bianchini
+    refid         : "10.1"
+format:
+  fileFormat: "image/jpeg"
+  extent:
+    - type        : "width"
+      measurements: 1674
+      unit        : "px"
+    - type        : "height"
+      measurements: 1203
+      unit        : "px"
+    - type        : "fileSize"
+      measurements: 95.3
+      unit        : "MB"
+    - type        : "width"
+      measurements: 170
+      unit        : "mm"
+    - type        : "height"
+      measurements: 122
+      unit        : "mm"
+  medium:
+    material:
+      - type      : "medium"
+        text      : "papel albuminado" 
+        vocab     : "" 
+        refid     : "" 
+      - type      : "support"
+        text      : "" 
+        vocab     : "" 
+        refid     : "" 
+    technique:
+      - text      : "fotografia" 
+        vocab     : "TAM" 
+        refid     : "10.1" 
+bibliographiCitation:
+  citekey : ""
+identifier:     
+  - source: "BND"  
+    id    : ""Fotos-Arm.17.9.4(46) - Iconografia"  
+coverage:
+  spatial:       
+    location:
+      - type   : "site"
+        name:
+          type : "geographic"
+          text : "Rio Grande"
+        city   : "Rio Grande"
+        state  : "Rio Grande do Sul"
+        country: "BR"
+  temporal:
+    created:
+      date     : 1902-01-01
+      display_date: "1902"
+      source:
+        citekey: ""
+        href   : ""
+        text   : ""
+subject:
+  - type       : "geographicPlace"
+    text       : "Rio Grande (Rio Grande do Sul, Brasil)"
+    vocab      : "" # Caso use vocabulário controlado, preencher os...
+    refid      : "" # ...campos `vocab` e `refid`.
+rights:
+  status       : "publicDomain"
+  text         : "Domínio público"
+license:
+  href         : "https://commons.wikimedia.org/wiki/Template:PD-BR-1935"
+  text         : "Domínio público"
+relation:
+  - type       : "depicts"
+    relids     : "br-rs-rio_grande-alfandega"

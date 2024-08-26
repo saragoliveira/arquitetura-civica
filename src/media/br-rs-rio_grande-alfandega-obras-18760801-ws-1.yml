@@ -1,0 +1,92 @@
+title             : "Obras hydraulicas da alfandega do Rio Grande do Sul" 
+date              :  2024-08-25
+author            : "Sara Guimarães de Oliveira"
+excerpt:  >
+  Fotografia do período de construção da Alfândega
+creator:
+  - name          : "Walter Sutton Brasley"
+    type          : "personal"
+publisher:
+  - name          : "s.n."
+    type          : ""
+contributor:
+  - name          : "BN Digital"
+    type          : "corporate"
+    role          : "other"
+    href          : "https://bdlb.bn.gov.br/acervo/handle/20.500.12156.3/267408"
+conformsTo     : "https://schema.org/Map"
+type:
+  name            : "stillImage"
+  worktype:
+    text          : "imagem"
+    vocab         : "TAM" # sigla para o livro Thesaurus para Acervos Museológicos, de Ferrez e Bianchini
+    refid         : "10.1"
+format:
+  fileFormat: "image/jpeg"
+  extent:
+    - type        : "width"
+      measurements: 2493
+      unit        : "px"
+    - type        : "height"
+      measurements: 2011
+      unit        : "px"
+    - type        : "fileSize"
+      measurements: 0.473
+      unit        : "MB"
+    - type        : "width"
+      measurements: 220
+      unit        : "mm"
+    - type        : "height"
+      measurements: 170
+      unit        : "mm"
+  medium:
+    material:
+      - type      : "medium"
+        text      : "papel albuminado" 
+        vocab     : "" 
+        refid     : "" 
+      - type      : "support"
+        text      : "" 
+        vocab     : "" 
+        refid     : "" 
+    technique:
+      - text      : "fotografia" 
+        vocab     : "TAM" 
+        refid     : "10.1" 
+bibliographiCitation:
+  citekey : ""
+identifier:     
+  - source: "BND"  
+    id    : "20.500.12156.3"  
+coverage:
+  spatial:       
+    location:
+      - type   : "site"
+        name:
+          type : "geographic"
+          text : "Rio Grande"
+        city   : "Rio Grande"
+        state  : "Rio Grande do Sul"
+        country: "BR"
+  temporal:
+    created:
+      date     : 1876-08-01
+      display_date: "1876"
+      source:
+        citekey: ""
+        href   : ""
+        text   : ""
+subject:
+  - type       : "geographicPlace"
+    text       : "Rio Grande (Rio Grande do Sul, Brasil)"
+    vocab      : "" # Caso use vocabulário controlado, preencher os...
+    refid      : "" # ...campos `vocab` e `refid`.
+rights:
+  status       : "publicDomain"
+  text         : "Domínio público"
+license:
+  href         : "https://commons.wikimedia.org/wiki/Template:PD-BR-1935"
+  text         : "Domínio público"
+relation:
+  - type       : "depicts"
+    relids     : "br-rs-rio_grande-alfandega"

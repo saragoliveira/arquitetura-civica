@@ -34,10 +34,10 @@ format:
       measurements: 0.049
       unit        : "MB"
     - type        : "width"
-      measurements: 
+      measurements: 137
       unit        : "mm"
     - type        : "height"
-      measurements: 
+      measurements: 89
       unit        : "mm"
   medium:
     material:

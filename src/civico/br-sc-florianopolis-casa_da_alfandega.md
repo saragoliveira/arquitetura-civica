@@ -6,10 +6,6 @@ excerpt: >-
   Edifício construído entre 1874 e 1876 para abrigar a Alfândega de
   Florianópolis, organizado em três corpos: um sobrado central e dois
   armazens laterais
-header:
-  teaser: "https://i.pinimg.com/564x/a7/57/b1/a757b1926971f70c5e8df9eb5e20c429.jpg"
-  overlay_image: "https://i.pinimg.com/originals/a7/57/b1/a757b1926971f70c5e8df9eb5e20c429.jpg"
-  caption: "Foto: arquivo do Museu da Memória"
 alternative:
   - "Alfândega"
   - "Antiga Alfândega"
@@ -46,11 +42,6 @@ coverage:
         text:
           headline: "Construção"
           text: "Período de construção da Casa da Alfândega"
-        media:
-          url: https://placehold.co/600x400
-          caption: "Legenda"
-          credit: "ArPDF"
-          alt: "Foto em preto-e-branco de da Casa da Alfândega logo que inaugurada"
         start_date:
           year: "1874"
         end_date:

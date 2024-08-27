@@ -1,0 +1,92 @@
+title             : "Santos. Praça da Republica e Alfandega" 
+date              :  2024-08-25
+author            : "Sara Guimarães de Oliveira"
+excerpt:  >
+  Cartão postal indicando a Praça da Repúlica e o edifício da Alfândega ao fundo
+creator:
+  - name          : "s.n"
+    type          : ""
+publisher:
+  - name          : "Coleção Baptista de Campos Aguirra"
+    type          : "corporate"
+contributor:
+  - name          : "Museu Paulista da USP"
+    type          : "corporate"
+    role          : "other"
+    href          : "https://acervoonline.mp.usp.br/iconografia/santos-praca-da-republica-e-alfandega/"
+conformsTo     : "https://schema.org/Map"
+type:
+  name            : "stillImage"
+  worktype:
+    text          : "imagem"
+    vocab         : "TAM" # sigla para o livro Thesaurus para Acervos Museológicos, de Ferrez e Bianchini
+    refid         : "10.1"
+format:
+  fileFormat: "image/jpeg"
+  extent:
+    - type        : "width"
+      measurements: 2560
+      unit        : "px"
+    - type        : "height"
+      measurements: 1703
+      unit        : "px"
+    - type        : "fileSize"
+      measurements: 1.590
+      unit        : "MB"
+    - type        : "width"
+      measurements: 138
+      unit        : "mm"
+    - type        : "height"
+      measurements: 88
+      unit        : "mm"
+  medium:
+    material:
+      - type      : "medium"
+        text      : "" 
+        vocab     : "" 
+        refid     : "" 
+      - type      : "support"
+        text      : "" 
+        vocab     : "" 
+        refid     : "" 
+    technique:
+      - text      : "fotografia" 
+        vocab     : "TAM" 
+        refid     : "10.1" 
+bibliographiCitation:
+  citekey : ""
+identifier:     
+  - source: "Museu do Ipiranga"  
+    id    : "1-04483-0000-0000"  
+coverage:
+  spatial:       
+    location:
+      - type   : "site"
+        name:
+          type : "geographic"
+          text : "Santos"
+        city   : "Santos"
+        state  : "São Paulo"
+        country: "BR"
+  temporal:
+    created:
+      date     : 
+      display_date: "Século XIX"
+      source:
+        citekey: ""
+        href   : ""
+        text   : ""
+subject:
+  - type       : "geographicPlace"
+    text       : "Santos (São Paulo, Brasil)"
+    vocab      : "" # Caso use vocabulário controlado, preencher os...
+    refid      : "" # ...campos `vocab` e `refid`.
+rights:
+  status       : "publicDomain"
+  text         : "Domínio público"
+license:
+  href         : "https://commons.wikimedia.org/wiki/Template:PD-BR-1935"
+  text         : "Domínio público"
+relation:
+  - type       : "depicts"
+    relids     : "br-sp-santos-alfandega"

@@ -5,10 +5,6 @@ author: "Sara Guimarães de Oliveira"
 excerpt: >-
   Instituição alfandegária constuída em alvenaria de pedra sob estilo
   eclético, inaugurada em 1879.
-header:
-  teaser: "https://i.pinimg.com/originals/12/76/8c/12768ca124dde891009cec16e524d835.jpg"
-  overlay_image: "https://i.pinimg.com/originals/12/76/8c/12768ca124dde891009cec16e524d835.jpg"
-  caption: "Foto: Ipatrimonio, Autor desconhecido"
 alternative:
   - "Museu da Cidade de Rio Grande"
   - "Terceira Alfândega de Rio Grande"
@@ -23,7 +19,7 @@ coverage:
       alt : 4.3
       name:
         type: "corporate"
-        text: |
+        text: 
           Rua Riachuelo, s/n<br />
           96200-030
       city   : "Rio Grande"
@@ -35,11 +31,6 @@ coverage:
         text:
           headline: "Construção"
           text: "Período provável de construção da Alfândega de Rio Grande"
-        media:
-          url: https://i.pinimg.com/originals/12/76/8c/12768ca124dde891009cec16e524d835.jpg
-          caption: "Legenda"
-          credit: "ArPDF"
-          alt: "Foto em preto-e-branco da Alfandega de Rio Grande, sem informação de data"
         start_date:
           year: "1875"
         end_date:

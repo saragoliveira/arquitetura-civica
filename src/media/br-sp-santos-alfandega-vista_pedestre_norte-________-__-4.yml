@@ -1,0 +1,92 @@
+title             : "Vista norte do edifício da antiga alfândega" 
+date              :  2024-08-25
+author            : "Sara Guimarães de Oliveira"
+excerpt:  >
+  Fotografia em preto e branco da vista da fahcada norte do antigo edifício da alfândega, voltado para o porto
+creator:
+  - name          : "s.n"
+    type          : ""
+publisher:
+  - name          : "Acervo Wadir Rueda"
+    type          : "corporate"
+contributor:
+  - name          : "Novo milênio"
+    type          : "corporate"
+    role          : "other"
+    href          : "https://www.novomilenio.inf.br/santos/fotos/fotos131e.jpg"
+conformsTo     : "https://schema.org/Map"
+type:
+  name            : "stillImage"
+  worktype:
+    text          : "fotografia"
+    vocab         : "TAM" # sigla para o livro Thesaurus para Acervos Museológicos, de Ferrez e Bianchini
+    refid         : "10.1"
+format:
+  fileFormat: "image/jpeg"
+  extent:
+    - type        : "width"
+      measurements: 550
+      unit        : "px"
+    - type        : "height"
+      measurements: 345
+      unit        : "px"
+    - type        : "fileSize"
+      measurements: 0.041
+      unit        : "MB"
+    - type        : "width"
+      measurements: 
+      unit        : "mm"
+    - type        : "height"
+      measurements: 
+      unit        : "mm"
+  medium:
+    material:
+      - type      : "medium"
+        text      : "" 
+        vocab     : "" 
+        refid     : "" 
+      - type      : "support"
+        text      : "" 
+        vocab     : "" 
+        refid     : "" 
+    technique:
+      - text      : "fotografia" 
+        vocab     : "TAM"
+        refid     : "10.1"
+bibliographiCitation:
+  citekey : ""
+identifier:     
+  - source: ""  
+    id    : ""  
+coverage:
+  spatial:       
+    location:
+      - type   : "site"
+        name:
+          type : "geographic"
+          text : "Santos"
+        city   : "Santos"
+        state  : "São Paulo"
+        country: "BR"
+  temporal:
+    created:
+      date     : 
+      display_date: "Século XIX"
+      source:
+        citekey: ""
+        href   : ""
+        text   : ""
+subject:
+  - type       : "geographicPlace"
+    text       : "Santos (São Paulo, Brasil)"
+    vocab      : "" # Caso use vocabulário controlado, preencher os...
+    refid      : "" # ...campos `vocab` e `refid`.
+rights:
+  status       : "publicDomain"
+  text         : "Domínio público"
+license:
+  href         : "https://commons.wikimedia.org/wiki/Template:PD-BR-1935"
+  text         : "Domínio público"
+relation:
+  - type       : "depicts"
+    relids     : "br-sp-santos-alfandega"

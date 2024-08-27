@@ -55,8 +55,48 @@ message: "Completei o fichamento, falta adicionar mídia, docs e dwg"
 
 <blockquote>
 
-O núcleo primitivo da cidade data-se do primeiro quartel do século XVI, e seu desenvolvimento adjacente se dá nos séculos XVII, XVIII, XIX e XX. Trata-se de um núcleo habitacional fundado por franceses, visitado por espanhóis, conquistado por holandeses e reconquistado por portugueses. Uma das primeiras cidades brasileiras nascidas a partir de um plano urbanístico sob o traço do Engenheiro-Mor Francisco Frias de Mesquita em 1615. O processo de evolução urbana ocorreu em dois planos: cidade baixa e cidade alta, esta última compreendendo o centro histórico. O Centro Histórico de São Luís é formado de conjuntos homogêneos de arquitetura civil, remanescentes da época em que o Estado do Maranhão teve participação decisiva na produção econômica do Brasil como um dos grandes exportadores de arroz, algodão e matérias-primas regionais. Nesta época, São Luís foi considerada a quarta cidade mais próspera do Brasil, depois de Salvador, Recife e Rio de Janeiro. 
+A edificação é datada de 1873, como indica a placa cravada
+sobre a entrada principal. Foi construída para
+abrigar o Tesouro Público Provincial. Na segunda metade
+do século XX, serviu como sede da Secretaria
+Estadual da Fazenda. Em1958, foi construído ao redor
+do imóvel um anexo composto por apenas um pavimento,
+conhecido como Armazém do Estado.O anexo
+foi demolido parcialmente, devido à construção da
+Avenida Senador Vitorino Freire. As paredes que restaram,
+atualmente, fazem parte da Praça da Fé. A Casa do
+Maranhão foi inaugurada em março de 2002, após o
+processo de restauração que adaptou o imóvel à nova
+função. O reonsável pelo projeto foi o arquiteto Carlos
+Campelo. O museu é destinado à exposição de peças
+que representam as manifestações culturais maranhenses,
+especialmente, o Bumba-meu-boi.
+O imóvel ocupa uma quadra inteira, apresentando quatro
+fachadas. É formado por dois pavimentos. As fachadas
+apresentam frontões triangulares decorados com
+brasões das Armas Nacionais, platibandas e colunas que
+separam seqüências de portas e janelas. As janelas superiores
+possuem balcões entalados e vergas em arco
+pleno combandeiras em madeira e vidro. Os vãos do pavimento
+térreo são assimétricos e somente alguns acompanham o mesmo
+ritmo do pavimento superior. O pavimento
+térreo é formado por grandes salões delimitados
+por vãos de arcos que sustentamo pavimento superior.
+Possui loja de souvenir e ambientes decorados cominstalações
+feitas comobjetos regionais e entre outros.
+O acesso ao pavimento superior é feito por uma imponente
+escadaria empedra de lioz e uma escada conmadera
+temporânea em ferro. Nele encontramos estandes de
+exposições retratando as indumentárias do Bumba meu-
+boi. Parte da exposição está localizada em um
+mezanino comvista para o pavimento térreo, onde tesouras
+estilizadas sustentam o telhado aparente. O
+Bumba-meu-boi é uma brincadeira de rua muito popular
+no Estado doMaranhão. É encenada no mês de
+junho, quando as praças e terreiros populares são enfeitados
+formando os arraiais que homenageiamSanto
+Antônio, São João, São Pedro e São Marçal.
 
 <footer class="figure-caption">Texto reproduzido
-do <cite>IPHAN</cite></footer>
+do <cite>APEMA</cite></footer>
 </blockquote>
